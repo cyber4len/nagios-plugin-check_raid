@@ -630,8 +630,7 @@ sub check {
             }
             if ($d eq '' ) {
                 push(@status, "$p:$sd:$s");
-			} elsif  ($spares) { #MJN#
-				$this->spare;
+			} elsif  ($spares) { 
                 push(@status, "spare:$sd:$s");
             } else {
                 push(@status, "$p:$d:$sd:$s");
