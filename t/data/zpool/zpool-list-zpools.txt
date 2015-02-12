@@ -1,0 +1,4 @@
+# zpool list
+NAME   SIZE  ALLOC   FREE  CAP  HEALTH  ALTROOT
+pool  20.4T  5.28T  15.1T  25%  ONLINE  -
+

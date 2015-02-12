@@ -1,0 +1,3 @@
+$ zpool list
+no pools available
+
