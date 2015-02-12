@@ -47,6 +47,7 @@
 # - LSI MegaRaid via lsraid
 # - Serveraid IPS via ipssend
 # - Solaris software RAID via metastat
+# - Solaris software RAID via zfs (zpool)
 # - Areca SATA RAID Support via cli64/cli32
 # - Detecting SCSI devices or hosts with lsscsi
 
@@ -545,6 +546,121 @@ sub scan {
 	$this->{sdevs} = \@sdevs;
 	return wantarray ? @sdevs : \@sdevs;
 }
+package zpool;
+# Solaris, software RAID via ZFS
+use base 'plugin';
+
+push(@utils::plugins, __PACKAGE__);
+
+sub program_names {
+    __PACKAGE__;
+}
+
+sub commands {
+    {
+        'status' => ['>&2', '@CMD', 'status'],
+        'list' => ['>&2', '@CMD', 'list'],
+    }
+}
+
+sub sudo {
+	my ($this, $deep) = @_;
+	# quick check when running check
+	return 1 unless $deep;
+
+    my $cmd = $this->{program};
+	(
+	"CHECK_RAID ALL=(root) NOPASSWD: $cmd list",
+	"CHECK_RAID ALL=(root) NOPASSWD: $cmd status",
+	);
+}
+
+sub active ($) {
+    my ($this) = @_;
+
+    # program not found
+    return 0 unless $this->{program};
+
+    return $this->check_pools > 0;
+}
+
+sub check_pools {
+    my $this = shift;
+    my $fh = $this->cmd('list');
+    while (<$fh>) {
+        return 0 if (/no pools available/);
+    }
+    return 1;
+}
+
+sub check {
+    my $this = shift;
+    my ($p,$d,$sd,$s);
+    my $fh = $this->cmd('status');
+    my @status;
+	my $spares;
+
+    while (<$fh>) {
+
+        #next if (/pool:|state:|scan:|config|NAME/);
+
+        if (/^\t([a-z0-9-]+)\s+([A-Z]+)/) {
+            #Pool Status
+            $p = $1; $d = ''; $sd = ''; $s = $2;
+            push (@status, "$p:$s");
+            $this->critical unless ($s =~ /ONLINE/ );
+            next;
+        }
+
+		$spares = 1 if (/spares/);
+
+        if ( /^\t\s{2,4}(c[0-9]+t[0-9]+d[0-9]+(?:s[0-9]+)?)\s+([A-Z]+).*(?:\(repairing|resilvering\))?/ ) {
+            #Subdevice Status - these can be attached to a device or a pool
+            $sd = $1; $s = $2;
+            $s = $3 if ($3);
+            if ($s =~ /ONLINE/) {
+                # no worries...
+			} elsif ( $spares ) {
+				$this->spare;
+				$this->warning if ($s !~ /AVAIL/ );
+            } elsif ($s =~ /repair|resilver/) {
+                $this->resync;
+            } else {
+                $this->critical;
+            }
+            if ($d eq '' ) {
+                push(@status, "$p:$sd:$s");
+			} elsif  ($spares) { #MJN#
+				$this->spare;
+                push(@status, "spare:$sd:$s");
+            } else {
+                push(@status, "$p:$d:$sd:$s");
+            }
+
+            next;
+        }
+
+        if (/^\t\s{2}([a-z0-9-]+)\s+([A-Z]+)/) {
+            #Device Status
+            $d = $1; $s = $2;
+            push (@status, "$p:$d:$s");
+            $this->critical unless ($s =~ /ONLINE/ );
+            next;
+        }
+
+    }
+
+    close $fh;
+
+    return unless @status;
+
+    $this->ok ;
+
+    $this->message(join(' ', @status));
+
+}
+
+
 
 package metastat;
 # Solaris, software RAID
