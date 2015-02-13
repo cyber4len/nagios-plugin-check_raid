@@ -1,3 +1,2 @@
-$ zpool list
+$ zpool status
 no pools available
-

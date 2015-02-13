@@ -48,6 +48,7 @@
 # - Serveraid IPS via ipssend
 # - Solaris software RAID via metastat
 # - Solaris software RAID via zfs (zpool)
+# - LSI Adaptors on Solaris via raidctl
 # - Areca SATA RAID Support via cli64/cli32
 # - Detecting SCSI devices or hosts with lsscsi
 
@@ -546,6 +547,95 @@ sub scan {
 	$this->{sdevs} = \@sdevs;
 	return wantarray ? @sdevs : \@sdevs;
 }
+
+
+package raidctl;
+# LSI H/W raid on Solaris
+use base 'plugin';
+
+push (@utils::plugins, __PACKAGE__);
+
+sub program_names {
+    __PACKAGE__;
+}
+
+sub commands {
+	{
+		'raidctl' =>  [ '>&2', '@CMD', '-S' ],
+	}
+}
+
+sub sudo {
+	my ($this, $deep) = @_;
+	# quick check when running check
+	return 1 unless $deep;
+
+	my $cmd = $this->{program};
+	(
+	"CHECK_RAID ALL=(root) NOPASSWD: $cmd -S",
+	);
+}
+
+sub active ($) {
+	my ($this) = @_;
+
+	# program not found
+	return 0 unless $this->{program};
+
+	$this->{output} = $this->get_raidctl;
+	return unless ($this->{output});
+}
+
+sub get_raidctl {
+	my $this = shift;
+	my $fh = $this->cmd('raidctl');
+	my @data;
+	while (<$fh>) { 
+		chomp;
+		push (@data,$_);
+	}
+	return \@data if (@data);
+}
+
+sub check {
+	my $this = shift;
+
+	my @status;
+	my ($array,$disk,$status);
+
+	foreach (@{$this->{output}} ) {
+		if ( /illegal option -- S/ ) {
+			$this->unknown;
+			$this->message('raidctl does not support -S option');
+			return;
+		}
+
+		if ( /^(c\dt\dd\d)\s+.*\s+\d\s+([A-Z]+)/ ) {  #Array
+			$array = $1;
+			$status =$2;
+			$disk = '';
+			push (@status, "$array:$status");
+			$this->critical unless  ($status =~ 'OPTIMAL');
+		} elsif ( /^(\d.\d.\d)\s([A-Z]+)/ ) {
+			$disk = $1;
+			$status =$2;
+			if ($array) {
+				push (@status, "$array:$disk:$status");
+			} else {
+				push (@status, "$disk:$status");
+			}
+			$this->critical unless  ($status =~ /GOOD/);
+		}
+	}
+
+	return unless @status;
+
+	$this->ok ;
+
+	$this->message(join(' ', @status));
+}
+
+
 package zpool;
 # Solaris, software RAID via ZFS
 use base 'plugin';
@@ -558,8 +648,7 @@ sub program_names {
 
 sub commands {
     {
-        'status' => ['>&2', '@CMD', 'status'],
-        'list' => ['>&2', '@CMD', 'list'],
+        'zpool' => ['>&2', '@CMD', 'status'],
     }
 }
 
@@ -568,41 +657,42 @@ sub sudo {
 	# quick check when running check
 	return 1 unless $deep;
 
-    my $cmd = $this->{program};
+	my $cmd = $this->{program};
 	(
-	"CHECK_RAID ALL=(root) NOPASSWD: $cmd list",
 	"CHECK_RAID ALL=(root) NOPASSWD: $cmd status",
 	);
 }
 
 sub active ($) {
-    my ($this) = @_;
+	my ($this) = @_;
 
-    # program not found
-    return 0 unless $this->{program};
+	# program not found
+	return 0 unless $this->{program};
 
-    return $this->check_pools > 0;
+	$this->{output} = $this->get_pools;
+	return unless ($this->{output});
 }
 
-sub check_pools {
-    my $this = shift;
-    my $fh = $this->cmd('list');
-    while (<$fh>) {
-        return 0 if (/no pools available/);
-    }
-    return 1;
+sub get_pools {
+	my $this = shift;
+	my $fh = $this->cmd('zpool');
+	my @data;
+
+	while (<$fh>) {
+		chomp;
+		return if (/no pools available/);
+		push (@data,$_);
+	}
+	return \@data;
 }
 
 sub check {
-    my $this = shift;
-    my ($p,$d,$sd,$s);
-    my $fh = $this->cmd('status');
-    my @status;
+	my $this = shift;
+	my ($p,$d,$sd,$s);
+	my @status;
 	my $spares;
 
-    while (<$fh>) {
-
-        #next if (/pool:|state:|scan:|config|NAME/);
+	foreach (@{$this->{output}} ) {
 
         if (/^\t([a-z0-9-]+)\s+([A-Z]+)/) {
             #Pool Status
@@ -629,8 +719,9 @@ sub check {
                 $this->critical;
             }
             if ($d eq '' ) {
-                push(@status, "$p:$sd:$s");
-			} elsif  ($spares) { 
+			push(@status, "$p:$sd:$s");
+		} elsif  ($spares) {
+				$this->spare;
                 push(@status, "spare:$sd:$s");
             } else {
                 push(@status, "$p:$d:$sd:$s");
@@ -649,8 +740,6 @@ sub check {
 
     }
 
-    close $fh;
-
     return unless @status;
 
     $this->ok ;
@@ -659,14 +748,11 @@ sub check {
 
 }
 
-
-
 package metastat;
 # Solaris, software RAID
 use base 'plugin';
 
-# Status: BROKEN: no test data
-#push(@utils::plugins, __PACKAGE__);
+push(@utils::plugins, __PACKAGE__);
 
 sub program_names {
 	__PACKAGE__;
@@ -674,13 +760,39 @@ sub program_names {
 
 sub commands {
 	{
-		'status' => ['-|', '@CMD'],
+		'metastat' => ['>&2', '@CMD'],
 	}
 }
 
 sub sudo {
-	my $cmd = shift->{program};
+	my ($this, $deep) = @_;
+	# quick check when running check
+	return 1 unless $deep;
+
+	my $cmd = $this->{program};
 	"CHECK_RAID ALL=(root) NOPASSWD: $cmd"
+}
+
+sub active ($) {
+        my ($this) = @_;
+
+        # program not found
+        return 0 unless $this->{program};
+
+        $this->{output} = $this->get_metastat;
+        return unless ($this->{output});
+}
+
+sub get_metastat {
+	my $this = shift;
+	my $fh = $this->cmd('metastat');
+	my @data;
+	while (<$fh>) {
+		chomp;
+		return if (/there are no existing databases/);
+		push (@data,$_);
+	}
+	return \@data;
 }
 
 sub check {
@@ -691,12 +803,11 @@ sub check {
 	# status messages pushed here
 	my @status;
 
-	my $fh = $this->cmd('status');
-	while (<$fh>) {
+	foreach (@{$this->{output}} ) {
 		if (/^(\S+):/) { $d = $1; $sd = ''; next; }
 		if (/Submirror \d+:\s+(\S+)/) { $sd = $1; next; }
-		if (my($s) = /State: (\S.+)/) {
-			if ($sd and valid($sd) and valid($d)) {
+		if (my($s) = /State: (\S.+\w)/) {
+			if ($sd and $this->valid($sd) and $this->valid($d)) {
 				if ($s =~ /Okay/i) {
 					# no worries...
 				} elsif ($s =~ /Resync/i) {
@@ -708,11 +819,10 @@ sub check {
 			}
 		}
 	}
-	close $fh;
 
 	return unless @status;
 
-	$this->message(join(' ', @status));
+	$this->ok->message(join(', ', @status));
 }
 
 package megaide;

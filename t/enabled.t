@@ -7,7 +7,7 @@ BEGIN {
 use strict;
 use warnings;
 
-use Test::More tests => 19;
+use Test::More tests => 21;
 use test;
 
 unshift(@utils::paths, TESTDIR . '/data/bin');
@@ -18,6 +18,9 @@ my $commands = {
 	dmraid => ['<', TESTDIR . '/data/dmraid/pr35'],
 	get_controller_no => ['<', TESTDIR . '/data/mpt/pr36/getctrlno1'],
 	list => ['<', TESTDIR . '/data/zpool/zpool-list-zpools.txt'],
+	raidctl => ['<', TESTDIR . '/data/raidctl/raidctl-good.txt'],
+	zpool	=> ['<', TESTDIR . '/data/zpool/zpool-status-good-1.txt'],
+	metastat => ['<', TESTDIR .'/data/metastat/metastat-mirrors-with-hotspares'],
 };
 
 my %params = (

@@ -7,7 +7,7 @@ BEGIN {
 use strict;
 use warnings;
 
-use Test::More tests => 19;
+use Test::More tests => 21;
 use test;
 
 my $bindir = TESTDIR . '/data/bin';
@@ -78,10 +78,15 @@ my %sudo = (
 	dmraid => [
 		"CHECK_RAID ALL=(root) NOPASSWD: $bindir/dmraid -r",
 	],
+	metastat => [
+		"CHECK_RAID ALL=(root) NOPASSWD: $bindir/metastat",
+	],
         zpool => [
-                "CHECK_RAID ALL=(root) NOPASSWD: $bindir/zpool list",
                 "CHECK_RAID ALL=(root) NOPASSWD: $bindir/zpool status",
         ],
+	raidctl	=> [
+                "CHECK_RAID ALL=(root) NOPASSWD: $bindir/raidctl -S",
+	],
 );
 
 # check that sudo rules are what expected (to understand when they change)
