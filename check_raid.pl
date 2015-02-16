@@ -752,7 +752,8 @@ package metastat;
 # Solaris, software RAID
 use base 'plugin';
 
-push(@utils::plugins, __PACKAGE__);
+# Status: BROKEN: no test data
+#push(@utils::plugins, __PACKAGE__);
 
 sub program_names {
 	__PACKAGE__;
@@ -760,39 +761,13 @@ sub program_names {
 
 sub commands {
 	{
-		'metastat' => ['>&2', '@CMD'],
+		'status' => ['-|', '@CMD'],
 	}
 }
 
 sub sudo {
-	my ($this, $deep) = @_;
-	# quick check when running check
-	return 1 unless $deep;
-
-	my $cmd = $this->{program};
+	my $cmd = shift->{program};
 	"CHECK_RAID ALL=(root) NOPASSWD: $cmd"
-}
-
-sub active ($) {
-        my ($this) = @_;
-
-        # program not found
-        return 0 unless $this->{program};
-
-        $this->{output} = $this->get_metastat;
-        return unless ($this->{output});
-}
-
-sub get_metastat {
-	my $this = shift;
-	my $fh = $this->cmd('metastat');
-	my @data;
-	while (<$fh>) {
-		chomp;
-		return if (/there are no existing databases/);
-		push (@data,$_);
-	}
-	return \@data;
 }
 
 sub check {
@@ -803,11 +778,12 @@ sub check {
 	# status messages pushed here
 	my @status;
 
-	foreach (@{$this->{output}} ) {
+	my $fh = $this->cmd('status');
+	while (<$fh>) {
 		if (/^(\S+):/) { $d = $1; $sd = ''; next; }
 		if (/Submirror \d+:\s+(\S+)/) { $sd = $1; next; }
-		if (my($s) = /State: (\S.+\w)/) {
-			if ($sd and $this->valid($sd) and $this->valid($d)) {
+		if (my($s) = /State: (\S.+)/) {
+			if ($sd and valid($sd) and valid($d)) {
 				if ($s =~ /Okay/i) {
 					# no worries...
 				} elsif ($s =~ /Resync/i) {
@@ -819,10 +795,11 @@ sub check {
 			}
 		}
 	}
+	close $fh;
 
 	return unless @status;
 
-	$this->ok->message(join(', ', @status));
+	$this->message(join(' ', @status));
 }
 
 package megaide;
