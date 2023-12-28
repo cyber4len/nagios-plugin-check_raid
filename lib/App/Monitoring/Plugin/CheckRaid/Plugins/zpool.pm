@@ -39,7 +39,7 @@ sub get_pools {
     my @data;
     while (<$fh>) {
         chomp;
-        return if /no pools available/;
+        return if /no pools available|The ZFS modules are not loaded/;
         $_ =~ s/\t/        /g;
         push(@data, $_);
     }
