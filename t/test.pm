@@ -39,6 +39,7 @@ use aliased 'App::Monitoring::Plugin::CheckRaid::Plugins::sas3ircu';
 use aliased 'App::Monitoring::Plugin::CheckRaid::Plugins::smartctl';
 use aliased 'App::Monitoring::Plugin::CheckRaid::Plugins::tw_cli';
 use aliased 'App::Monitoring::Plugin::CheckRaid::Plugins::dm';
+use aliased 'App::Monitoring::Plugin::CheckRaid::Plugins::zpool';
 
 use constant OK => 0;
 use constant WARNING => 1;

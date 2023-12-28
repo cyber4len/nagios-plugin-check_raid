@@ -1,0 +1,42 @@
+pool: main
+ state: DEGRADED
+status: One or more devices is currently being resilvered.  The pool will
+	continue to function, possibly in a degraded state.
+action: Wait for the resilver to complete.
+  scan: resilver in progress since Thu Dec  7 17:13:26 2023
+	12.8T scanned at 8.43G/s, 11.2T issued at 7.35G/s, 112T total
+	54.7G resilvered, 10.01% done, 03:53:05 to go
+config:
+
+	NAME             STATE     READ WRITE CKSUM
+	main             DEGRADED     0     0     0
+	  raidz2-0       ONLINE       0     0     0
+	    sda          ONLINE       0     0     0
+	    sdb          ONLINE       0     0     0
+	    sdc          ONLINE       0     0     0
+	    sdd          ONLINE       0     0     0
+	    sde          ONLINE       0     0     0
+	    sdf          ONLINE       0     0     0
+	    sdg          ONLINE       0     0     0
+	    sdh          ONLINE       0     0     0
+	    sdi          ONLINE       0     0     0
+	    sdj          ONLINE       0     0     0
+	    sdk          ONLINE       0     0     0
+	    sdl          ONLINE       0     0     0
+	    sdm          ONLINE       0     0     0
+	  raidz2-1       DEGRADED     0     0     0
+	    replacing-0  DEGRADED     0     0     0
+	      old        FAULTED      8   258     0  too many errors
+	      sdn        ONLINE       0     0     0  (resilvering)
+	    sdo          ONLINE       0     0     0
+	    sdp          ONLINE       0     0     0
+	    sdq          ONLINE       0     0     0
+	    sdr          ONLINE       0     0     0
+	    sds          ONLINE       0     0     0
+	    sdt          ONLINE       0     0     0
+	    sdu          ONLINE       0     0     0
+	    sdv          ONLINE       0     0     0
+	    sdw          ONLINE       0     0     0
+	    sdx          ONLINE       0     0     0
+	    sdy          ONLINE       0     0     0
+	    sdz          ONLINE       0     0     0

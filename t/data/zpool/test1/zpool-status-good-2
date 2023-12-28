@@ -1,0 +1,99 @@
+zpool status
+  pool: zpool-mds01-intermail-app
+ state: ONLINE
+ scrub: none requested
+config:
+
+        NAME        STATE     READ WRITE CKSUM
+        zpool-mds01-intermail-app  ONLINE       0     0     0
+          c4t7d0    ONLINE       0     0     0
+
+errors: No known data errors
+
+  pool: zpool-mds01-intermail-app-logs
+ state: ONLINE
+ scrub: none requested
+config:
+
+        NAME        STATE     READ WRITE CKSUM
+        zpool-mds01-intermail-app-logs  ONLINE       0     0     0
+          c4t9d0    ONLINE       0     0     0
+
+errors: No known data errors
+
+  pool: zpool-mds01-oracle-app
+ state: ONLINE
+ scrub: none requested
+config:
+
+        NAME        STATE     READ WRITE CKSUM
+        zpool-mds01-oracle-app  ONLINE       0     0     0
+          c4t6d0    ONLINE       0     0     0
+
+errors: No known data errors
+
+  pool: zpool-mds01-oracle-archive-logs
+ state: ONLINE
+ scrub: none requested
+config:
+
+        NAME        STATE     READ WRITE CKSUM
+        zpool-mds01-oracle-archive-logs  ONLINE       0     0     0
+          c4t3d0    ONLINE       0     0     0
+
+errors: No known data errors
+
+  pool: zpool-mds01-oracle-backups
+ state: ONLINE
+ scrub: none requested
+config:
+
+        NAME        STATE     READ WRITE CKSUM
+        zpool-mds01-oracle-backups  ONLINE       0     0     0
+          c4t5d0    ONLINE       0     0     0
+
+errors: No known data errors
+
+  pool: zpool-mds01-oracle-indices
+ state: ONLINE
+ scrub: none requested
+config:
+
+        NAME        STATE     READ WRITE CKSUM
+        zpool-mds01-oracle-indices  ONLINE       0     0     0
+          c4t2d0    ONLINE       0     0     0
+
+errors: No known data errors
+
+  pool: zpool-mds01-oracle-redo-logs
+ state: ONLINE
+ scrub: none requested
+config:
+
+        NAME        STATE     READ WRITE CKSUM
+        zpool-mds01-oracle-redo-logs  ONLINE       0     0     0
+          c4t4d0    ONLINE       0     0     0
+
+errors: No known data errors
+
+  pool: zpool-mds01-oracle-tablespaces
+ state: ONLINE
+ scrub: none requested
+config:
+
+        NAME        STATE     READ WRITE CKSUM
+        zpool-mds01-oracle-tablespaces  ONLINE       0     0     0
+          c4t0d0    ONLINE       0     0     0
+
+errors: No known data errors
+
+  pool: zpool-mds01-sleepycat-db
+ state: ONLINE
+ scrub: none requested
+config:
+
+        NAME        STATE     READ WRITE CKSUM
+        zpool-mds01-sleepycat-db  ONLINE       0     0     0
+          c4t8d0    ONLINE       0     0     0
+
+errors: No known data errors

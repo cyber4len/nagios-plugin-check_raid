@@ -1,0 +1,41 @@
+[root@kvm83 ~]# zpool status
+  pool: main
+ state: DEGRADED
+status: One or more devices could not be used because the label is missing or
+	invalid.  Sufficient replicas exist for the pool to continue
+	functioning in a degraded state.
+action: Replace the device using 'zpool replace'.
+   see: https://openzfs.github.io/openzfs-docs/msg/ZFS-8000-4J
+  scan: resilvered 31.3G in 00:08:52 with 0 errors on Wed Oct 25 11:05:02 2023
+config:
+
+	NAME        STATE     READ WRITE CKSUM
+	main        DEGRADED     0     0     0
+	  raidz2-0  DEGRADED     0     0     0
+	    sda     ONLINE       0     0     0
+	    sdb     UNAVAIL      0     0     0
+	    sdc     ONLINE       0     0     0
+	    sdd     ONLINE       0     0     0
+	    sde     ONLINE       0     0     0
+	    sdf     ONLINE       0     0     0
+	    sdg     ONLINE       0     0     0
+	    sdh     ONLINE       0     0     0
+	    sdi     ONLINE       0     0     0
+	    sdj     ONLINE       0     0     0
+	    sdk     ONLINE       0     0     0
+	    sdl     ONLINE       0     0     0
+	    sdm     ONLINE       0     0     0
+	  raidz2-1  ONLINE       0     0     0
+	    sdn     ONLINE       0     0     0
+	    sdo     ONLINE       0     0     0
+	    sdp     ONLINE       0     0     0
+	    sdq     ONLINE       0     0     0
+	    sdr     ONLINE       0     0     0
+	    sds     ONLINE       0     0     0
+	    sdt     ONLINE       0     0     0
+	    sdu     ONLINE       0     0     0
+	    sdv     ONLINE       0     0     0
+	    sdw     ONLINE       0     0     0
+	    sdx     ONLINE       0     0     0
+	    sdy     ONLINE       0     0     0
+	    sdz     ONLINE       0     0     0

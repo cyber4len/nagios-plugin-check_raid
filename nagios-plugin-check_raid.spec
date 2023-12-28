@@ -62,6 +62,7 @@ Supports:
 - SAS2IRCU, SAS3IRCU support
 - Serveraid IPS via ipssend
 - Solaris software RAID via metastat
+- Solaris/Linux software RAID via zfs (zpool)
 
 %prep
 %setup -qcT

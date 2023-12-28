@@ -1,0 +1,41 @@
+# zpool status
+  pool: main
+ state: ONLINE
+status: One or more devices is currently being resilvered.  The pool will
+    continue to function, possibly in a degraded state.
+action: Wait for the resilver to complete.
+  scan: resilver in progress since Wed Oct 25 10:46:47 2023
+    1.18T scanned at 12.9G/s, 863G issued at 9.18G/s, 19.4T total
+    4.52G resilvered, 4.35% done, 00:34:28 to go
+config:
+
+    NAME        STATE     READ WRITE CKSUM
+    main        ONLINE       0     0     0
+      raidz2-0  ONLINE       0     0     0
+        sda     ONLINE       0     0     0  (resilvering)
+        sdb     ONLINE       0     0     0
+        sdc     ONLINE       0     0     0
+        sdd     ONLINE       0     0     0
+        sde     ONLINE       0     0     0
+        sdf     ONLINE       0     0     0
+        sdg     ONLINE       0     0     0
+        sdh     ONLINE       0     0     0
+        sdi     ONLINE       0     0     0
+        sdj     ONLINE       0     0     0
+        sdk     ONLINE       0     0     0
+        sdl     ONLINE       0     0     0
+        sdm     ONLINE       0     0     0
+      raidz2-1  ONLINE       0     0     0
+        sdn     ONLINE       0     0     0
+        sdo     ONLINE       0     0     0
+        sdp     ONLINE       0     0     0
+        sdq     ONLINE       0     0     0
+        sdr     ONLINE       0     0     0
+        sds     ONLINE       0     0     0
+        sdt     ONLINE       0     0     0
+        sdu     ONLINE       0     0     0
+        sdv     ONLINE       0     0     0
+        sdw     ONLINE       0     0     0
+        sdx     ONLINE       0     0     0  (resilvering)
+        sdy     ONLINE       0     0     0
+        sdz     ONLINE       0     0     0
