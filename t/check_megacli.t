@@ -347,7 +347,7 @@ foreach my $test (@tests) {
 	is($plugin->longoutput, $longoutput, "long output");
 
 	my $c = $plugin->parse;
-	my $df = TESTDIR . '/dump/megacli/' . $test->{c};
+	my $df = './' . TESTDIR . '/dump/megacli/' . $test->{c};
 	if (!-f $df) {
 		store_dump $df, $c;
 		# trigger error so that we don't have feeling all is ok ;)
