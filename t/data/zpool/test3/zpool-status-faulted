@@ -1,0 +1,57 @@
+  pool: boot-pool
+ state: ONLINE
+status: Some supported and requested features are not enabled on the pool.
+        The pool can still be used, but some features are unavailable.
+action: Enable all features using 'zpool upgrade'. Once this is done,
+        the pool may no longer be accessible by software that does not support
+        the features. See zpool-features(7) for details.
+  scan: scrub repaired 0B in 00:00:05 with 0 errors on Mon Jan 27 03:45:07 2025
+config:
+
+        NAME        STATE     READ WRITE CKSUM
+        boot-pool   ONLINE       0     0     0
+          sdf3      ONLINE       0     0     0
+
+errors: No known data errors
+
+  pool: data
+ state: DEGRADED
+status: One or more devices are faulted in response to persistent errors.
+        Sufficient replicas exist for the pool to continue functioning in a
+        degraded state.
+action: Replace the faulted device, or use 'zpool clear' to mark the device
+        repaired.
+  scan: scrub repaired 628K in 2 days 16:02:40 with 0 errors on Tue Jan 28 16:02:43 2025
+config:
+
+        NAME                                      STATE     READ WRITE CKSUM
+        data                                      DEGRADED     0     0     0
+          raidz2-0                                DEGRADED     0     0     0
+            3fc9fe4f-dabc-497e-84fb-e76e9c2dd47a  ONLINE       0     0     0
+            e5872ecc-47be-4578-922c-79f2cc0e47ee  ONLINE       0     0     0
+            ad9c7a5b-44f4-43cb-99db-af04570e4aec  ONLINE       0     0     0
+            94a22a9d-da15-4928-adfa-d1ba637f2995  ONLINE       0     0     0
+            aa5ab8a7-4b03-4b90-a839-30cb1d2372fa  ONLINE       0     0     0
+            e9648cb7-5d5b-4786-b4b2-6d79204dbbaf  ONLINE       0     0     0
+            5d8586d0-4656-49f7-831e-461ca5dba49a  ONLINE       0     0     0
+            27bc4031-7570-4af8-9176-e75fa970fc3a  ONLINE       0     0     0
+            82461e40-f85d-468b-b6d1-1c5531c5c500  ONLINE       0     0     0
+            eef14afd-3141-4be2-b001-77d14f20b18a  ONLINE       0     0     0
+            54b59c9e-644c-4a70-bf3d-0033734b26ba  ONLINE       0     0     0
+            11f96b29-09c0-42e9-be43-2e31e9a60c9c  ONLINE       0     0     0
+            c1a450cf-096d-4e9c-b648-52cf07756b8d  ONLINE       0     0     0
+            19b41e01-32a2-4bfa-9f91-0fae3bd36980  ONLINE       0     0     0
+            896d54a6-62b0-41e9-80da-f1a8e8b95bc5  FAULTED    114     0     0  too many errors
+            112fc120-3c39-4805-a1cb-65bfc44393b6  ONLINE       0     0     0
+            e8d3a7c4-c05c-4d1d-aa5b-7aeb34131dca  ONLINE       0     0     0
+            b40aee7b-bcb8-4715-850a-a277a5375755  ONLINE       0     0     0
+            343d8876-77f0-4a34-a29f-66d3b82487e9  ONLINE       0     0     0
+            733aca0b-4992-438a-92ff-76ae3efedec5  ONLINE       0     0     0
+            06e960da-0e2e-463c-a588-807440212a99  ONLINE       0     0     0
+            ea1a3a71-bc3e-47db-86fc-0dbd2adfc871  ONLINE       0     0     0
+            bcdb93f3-d1d6-491c-8271-65805a0c410f  ONLINE       0     0     0
+            b3cbda20-d787-4180-a823-b527f9a491bd  ONLINE       0     0     0
+            86f48bab-d5e9-4e3e-8c7f-6aae95e73991  ONLINE       0     0     0
+            def04eb1-063b-481a-a095-7bfd69cfe9e1  ONLINE       0     0     0
+
+errors: No known data errors

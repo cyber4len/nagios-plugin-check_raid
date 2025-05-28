@@ -49,71 +49,59 @@ sub get_pools {
 
 sub check {
     my $this = shift;
-    my ($p,$d,$sd,$s,$r);
+    my ($p,$d,$sd,$s,$r,$ls);
     my $lp = '';
     my @status;
     my $spares = 0;
     my $output = $this->get_pools;
 
     foreach (@$output) {
-        if (/^(\s+)([A-Z]+)\s+([A-Z+])/) {
-            $lp = $1;
-            next;
+        if (/^(\s+)([A-Z]+)\s+([A-Z+])/) { # Find pool header
+            $lp = $1; # initialize length of whitespaces
+            next; # go to next line
         }
 
-        if (/^$lp([a-z0-9-]+)\s+([A-Z]+)/) {
+        if (/^$lp([a-z0-9-]+)\s+([A-Z]+)/) { # Find pool name and status
             #Pool Status
-            $p = $1; $d = ''; $sd = ''; $s = $2;
+            $p = $1; $d = ''; $sd = ''; $s = $2; $r = ''; $spares = 0; $ls = ''; # initialize pool and status, null other elements
             push (@status, "$p:$s");
-            #$this->critical unless ($s =~ /ONLINE/ );
+            $this->warning if ($s =~ /DEGRADED/ ); # warning if pool degraded
             next;
         }
 
-        $spares = 1 if (/spares/);
+        if (/spares/) {
+            $spares = 1;
+            $p = "$p:spare"; # add "spare" to pool name
+        }
 
-        if (/^$lp\s{2,6}([a-z0-9]+)\s+([A-Z]+).*\s+(\(repairing\)|\(resilvering\))?/) {
-            #Subdevice Status - these can be attached to a device or a pool
-            $sd = $1; $s = $2;
-            $s = $3 if ($3);
-            $r = '' if (/^$lp\s{2,4}[a-z0-9]+/);
+        if (/^$lp(\s{2,6})([a-z0-9-]+)\s+([A-Z]+)(.*\s+)?(\(repairing\)|\(resilvering\))?/) { # Find all devices and subdevices
+            #Subdevice Status - these can be attached to a device or a pool, or a spare
+            $s = $3;
+            $s = $5 if ($5); # get status from last column if present
+            $r = '';
+            if (length($1) == 2) {
+                $d = $2; $sd = '';
+                push(@status, "$p:$d:$s");
+            } elsif (length($1) == 4) {
+                $sd = $2;
+                push(@status, "$p:$d:$sd:$s");
+            } else {
+                $r = $2;
+                push(@status, "$p:$d:$sd:$r:$s");
+            }
             if ($s =~ /ONLINE/) {
                 # no worries...
+            } elsif ($s =~ /DEGRADED/) {
+                $this->warning;
             } elsif ($spares) {
                $this->spare;
                $this->warning if ($s !~ /AVAIL/ );
             } elsif ($s =~ /repair|resilver/) {
                 $this->resync;
             } else {
-                $this->critical if ($r eq '');
+                $this->critical unless ($d =~ /replacing/ || $sd =~ /replacing/ || $r);
             }
-            if ($d eq '') {
-                push(@status, "$p:$sd:$s");
-            } elsif  ($spares) {
-                $this->spare;
-                push(@status, "spare:$sd:$s");
-            } else {
-                if ($r eq '') {
-                    push(@status, "$p:$d:$sd:$s");
-                } else {
-                    push(@status, "$p:$d:$r:$sd:$s");
-                }
-            }
-            next;
         }
-        if (/^$lp\s{2}([a-z0-9-]+)\s+([A-Z]+)/) {
-            #Device Status
-            $d = $1; $s = $2; $r = '';
-            push (@status, "$p:$d:$s");
-            $this->critical unless ($s =~ /ONLINE/ || $spares == 1 || $r eq '');
-            next;
-        }
-        if (/^$lp\s{4}([a-z0-9-]+)\s+([A-Z]+)/) {
-            #Replacing Status
-            $r = $1; $s = $2;
-            push (@status, "$p:$d:$r:$s");
-            next;
-        }
-
     }
     return unless @status;
     $this->ok;
