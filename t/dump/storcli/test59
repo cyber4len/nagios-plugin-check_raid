@@ -1,0 +1,95 @@
+$VAR1 = {
+          'battery' => [
+                         {
+                           'batterywarning' => 'ON',
+                           'charging_status' => 'None',
+                           'learn_cycle_active' => 'No',
+                           'learn_cycle_requested' => 'No',
+                           'missing' => 'No',
+                           'name' => '0',
+                           'pack_will_fail' => 'No',
+                           'replacement_required' => 'No',
+                           'state' => 'Optimal',
+                           'temperature' => '21',
+                           'temperature_state' => 'OK',
+                           'voltage' => '249',
+                           'voltage_state' => 'OK'
+                         }
+                       ],
+          'logical' => [
+                         {
+                           'controller' => '0',
+                           'current_cache' => 'RWBD',
+                           'default_cache' => 'WriteBack',
+                           'name' => 'RAID10',
+                           'state' => 'Optl',
+                           'type' => 'RAID10'
+                         }
+                       ],
+          'physical' => [
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s0',
+                            'name' => 'Micron_5200_MTFDDAK960TDC',
+                            'predictive' => undef,
+                            'serial' => '18311E33F892',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s1',
+                            'name' => 'Micron_5200_MTFDDAK960TDC',
+                            'predictive' => undef,
+                            'serial' => '18311E33F8AD',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s2',
+                            'name' => 'Micron_5200_MTFDDAK960TDC',
+                            'predictive' => undef,
+                            'serial' => '18311E33F8A5',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s3',
+                            'name' => 'Micron_5200_MTFDDAK960TDC',
+                            'predictive' => undef,
+                            'serial' => '18311E33F965',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s4',
+                            'name' => 'Micron_5200_MTFDDAK960TDC',
+                            'predictive' => undef,
+                            'serial' => '18311E33F9A0',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s5',
+                            'name' => 'Micron_5200_MTFDDAK960TDC',
+                            'predictive' => undef,
+                            'serial' => '18311E33F7D4',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s6',
+                            'name' => 'Micron_5200_MTFDDAK960TDC',
+                            'predictive' => undef,
+                            'serial' => '18311E33F7F1',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s7',
+                            'name' => 'Micron_5200_MTFDDAK960TDC',
+                            'predictive' => undef,
+                            'serial' => '18311E33F7F6',
+                            'state' => 'Onln'
+                          }
+                        ]
+        };

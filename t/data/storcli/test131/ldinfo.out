@@ -1,0 +1,67 @@
+Controller = 0
+Status = Success
+Description = None
+
+
+/c0/v0 :
+======
+
+--------------------------------------------------------------
+DG/VD TYPE   State Access Consist Cache Cac sCC     Size Name 
+--------------------------------------------------------------
+0/0   RAID10 Optl  RW     No      RWBD  -   ON  3.637 TB      
+--------------------------------------------------------------
+
+VD=Virtual Drive| DG=Drive Group|Rec=Recovery
+Cac=CacheCade|OfLn=OffLine|Pdgd=Partially Degraded|Dgrd=Degraded
+Optl=Optimal|dflt=Default|RO=Read Only|RW=Read Write|HD=Hidden|TRANS=TransportReady
+B=Blocked|Consist=Consistent|R=Read Ahead Always|NR=No Read Ahead|WB=WriteBack
+AWB=Always WriteBack|WT=WriteThrough|C=Cached IO|D=Direct IO|sCC=Scheduled
+Check Consistency
+
+
+PDs for VD 0 :
+============
+
+-----------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                   Sp Type 
+-----------------------------------------------------------------------------------
+252:0     7 Onln   0 1.818 TB SATA SSD Y   N  512B Samsung SSD 870 EVO 2TB U  -    
+252:1     9 Onln   0 1.818 TB SATA SSD Y   N  512B Samsung SSD 870 EVO 2TB U  -    
+252:2     8 Onln   0 1.818 TB SATA SSD Y   N  512B Samsung SSD 870 EVO 2TB U  -    
+252:3     6 Onln   0 1.818 TB SATA SSD Y   N  512B Samsung SSD 870 EVO 2TB U  -    
+-----------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+VD0 Properties :
+==============
+Strip Size = 256 KB
+Number of Blocks = 7811891200
+VD has Emulated PD = No
+Span Depth = 2
+Number of Drives Per Span = 2
+Write Cache(initial setting) = WriteBack
+Disk Cache Policy = Disk's Default
+Encryption = None
+Data Protection = None
+Active Operations = None
+Exposed to OS = Yes
+OS Drive Name = /dev/sda
+Creation Date = 23-04-2024
+Creation Time = 07:49:36 AM
+Emulation type = default
+Is LD Ready for OS Requests = Yes
+SCSI NAA Id = 600605b0074c31702dba249032b16fde
+Unmap Enabled = N/A
+
+
+

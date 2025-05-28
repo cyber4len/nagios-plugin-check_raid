@@ -1,0 +1,71 @@
+$VAR1 = {
+          'battery' => [
+                         {
+                           'batterywarning' => 'ON',
+                           'charging_status' => 'None',
+                           'learn_cycle_active' => 'No',
+                           'learn_cycle_requested' => 'No',
+                           'missing' => 'No',
+                           'name' => '0',
+                           'pack_will_fail' => 'No',
+                           'replacement_required' => 'No',
+                           'state' => 'Optimal',
+                           'temperature' => '29',
+                           'temperature_state' => 'OK',
+                           'voltage' => '231',
+                           'voltage_state' => 'OK'
+                         }
+                       ],
+          'logical' => [
+                         {
+                           'controller' => '0',
+                           'current_cache' => 'RWBC',
+                           'default_cache' => 'WriteBack',
+                           'name' => '/c0/v0',
+                           'state' => 'Optl',
+                           'type' => 'RAID10'
+                         },
+                         {
+                           'controller' => '0',
+                           'current_cache' => 'RWBC',
+                           'default_cache' => 'WriteBack',
+                           'name' => '/c0/v1',
+                           'state' => 'Optl',
+                           'type' => 'RAID10'
+                         }
+                       ],
+          'physical' => [
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s4',
+                            'name' => 'HGST HUS722T2TALA604',
+                            'predictive' => undef,
+                            'serial' => 'WMC6N0CKD7F6',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s5',
+                            'name' => 'HGST HUS722T2TALA604',
+                            'predictive' => undef,
+                            'serial' => 'WMC6N07VFKK1',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s6',
+                            'name' => 'HGST HUS722T2TALA604',
+                            'predictive' => undef,
+                            'serial' => 'WMC6N0UL9HH4',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s7',
+                            'name' => 'HGST HUS722T2TALA604',
+                            'predictive' => undef,
+                            'serial' => 'WMC6N00R2PK9',
+                            'state' => 'Onln'
+                          }
+                        ]
+        };

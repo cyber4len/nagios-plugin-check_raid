@@ -1,0 +1,410 @@
+Controller = 0
+Status = Success
+Description = Show Drive Information Succeeded.
+
+
+Drive /c0/e32/s0 :
+================
+
+----------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model            Sp Type 
+----------------------------------------------------------------------------
+32:0      0 Onln   0 1.745 TB SAS  SSD N   N  512B HUSMR1619ASS204  U  -    
+----------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s0 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s0 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  28C (82.40 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s0 Device attributes :
+==================================
+SN = 0SAHZ0Y6
+Manufacturer Id = HGST    
+Model Number = HUSMR1619ASS204 
+NAND Vendor = NA
+WWN = 5000CCA06CB4F2BB
+Firmware Revision = H1D6
+Firmware Release Number = N/A
+Raw size = 1.746 TB [0xdf8fe2b0 Sectors]
+Coerced size = 1.745 TB [0xdf7c0000 Sectors]
+Non Coerced size = 1.745 TB [0xdf7fe2b0 Sectors]
+Device Speed = 12.0Gb/s
+Link Speed = 12.0Gb/s
+Write Cache = Disabled
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s0 Policies/Settings :
+==================================
+Drive position = DriveGroup:0 
+Enclosure position = 1
+Connected Port Number = 2(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = Yes
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = Yes
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x5000cca06cb4f2b9 
+   1 Active 12.0Gb/s  0x0                
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 06 12 9f 00 10 02 48 47 53 54 20 20 20 20 
+48 55 53 4d 52 31 36 31 39 41 53 53 32 30 34 20 
+48 31 44 36 30 53 59 36 48 5a 30 41 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+43 6f 70 79 72 69 67 68 74 20 28 43 29 20 48 47 
+53 54 2c 20 61 20 57 65 73 74 65 72 6e 20 44 69 
+
+
+
+Drive /c0/e32/s1 :
+================
+
+----------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model            Sp Type 
+----------------------------------------------------------------------------
+32:1      1 Onln   0 1.745 TB SAS  SSD N   N  512B HUSMR1619ASS204  U  -    
+----------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s1 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s1 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  27C (80.60 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s1 Device attributes :
+==================================
+SN = 0SAVKMY6
+Manufacturer Id = HGST    
+Model Number = HUSMR1619ASS204 
+NAND Vendor = NA
+WWN = 5000CCA06CB591E7
+Firmware Revision = H1D6
+Firmware Release Number = N/A
+Raw size = 1.746 TB [0xdf8fe2b0 Sectors]
+Coerced size = 1.745 TB [0xdf7c0000 Sectors]
+Non Coerced size = 1.745 TB [0xdf7fe2b0 Sectors]
+Device Speed = 12.0Gb/s
+Link Speed = 12.0Gb/s
+Write Cache = Disabled
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s1 Policies/Settings :
+==================================
+Drive position = DriveGroup:0 
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = Yes
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = Yes
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x5000cca06cb591e5 
+   1 Active 12.0Gb/s  0x0                
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 06 12 9f 00 10 02 48 47 53 54 20 20 20 20 
+48 55 53 4d 52 31 36 31 39 41 53 53 32 30 34 20 
+48 31 44 36 30 53 59 36 56 4b 4d 41 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+43 6f 70 79 72 69 67 68 74 20 28 43 29 20 48 47 
+53 54 2c 20 61 20 57 65 73 74 65 72 6e 20 44 69 
+
+
+
+Drive /c0/e32/s2 :
+================
+
+----------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model            Sp Type 
+----------------------------------------------------------------------------
+32:2      2 Onln   0 1.745 TB SAS  SSD N   N  512B HUSMR1619ASS204  U  -    
+----------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s2 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s2 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  25C (77.00 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s2 Device attributes :
+==================================
+SN = 0SAHM0Y6
+Manufacturer Id = HGST    
+Model Number = HUSMR1619ASS204 
+NAND Vendor = NA
+WWN = 5000CCA06CB4ED67
+Firmware Revision = H1D6
+Firmware Release Number = N/A
+Raw size = 1.746 TB [0xdf8fe2b0 Sectors]
+Coerced size = 1.745 TB [0xdf7c0000 Sectors]
+Non Coerced size = 1.745 TB [0xdf7fe2b0 Sectors]
+Device Speed = 12.0Gb/s
+Link Speed = 12.0Gb/s
+Write Cache = Disabled
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s2 Policies/Settings :
+==================================
+Drive position = DriveGroup:0 
+Enclosure position = 1
+Connected Port Number = 3(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = Yes
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = Yes
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x5000cca06cb4ed65 
+   1 Active 12.0Gb/s  0x0                
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 06 12 9f 00 10 02 48 47 53 54 20 20 20 20 
+48 55 53 4d 52 31 36 31 39 41 53 53 32 30 34 20 
+48 31 44 36 30 53 59 36 48 4d 30 41 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+43 6f 70 79 72 69 67 68 74 20 28 43 29 20 48 47 
+53 54 2c 20 61 20 57 65 73 74 65 72 6e 20 44 69 
+
+
+
+Drive /c0/e32/s3 :
+================
+
+----------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model            Sp Type 
+----------------------------------------------------------------------------
+32:3      3 Onln   0 1.745 TB SAS  SSD N   N  512B HUSMR1619ASS204  U  -    
+----------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s3 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s3 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  26C (78.80 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s3 Device attributes :
+==================================
+SN = 0SAD5WY6
+Manufacturer Id = HGST    
+Model Number = HUSMR1619ASS204 
+NAND Vendor = NA
+WWN = 5000CCA06CB4B9FF
+Firmware Revision = H1D6
+Firmware Release Number = N/A
+Raw size = 1.746 TB [0xdf8fe2b0 Sectors]
+Coerced size = 1.745 TB [0xdf7c0000 Sectors]
+Non Coerced size = 1.745 TB [0xdf7fe2b0 Sectors]
+Device Speed = 12.0Gb/s
+Link Speed = 12.0Gb/s
+Write Cache = Disabled
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s3 Policies/Settings :
+==================================
+Drive position = DriveGroup:0 
+Enclosure position = 1
+Connected Port Number = 1(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = Yes
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = Yes
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x5000cca06cb4b9fd 
+   1 Active 12.0Gb/s  0x0                
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 06 12 9f 00 10 02 48 47 53 54 20 20 20 20 
+48 55 53 4d 52 31 36 31 39 41 53 53 32 30 34 20 
+48 31 44 36 30 53 59 36 44 35 57 41 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+43 6f 70 79 72 69 67 68 74 20 28 43 29 20 48 47 
+53 54 2c 20 61 20 57 65 73 74 65 72 6e 20 44 69 
+
+
+
+

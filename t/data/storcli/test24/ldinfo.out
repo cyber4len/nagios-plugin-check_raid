@@ -1,0 +1,132 @@
+Controller = 0
+Status = Success
+Description = None
+
+
+/c0/v0 :
+======
+
+--------------------------------------------------------------
+DG/VD TYPE   State Access Consist Cache Cac sCC     Size Name 
+--------------------------------------------------------------
+0/0   RAID10 Optl  RW     Yes     RWBD  -   OFF 5.237 TB      
+--------------------------------------------------------------
+
+VD=Virtual Drive| DG=Drive Group|Rec=Recovery
+Cac=CacheCade|Rec=Recovery|OfLn=OffLine|Pdgd=Partially Degraded|Dgrd=Degraded
+Optl=Optimal|dflt=Default|RO=Read Only|RW=Read Write|HD=Hidden|TRANS=TransportReady
+B=Blocked|Consist=Consistent|R=Read Ahead Always|NR=No Read Ahead|WB=WriteBack
+FWB=Force WriteBack|WT=WriteThrough|C=Cached IO|D=Direct IO|sCC=Scheduled
+Check Consistency
+
+
+PDs for VD 0 :
+============
+
+--------------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                      Sp Type 
+--------------------------------------------------------------------------------------
+32:0      0 Onln   0 1.745 TB SATA SSD Y   N  512B SAMSUNG MZ7L31T9HBLT-00A07 U  -    
+32:1      1 Onln   0 1.745 TB SATA SSD Y   N  512B SAMSUNG MZ7L31T9HBLT-00A07 U  -    
+32:2      2 Onln   0 1.745 TB SATA SSD Y   N  512B SAMSUNG MZ7L31T9HBLT-00A07 U  -    
+32:3      3 Onln   0 1.745 TB SATA SSD Y   N  512B SAMSUNG MZ7L31T9HBLT-00A07 U  -    
+32:4      4 Onln   0 1.745 TB SATA SSD Y   N  512B SAMSUNG MZ7L31T9HBLT-00A07 U  -    
+32:5      5 Onln   0 1.745 TB SATA SSD Y   N  512B SAMSUNG MZ7L31T9HBLT-00A07 U  -    
+--------------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+VD0 Properties :
+==============
+Strip Size = 1.000 MB
+Number of Blocks = 11248336896
+VD has Emulated PD = Yes
+Span Depth = N/A
+Number of Drives Per Span = N/A
+Write Cache(initial setting) = WriteBack
+Disk Cache Policy = Disk's Default
+Encryption = None
+Data Protection = None
+Active Operations = None
+Exposed to OS = Yes
+OS Drive Name = /dev/sda
+Creation Date = 03-03-2023
+Creation Time = 03:22:54 AM
+Emulation type = default
+Cachebypass size = Cachebypass-64k
+Cachebypass Mode = Cachebypass Intelligent
+Is LD Ready for OS Requests = Yes
+SCSI NAA Id = 6d0946600e050d002b94248e0db85e79
+Unmap Enabled = N/A
+
+
+/c0/v1 :
+======
+
+-------------------------------------------------------------
+DG/VD TYPE  State Access Consist Cache Cac sCC     Size Name 
+-------------------------------------------------------------
+1/1   RAID1 Optl  RW     Yes     RFWBD -   OFF 1.745 TB      
+-------------------------------------------------------------
+
+VD=Virtual Drive| DG=Drive Group|Rec=Recovery
+Cac=CacheCade|Rec=Recovery|OfLn=OffLine|Pdgd=Partially Degraded|Dgrd=Degraded
+Optl=Optimal|dflt=Default|RO=Read Only|RW=Read Write|HD=Hidden|TRANS=TransportReady
+B=Blocked|Consist=Consistent|R=Read Ahead Always|NR=No Read Ahead|WB=WriteBack
+FWB=Force WriteBack|WT=WriteThrough|C=Cached IO|D=Direct IO|sCC=Scheduled
+Check Consistency
+
+
+PDs for VD 1 :
+============
+
+--------------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                      Sp Type 
+--------------------------------------------------------------------------------------
+32:6      6 Onln   1 1.745 TB SATA SSD Y   N  512B SAMSUNG MZ7L31T9HBLT-00A07 U  -    
+32:7      7 Onln   1 1.745 TB SATA SSD Y   N  512B SAMSUNG MZ7L31T9HBLT-00A07 U  -    
+--------------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+VD1 Properties :
+==============
+Strip Size = 1.000 MB
+Number of Blocks = 3749445632
+VD has Emulated PD = Yes
+Span Depth = 1
+Number of Drives Per Span = 2
+Write Cache(initial setting) = WriteBack
+Disk Cache Policy = Disk's Default
+Encryption = None
+Data Protection = None
+Active Operations = None
+Exposed to OS = Yes
+OS Drive Name = /dev/sdb
+Creation Date = 03-04-2023
+Creation Time = 06:10:12 AM
+Emulation type = default
+Cachebypass size = Cachebypass-64k
+Cachebypass Mode = Cachebypass Intelligent
+Is LD Ready for OS Requests = Yes
+SCSI NAA Id = 6d0946600e050d002bbd2a44a5716a9c
+Unmap Enabled = N/A
+
+
+

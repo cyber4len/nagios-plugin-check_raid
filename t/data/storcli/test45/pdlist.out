@@ -1,0 +1,606 @@
+Controller = 0
+Status = Success
+Description = Show Drive Information Succeeded.
+
+
+Drive /c0/e32/s0 :
+================
+
+--------------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                      Sp Type 
+--------------------------------------------------------------------------------------
+32:0      0 Onln   0 1.745 TB SATA SSD Y   N  512B SAMSUNG MZ7L31T9HBLT-00A07 U  -    
+--------------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s0 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s0 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 6
+Drive Temperature =  32C (89.60 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s0 Device attributes :
+==================================
+SN = S6ESNC0W943152      
+Manufacturer Id = ATA     
+Model Number = SAMSUNG MZ7L31T9HBLT-00A07
+NAND Vendor = NA
+WWN = 5002538F7351645C
+Firmware Revision = JXTC304Q
+Raw size = 1.746 TB [0xdf8fe2b0 Sectors]
+Coerced size = 1.745 TB [0xdf7c0000 Sectors]
+Non Coerced size = 1.745 TB [0xdf7fe2b0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = Enabled
+Logical Sector Size = 512B
+Physical Sector Size = 4 KB
+Connector Name = 00 
+
+
+Drive /c0/e32/s0 Policies/Settings :
+==================================
+Drive position = DriveGroup:0 
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = Yes
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x500056b329d09fc0 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 36 53 53 45 43 4e 57 30 32 35 33 34 
+39 31 20 20 20 20 20 20 00 00 00 00 00 00 58 4a 
+43 54 30 33 51 34 41 53 53 4d 4e 55 20 47 5a 4d 
+4c 37 31 33 39 54 42 48 54 4c 30 2d 41 30 37 30 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 
+01 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 10 bd ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e32/s2 :
+================
+
+--------------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                      Sp Type 
+--------------------------------------------------------------------------------------
+32:2      2 Onln   0 1.745 TB SATA SSD Y   N  512B SAMSUNG MZ7L31T9HBLT-00A07 U  -    
+--------------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s2 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s2 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 6
+Drive Temperature =  33C (91.40 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s2 Device attributes :
+==================================
+SN = S6ESNN0W221590      
+Manufacturer Id = ATA     
+Model Number = SAMSUNG MZ7L31T9HBLT-00A07
+NAND Vendor = NA
+WWN = 5002538FA3908EE4
+Firmware Revision = JXTC404Q
+Raw size = 1.746 TB [0xdf8fe2b0 Sectors]
+Coerced size = 1.745 TB [0xdf7c0000 Sectors]
+Non Coerced size = 1.745 TB [0xdf7fe2b0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = Enabled
+Logical Sector Size = 512B
+Physical Sector Size = 4 KB
+Connector Name = 00 
+
+
+Drive /c0/e32/s2 Policies/Settings :
+==================================
+Drive position = DriveGroup:0 
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = Yes
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x500056b329d09fc2 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 36 53 53 45 4e 4e 57 30 30 39 31 32 
+32 35 20 20 20 20 20 20 00 00 00 00 00 00 58 4a 
+43 54 30 34 51 34 41 53 53 4d 4e 55 20 47 5a 4d 
+4c 37 31 33 39 54 42 48 54 4c 30 2d 41 30 37 30 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 
+01 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 10 bd ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e32/s3 :
+================
+
+--------------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                      Sp Type 
+--------------------------------------------------------------------------------------
+32:3      3 Onln   0 1.745 TB SATA SSD Y   N  512B SAMSUNG MZ7L31T9HBLT-00A07 U  -    
+--------------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s3 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s3 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 6
+Drive Temperature =  33C (91.40 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s3 Device attributes :
+==================================
+SN = S6ESNN0W122090      
+Manufacturer Id = ATA     
+Model Number = SAMSUNG MZ7L31T9HBLT-00A07
+NAND Vendor = NA
+WWN = 5002538FA3908F6A
+Firmware Revision = JXTC404Q
+Raw size = 1.746 TB [0xdf8fe2b0 Sectors]
+Coerced size = 1.745 TB [0xdf7c0000 Sectors]
+Non Coerced size = 1.745 TB [0xdf7fe2b0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = Enabled
+Logical Sector Size = 512B
+Physical Sector Size = 4 KB
+Connector Name = 00 
+
+
+Drive /c0/e32/s3 Policies/Settings :
+==================================
+Drive position = DriveGroup:0 
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = Yes
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x500056b329d09fc3 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 36 53 53 45 4e 4e 57 30 30 39 32 32 
+31 30 20 20 20 20 20 20 00 00 00 00 00 00 58 4a 
+43 54 30 34 51 34 41 53 53 4d 4e 55 20 47 5a 4d 
+4c 37 31 33 39 54 42 48 54 4c 30 2d 41 30 37 30 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 
+01 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 10 bd ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e32/s4 :
+================
+
+--------------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                      Sp Type 
+--------------------------------------------------------------------------------------
+32:4      4 Onln   0 1.745 TB SATA SSD Y   N  512B SAMSUNG MZ7L31T9HBLT-00A07 U  -    
+--------------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s4 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s4 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 6
+Drive Temperature =  33C (91.40 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s4 Device attributes :
+==================================
+SN = S6ESNN0W421590      
+Manufacturer Id = ATA     
+Model Number = SAMSUNG MZ7L31T9HBLT-00A07
+NAND Vendor = NA
+WWN = 5002538FA3908EF0
+Firmware Revision = JXTC404Q
+Raw size = 1.746 TB [0xdf8fe2b0 Sectors]
+Coerced size = 1.745 TB [0xdf7c0000 Sectors]
+Non Coerced size = 1.745 TB [0xdf7fe2b0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = Enabled
+Logical Sector Size = 512B
+Physical Sector Size = 4 KB
+Connector Name = 00 
+
+
+Drive /c0/e32/s4 Policies/Settings :
+==================================
+Drive position = DriveGroup:0 
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = Yes
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x500056b329d09fc4 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 36 53 53 45 4e 4e 57 30 30 39 31 32 
+34 35 20 20 20 20 20 20 00 00 00 00 00 00 58 4a 
+43 54 30 34 51 34 41 53 53 4d 4e 55 20 47 5a 4d 
+4c 37 31 33 39 54 42 48 54 4c 30 2d 41 30 37 30 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 
+01 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 10 bd ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e32/s5 :
+================
+
+--------------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                      Sp Type 
+--------------------------------------------------------------------------------------
+32:5      5 Onln   0 1.745 TB SATA SSD Y   N  512B SAMSUNG MZ7L31T9HBLT-00A07 U  -    
+--------------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s5 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s5 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 6
+Drive Temperature =  33C (91.40 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s5 Device attributes :
+==================================
+SN = S6ESNN0W022090      
+Manufacturer Id = ATA     
+Model Number = SAMSUNG MZ7L31T9HBLT-00A07
+NAND Vendor = NA
+WWN = 5002538FA3908F69
+Firmware Revision = JXTC404Q
+Raw size = 1.746 TB [0xdf8fe2b0 Sectors]
+Coerced size = 1.745 TB [0xdf7c0000 Sectors]
+Non Coerced size = 1.745 TB [0xdf7fe2b0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = Enabled
+Logical Sector Size = 512B
+Physical Sector Size = 4 KB
+Connector Name = 00 
+
+
+Drive /c0/e32/s5 Policies/Settings :
+==================================
+Drive position = DriveGroup:0 
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = Yes
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x500056b329d09fc5 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 36 53 53 45 4e 4e 57 30 30 39 32 32 
+30 30 20 20 20 20 20 20 00 00 00 00 00 00 58 4a 
+43 54 30 34 51 34 41 53 53 4d 4e 55 20 47 5a 4d 
+4c 37 31 33 39 54 42 48 54 4c 30 2d 41 30 37 30 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 
+01 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 10 bd ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e32/s6 :
+================
+
+--------------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                      Sp Type 
+--------------------------------------------------------------------------------------
+32:6      6 Onln   0 1.745 TB SATA SSD Y   N  512B SAMSUNG MZ7L31T9HBLT-00A07 U  -    
+--------------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s6 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s6 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 6
+Drive Temperature =  33C (91.40 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s6 Device attributes :
+==================================
+SN = S6ESNN0W721990      
+Manufacturer Id = ATA     
+Model Number = SAMSUNG MZ7L31T9HBLT-00A07
+NAND Vendor = NA
+WWN = 5002538FA3908F5C
+Firmware Revision = JXTC404Q
+Raw size = 1.746 TB [0xdf8fe2b0 Sectors]
+Coerced size = 1.745 TB [0xdf7c0000 Sectors]
+Non Coerced size = 1.745 TB [0xdf7fe2b0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = Enabled
+Logical Sector Size = 512B
+Physical Sector Size = 4 KB
+Connector Name = 00 
+
+
+Drive /c0/e32/s6 Policies/Settings :
+==================================
+Drive position = DriveGroup:0 
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = Yes
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x500056b329d09fc6 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 36 53 53 45 4e 4e 57 30 30 39 31 32 
+37 39 20 20 20 20 20 20 00 00 00 00 00 00 58 4a 
+43 54 30 34 51 34 41 53 53 4d 4e 55 20 47 5a 4d 
+4c 37 31 33 39 54 42 48 54 4c 30 2d 41 30 37 30 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 
+01 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 10 bd ff ff ff 0f 00 00 07 00 
+
+
+
+

@@ -1,0 +1,406 @@
+Controller = 0
+Status = Success
+Description = Show Drive Information Succeeded.
+
+
+Drive /c0/e252/s4 :
+=================
+
+--------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                Sp Type 
+--------------------------------------------------------------------------------
+252:4     1 Onln   0 1.818 TB SATA HDD N   N  512B HGST HUS722T2TALA604 U  -    
+--------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e252/s4 - Detailed Information :
+========================================
+
+Drive /c0/e252/s4 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  31C (87.80 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e252/s4 Device attributes :
+===================================
+SN = WMC6N0CKD7F6        
+Manufacturer Id = ATA     
+Model Number = HGST HUS722T2TALA604
+NAND Vendor = NA
+WWN = 50014EE00458B6E0
+Firmware Revision = RAGNWA07
+Raw size = 1.819 TB [0xe8e088b0 Sectors]
+Coerced size = 1.818 TB [0xe8d00000 Sectors]
+Non Coerced size = 1.818 TB [0xe8d088b0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = Enabled
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = Port 4 - 7 x1
+
+
+Drive /c0/e252/s4 Policies/Settings :
+===================================
+Drive position = DriveGroup:0, Span:0, Row:0
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221104000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+7a 42 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 4d 57 36 43 30 4e 36 46 44 4b 43 37 
+20 20 20 20 20 20 20 20 00 00 00 00 00 00 41 52 
+4e 47 41 57 37 30 47 48 54 53 48 20 53 55 32 37 
+54 32 54 32 4c 41 36 41 34 30 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 
+00 40 00 2f 01 40 00 00 00 00 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 00 5d ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e252/s5 :
+=================
+
+--------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                Sp Type 
+--------------------------------------------------------------------------------
+252:5     2 Onln   0 1.818 TB SATA HDD N   N  512B HGST HUS722T2TALA604 U  -    
+--------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e252/s5 - Detailed Information :
+========================================
+
+Drive /c0/e252/s5 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  29C (84.20 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e252/s5 Device attributes :
+===================================
+SN = WMC6N07VFKK1        
+Manufacturer Id = ATA     
+Model Number = HGST HUS722T2TALA604
+NAND Vendor = NA
+WWN = 50014EE65D7BAFA5
+Firmware Revision = RAGNWA07
+Raw size = 1.819 TB [0xe8e088b0 Sectors]
+Coerced size = 1.818 TB [0xe8d00000 Sectors]
+Non Coerced size = 1.818 TB [0xe8d088b0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = Enabled
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = Port 4 - 7 x1
+
+
+Drive /c0/e252/s5 Policies/Settings :
+===================================
+Drive position = DriveGroup:0, Span:0, Row:1
+Enclosure position = 0
+Connected Port Number = 1(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221105000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+7a 42 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 4d 57 36 43 30 4e 31 4b 46 56 37 4b 
+20 20 20 20 20 20 20 20 00 00 00 00 00 00 41 52 
+4e 47 41 57 37 30 47 48 54 53 48 20 53 55 32 37 
+54 32 54 32 4c 41 36 41 34 30 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 
+00 40 00 2f 01 40 00 00 00 00 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 00 5d ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e252/s6 :
+=================
+
+--------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                Sp Type 
+--------------------------------------------------------------------------------
+252:6     3 Onln   0 1.818 TB SATA HDD N   N  512B HGST HUS722T2TALA604 U  -    
+--------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e252/s6 - Detailed Information :
+========================================
+
+Drive /c0/e252/s6 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  30C (86.00 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e252/s6 Device attributes :
+===================================
+SN = WMC6N0UL9HH4        
+Manufacturer Id = ATA     
+Model Number = HGST HUS722T2TALA604
+NAND Vendor = NA
+WWN = 50014EE004644BF9
+Firmware Revision = RAGNWA07
+Raw size = 1.819 TB [0xe8e088b0 Sectors]
+Coerced size = 1.818 TB [0xe8d00000 Sectors]
+Non Coerced size = 1.818 TB [0xe8d088b0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = Enabled
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = Port 4 - 7 x1
+
+
+Drive /c0/e252/s6 Policies/Settings :
+===================================
+Drive position = DriveGroup:0, Span:1, Row:0
+Enclosure position = 0
+Connected Port Number = 3(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221106000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+7a 42 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 4d 57 36 43 30 4e 34 48 39 4c 55 48 
+20 20 20 20 20 20 20 20 00 00 00 00 00 00 41 52 
+4e 47 41 57 37 30 47 48 54 53 48 20 53 55 32 37 
+54 32 54 32 4c 41 36 41 34 30 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 
+00 40 00 2f 01 40 00 00 00 00 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 00 5d ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e252/s7 :
+=================
+
+--------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                Sp Type 
+--------------------------------------------------------------------------------
+252:7     0 Onln   0 1.818 TB SATA HDD N   N  512B HGST HUS722T2TALA604 U  -    
+--------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e252/s7 - Detailed Information :
+========================================
+
+Drive /c0/e252/s7 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  33C (91.40 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e252/s7 Device attributes :
+===================================
+SN = WMC6N00R2PK9        
+Manufacturer Id = ATA     
+Model Number = HGST HUS722T2TALA604
+NAND Vendor = NA
+WWN = 50014EE65D7C2689
+Firmware Revision = RAGNWA07
+Raw size = 1.819 TB [0xe8e088b0 Sectors]
+Coerced size = 1.818 TB [0xe8d00000 Sectors]
+Non Coerced size = 1.818 TB [0xe8d088b0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = Enabled
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = Port 4 - 7 x1
+
+
+Drive /c0/e252/s7 Policies/Settings :
+===================================
+Drive position = DriveGroup:0, Span:1, Row:1
+Enclosure position = 0
+Connected Port Number = 2(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221107000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+7a 42 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 4d 57 36 43 30 4e 39 4b 32 52 30 50 
+20 20 20 20 20 20 20 20 00 00 00 00 00 00 41 52 
+4e 47 41 57 37 30 47 48 54 53 48 20 53 55 32 37 
+54 32 54 32 4c 41 36 41 34 30 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 
+00 40 00 2f 01 40 00 00 00 00 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 00 5d ff ff ff 0f 00 00 07 00 
+
+
+
+

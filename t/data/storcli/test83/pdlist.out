@@ -1,0 +1,1418 @@
+Controller = 0
+Status = Success
+Description = Show Drive Information Succeeded.
+
+
+Drive /c0/e32/s0 :
+================
+
+-------------------------------------------------------------------------------------
+EID:Slt DID State DG       Size Intf Med SED PI SeSz Model                   Sp Type 
+-------------------------------------------------------------------------------------
+32:0      0 Onln   0 931.000 GB SATA SSD Y   N  512B Samsung SSD 860 EVO 1TB U  -    
+-------------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s0 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s0 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 1158
+Drive Temperature =  22C (71.60 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s0 Device attributes :
+==================================
+SN = S4FMNF0NAF75304     
+Manufacturer Id = ATA     
+Model Number = Samsung SSD 860 EVO 1TB
+NAND Vendor = NA
+WWN = 5002538EE0A01262
+Firmware Revision = RVT04B6Q
+Raw size = 931.512 GB [0x74706db0 Sectors]
+Coerced size = 931.000 GB [0x74600000 Sectors]
+Non Coerced size = 931.012 GB [0x74606db0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s0 Policies/Settings :
+==================================
+Drive position = DriveGroup:0, Span:0, Row:0
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 512B
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x500056b36789abee 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 34 53 4d 46 46 4e 4e 30 30 41 37 34 
+33 35 20 46 20 20 20 20 00 00 00 00 00 00 56 52 
+30 54 42 34 51 36 61 53 73 6d 6e 75 20 67 53 53 
+20 44 36 38 20 30 56 45 20 4f 54 31 20 42 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 01 80 
+01 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 01 01 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e32/s1 :
+================
+
+-------------------------------------------------------------------------------------
+EID:Slt DID State DG       Size Intf Med SED PI SeSz Model                   Sp Type 
+-------------------------------------------------------------------------------------
+32:1      1 Onln   0 931.000 GB SATA SSD Y   N  512B Samsung SSD 860 EVO 1TB U  -    
+-------------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s1 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s1 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 1158
+Drive Temperature =  22C (71.60 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s1 Device attributes :
+==================================
+SN = S4FMNF0NAP73004     
+Manufacturer Id = ATA     
+Model Number = Samsung SSD 860 EVO 1TB
+NAND Vendor = NA
+WWN = 5002538EE0A0124B
+Firmware Revision = RVT04B6Q
+Raw size = 931.512 GB [0x74706db0 Sectors]
+Coerced size = 931.000 GB [0x74600000 Sectors]
+Non Coerced size = 931.012 GB [0x74606db0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s1 Policies/Settings :
+==================================
+Drive position = DriveGroup:0, Span:0, Row:1
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 512B
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x500056b36789abec 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 34 53 4d 46 46 4e 4e 30 30 41 37 34 
+30 33 20 50 20 20 20 20 00 00 00 00 00 00 56 52 
+30 54 42 34 51 36 61 53 73 6d 6e 75 20 67 53 53 
+20 44 36 38 20 30 56 45 20 4f 54 31 20 42 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 01 80 
+01 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 01 01 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e32/s2 :
+================
+
+-------------------------------------------------------------------------------------
+EID:Slt DID State DG       Size Intf Med SED PI SeSz Model                   Sp Type 
+-------------------------------------------------------------------------------------
+32:2      2 Onln   0 931.000 GB SATA SSD Y   N  512B Samsung SSD 860 EVO 1TB U  -    
+-------------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s2 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s2 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 1158
+Drive Temperature =  23C (73.40 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s2 Device attributes :
+==================================
+SN = S3Z9NB0NAD04886     
+Manufacturer Id = ATA     
+Model Number = Samsung SSD 860 EVO 1TB
+NAND Vendor = NA
+WWN = 5002538EE0A0A79B
+Firmware Revision = RVT04B6Q
+Raw size = 931.512 GB [0x74706db0 Sectors]
+Coerced size = 931.000 GB [0x74600000 Sectors]
+Non Coerced size = 931.012 GB [0x74606db0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s2 Policies/Settings :
+==================================
+Drive position = DriveGroup:0, Span:1, Row:0
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 512B
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x500056b36789abe8 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 33 53 39 5a 42 4e 4e 30 38 41 30 36 
+38 34 20 44 20 20 20 20 00 00 00 00 00 00 56 52 
+30 54 42 34 51 36 61 53 73 6d 6e 75 20 67 53 53 
+20 44 36 38 20 30 56 45 20 4f 54 31 20 42 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 01 80 
+01 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 01 01 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e32/s3 :
+================
+
+-------------------------------------------------------------------------------------
+EID:Slt DID State DG       Size Intf Med SED PI SeSz Model                   Sp Type 
+-------------------------------------------------------------------------------------
+32:3      3 Onln   0 931.000 GB SATA SSD Y   N  512B Samsung SSD 860 EVO 1TB U  -    
+-------------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s3 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s3 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 1158
+Drive Temperature =  23C (73.40 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s3 Device attributes :
+==================================
+SN = S4FMNF0NAP75604     
+Manufacturer Id = ATA     
+Model Number = Samsung SSD 860 EVO 1TB
+NAND Vendor = NA
+WWN = 5002538EE0A01265
+Firmware Revision = RVT04B6Q
+Raw size = 931.512 GB [0x74706db0 Sectors]
+Coerced size = 931.000 GB [0x74600000 Sectors]
+Non Coerced size = 931.012 GB [0x74606db0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s3 Policies/Settings :
+==================================
+Drive position = DriveGroup:0, Span:1, Row:1
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 512B
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x500056b36789abef 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 34 53 4d 46 46 4e 4e 30 30 41 37 34 
+36 35 20 50 20 20 20 20 00 00 00 00 00 00 56 52 
+30 54 42 34 51 36 61 53 73 6d 6e 75 20 67 53 53 
+20 44 36 38 20 30 56 45 20 4f 54 31 20 42 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 01 80 
+01 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 01 01 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e32/s4 :
+================
+
+----------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model            Sp Type 
+----------------------------------------------------------------------------
+32:4      4 Onln   1 3.637 TB SAS  HDD N   N  512B ST4000NM0023     U  -    
+----------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s4 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s4 State :
+======================
+Shield Counter = 0
+Media Error Count = 6
+Other Error Count = 0
+Drive Temperature =  27C (80.60 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s4 Device attributes :
+==================================
+SN = Z1HBVAZ4
+Manufacturer Id = SEAGATE 
+Model Number = ST4000NM0023    
+NAND Vendor = NA
+WWN = 5000C50058EA1318
+Firmware Revision = GS15
+Firmware Release Number = 04038A15
+Raw size = 3.638 TB [0x1d1c0beb0 Sectors]
+Coerced size = 3.637 TB [0x1d1b00000 Sectors]
+Non Coerced size = 3.637 TB [0x1d1b0beb0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s4 Policies/Settings :
+==================================
+Drive position = DriveGroup:1, Span:0, Row:0
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 512B
+Certified = Yes
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x5000c50058ea1319 
+   1 Active Unknown   0x0                
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 06 12 8b 00 10 02 53 45 41 47 41 54 45 20 
+53 54 34 30 30 30 4e 4d 30 30 32 33 20 20 20 20 
+47 53 31 35 5a 31 5a 34 42 56 41 48 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 
+30 31 37 20 53 65 61 67 61 74 65 20 41 6c 6c 20 
+
+
+
+Drive /c0/e32/s5 :
+================
+
+----------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model            Sp Type 
+----------------------------------------------------------------------------
+32:5      5 Onln   1 3.637 TB SAS  HDD N   N  512B ST4000NM0023     U  -    
+----------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s5 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s5 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  27C (80.60 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s5 Device attributes :
+==================================
+SN = Z14BX2Z4
+Manufacturer Id = SEAGATE 
+Model Number = ST4000NM0023    
+NAND Vendor = NA
+WWN = 5000C50058EA3088
+Firmware Revision = GS15
+Firmware Release Number = 04038A15
+Raw size = 3.638 TB [0x1d1c0beb0 Sectors]
+Coerced size = 3.637 TB [0x1d1b00000 Sectors]
+Non Coerced size = 3.637 TB [0x1d1b0beb0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s5 Policies/Settings :
+==================================
+Drive position = DriveGroup:1, Span:0, Row:1
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 512B
+Certified = Yes
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x5000c50058ea3089 
+   1 Active Unknown   0x0                
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 06 12 8b 00 10 02 53 45 41 47 41 54 45 20 
+53 54 34 30 30 30 4e 4d 30 30 32 33 20 20 20 20 
+47 53 31 35 5a 31 5a 34 42 58 32 34 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 
+30 31 37 20 53 65 61 67 61 74 65 20 41 6c 6c 20 
+
+
+
+Drive /c0/e32/s6 :
+================
+
+----------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model            Sp Type 
+----------------------------------------------------------------------------
+32:6      6 Onln   1 3.637 TB SAS  HDD N   N  512B ST4000NM0023     U  -    
+----------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s6 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s6 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  29C (84.20 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s6 Device attributes :
+==================================
+SN = Z1FCBPZ4
+Manufacturer Id = SEAGATE 
+Model Number = ST4000NM0023    
+NAND Vendor = NA
+WWN = 5000C50058EA4B10
+Firmware Revision = GS15
+Firmware Release Number = 04038A15
+Raw size = 3.638 TB [0x1d1c0beb0 Sectors]
+Coerced size = 3.637 TB [0x1d1b00000 Sectors]
+Non Coerced size = 3.637 TB [0x1d1b0beb0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s6 Policies/Settings :
+==================================
+Drive position = DriveGroup:1, Span:0, Row:2
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 512B
+Certified = Yes
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x5000c50058ea4b11 
+   1 Active Unknown   0x0                
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 06 12 8b 00 10 02 53 45 41 47 41 54 45 20 
+53 54 34 30 30 30 4e 4d 30 30 32 33 20 20 20 20 
+47 53 31 35 5a 31 5a 34 43 42 50 46 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 
+30 31 37 20 53 65 61 67 61 74 65 20 41 6c 6c 20 
+
+
+
+Drive /c0/e32/s7 :
+================
+
+----------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model            Sp Type 
+----------------------------------------------------------------------------
+32:7      7 Onln   1 3.637 TB SAS  HDD N   N  512B ST4000NM0023     U  -    
+----------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s7 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s7 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  30C (86.00 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s7 Device attributes :
+==================================
+SN = Z1KBWKZ4
+Manufacturer Id = SEAGATE 
+Model Number = ST4000NM0023    
+NAND Vendor = NA
+WWN = 5000C50058EB0E0C
+Firmware Revision = GS15
+Firmware Release Number = 04038A15
+Raw size = 3.638 TB [0x1d1c0beb0 Sectors]
+Coerced size = 3.637 TB [0x1d1b00000 Sectors]
+Non Coerced size = 3.637 TB [0x1d1b0beb0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s7 Policies/Settings :
+==================================
+Drive position = DriveGroup:1, Span:0, Row:3
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 512B
+Certified = Yes
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x5000c50058eb0e0d 
+   1 Active Unknown   0x0                
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 06 12 8b 00 10 02 53 45 41 47 41 54 45 20 
+53 54 34 30 30 30 4e 4d 30 30 32 33 20 20 20 20 
+47 53 31 35 5a 31 5a 34 42 57 4b 4b 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 
+30 31 37 20 53 65 61 67 61 74 65 20 41 6c 6c 20 
+
+
+
+Drive /c0/e32/s8 :
+================
+
+----------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model            Sp Type 
+----------------------------------------------------------------------------
+32:8      8 Onln   1 3.637 TB SAS  HDD N   N  512B ST4000NM0023     U  -    
+----------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s8 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s8 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  29C (84.20 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s8 Device attributes :
+==================================
+SN = Z1TB7QZ4
+Manufacturer Id = SEAGATE 
+Model Number = ST4000NM0023    
+NAND Vendor = NA
+WWN = 5000C50058EABC18
+Firmware Revision = GS15
+Firmware Release Number = 04038A15
+Raw size = 3.638 TB [0x1d1c0beb0 Sectors]
+Coerced size = 3.637 TB [0x1d1b00000 Sectors]
+Non Coerced size = 3.637 TB [0x1d1b0beb0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s8 Policies/Settings :
+==================================
+Drive position = DriveGroup:1, Span:0, Row:4
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 512B
+Certified = Yes
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x5000c50058eabc19 
+   1 Active Unknown   0x0                
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 06 12 8b 00 10 02 53 45 41 47 41 54 45 20 
+53 54 34 30 30 30 4e 4d 30 30 32 33 20 20 20 20 
+47 53 31 35 5a 31 5a 34 42 37 51 54 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 
+30 31 37 20 53 65 61 67 61 74 65 20 41 6c 6c 20 
+
+
+
+Drive /c0/e32/s9 :
+================
+
+----------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model            Sp Type 
+----------------------------------------------------------------------------
+32:9      9 Onln   1 3.637 TB SAS  HDD N   N  512B ST4000NM0023     U  -    
+----------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s9 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s9 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  30C (86.00 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s9 Device attributes :
+==================================
+SN = Z1MC4JZ4
+Manufacturer Id = SEAGATE 
+Model Number = ST4000NM0023    
+NAND Vendor = NA
+WWN = 5000C50058C2E6A8
+Firmware Revision = GS15
+Firmware Release Number = 04038A15
+Raw size = 3.638 TB [0x1d1c0beb0 Sectors]
+Coerced size = 3.637 TB [0x1d1b00000 Sectors]
+Non Coerced size = 3.637 TB [0x1d1b0beb0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s9 Policies/Settings :
+==================================
+Drive position = DriveGroup:1, Span:0, Row:5
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 512B
+Certified = Yes
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x5000c50058c2e6a9 
+   1 Active Unknown   0x0                
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 06 12 8b 00 10 02 53 45 41 47 41 54 45 20 
+53 54 34 30 30 30 4e 4d 30 30 32 33 20 20 20 20 
+47 53 31 35 5a 31 5a 34 43 34 4a 4d 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 
+30 31 37 20 53 65 61 67 61 74 65 20 41 6c 6c 20 
+
+
+
+Drive /c0/e32/s10 :
+=================
+
+----------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model            Sp Type 
+----------------------------------------------------------------------------
+32:10    10 Onln   1 3.637 TB SAS  HDD N   N  512B ST4000NM0023     U  -    
+----------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s10 - Detailed Information :
+========================================
+
+Drive /c0/e32/s10 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  31C (87.80 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s10 Device attributes :
+===================================
+SN = Z1QCBCZ4
+Manufacturer Id = SEAGATE 
+Model Number = ST4000NM0023    
+NAND Vendor = NA
+WWN = 5000C50058EAE3AC
+Firmware Revision = GS15
+Firmware Release Number = 04038A15
+Raw size = 3.638 TB [0x1d1c0beb0 Sectors]
+Coerced size = 3.637 TB [0x1d1b00000 Sectors]
+Non Coerced size = 3.637 TB [0x1d1b0beb0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s10 Policies/Settings :
+===================================
+Drive position = DriveGroup:1, Span:0, Row:6
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 512B
+Certified = Yes
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x5000c50058eae3ad 
+   1 Active Unknown   0x0                
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 06 12 8b 00 10 02 53 45 41 47 41 54 45 20 
+53 54 34 30 30 30 4e 4d 30 30 32 33 20 20 20 20 
+47 53 31 35 5a 31 5a 34 43 42 43 51 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 
+30 31 37 20 53 65 61 67 61 74 65 20 41 6c 6c 20 
+
+
+
+Drive /c0/e32/s11 :
+=================
+
+----------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model            Sp Type 
+----------------------------------------------------------------------------
+32:11    11 Onln   1 3.637 TB SAS  HDD N   N  512B MG04SCA40ENY     U  -    
+----------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s11 - Detailed Information :
+========================================
+
+Drive /c0/e32/s11 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  26C (78.80 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s11 Device attributes :
+===================================
+SN = 77E0A1EF748Q
+Manufacturer Id = TOSHIBA 
+Model Number = MG04SCA40ENY    
+NAND Vendor = NA
+WWN = 5000039808200488
+Firmware Revision = EG02
+Firmware Release Number = N/A
+Raw size = 3.638 TB [0x1d1c0beb0 Sectors]
+Coerced size = 3.637 TB [0x1d1b00000 Sectors]
+Non Coerced size = 3.637 TB [0x1d1b0beb0 Sectors]
+Device Speed = Unknown
+Link Speed = 6.0Gb/s
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s11 Policies/Settings :
+===================================
+Drive position = DriveGroup:1, Span:0, Row:7
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 512B
+Certified = Yes
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x500003980820048a 
+   1 Active Unknown   0x0                
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 06 12 5b 01 10 02 54 4f 53 48 49 42 41 20 
+4d 47 30 34 53 43 41 34 30 45 4e 59 20 20 20 20 
+45 47 30 32 37 37 45 30 41 31 38 51 46 37 34 45 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+
+Drive /c0/e32/s12 :
+=================
+
+-------------------------------------------------------------------------------------
+EID:Slt DID State DG       Size Intf Med SED PI SeSz Model                   Sp Type 
+-------------------------------------------------------------------------------------
+32:12    12 Onln   0 931.000 GB SATA SSD Y   N  512B Samsung SSD 860 EVO 1TB U  -    
+-------------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s12 - Detailed Information :
+========================================
+
+Drive /c0/e32/s12 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 1158
+Drive Temperature =  35C (95.00 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s12 Device attributes :
+===================================
+SN = S3Z9NB0NAX31081     
+Manufacturer Id = ATA     
+Model Number = Samsung SSD 860 EVO 1TB
+NAND Vendor = NA
+WWN = 5002538EE0A07E92
+Firmware Revision = RVT04B6Q
+Raw size = 931.512 GB [0x74706db0 Sectors]
+Coerced size = 931.000 GB [0x74600000 Sectors]
+Non Coerced size = 931.012 GB [0x74606db0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s12 Policies/Settings :
+===================================
+Drive position = DriveGroup:0, Span:2, Row:0
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 512B
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x500056b36789abea 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 33 53 39 5a 42 4e 4e 30 38 41 33 31 
+30 31 20 58 20 20 20 20 00 00 00 00 00 00 56 52 
+30 54 42 34 51 36 61 53 73 6d 6e 75 20 67 53 53 
+20 44 36 38 20 30 56 45 20 4f 54 31 20 42 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 01 80 
+01 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 01 01 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e32/s13 :
+=================
+
+-------------------------------------------------------------------------------------
+EID:Slt DID State DG       Size Intf Med SED PI SeSz Model                   Sp Type 
+-------------------------------------------------------------------------------------
+32:13    13 Onln   0 931.000 GB SATA SSD Y   N  512B Samsung SSD 860 EVO 1TB U  -    
+-------------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s13 - Detailed Information :
+========================================
+
+Drive /c0/e32/s13 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 1158
+Drive Temperature =  34C (93.20 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s13 Device attributes :
+===================================
+SN = S3Z9NB0NAM04786     
+Manufacturer Id = ATA     
+Model Number = Samsung SSD 860 EVO 1TB
+NAND Vendor = NA
+WWN = 5002538EE0A0A79A
+Firmware Revision = RVT04B6Q
+Raw size = 931.512 GB [0x74706db0 Sectors]
+Coerced size = 931.000 GB [0x74600000 Sectors]
+Non Coerced size = 931.012 GB [0x74606db0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s13 Policies/Settings :
+===================================
+Drive position = DriveGroup:0, Span:2, Row:1
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 512B
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x500056b36789abeb 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 33 53 39 5a 42 4e 4e 30 38 41 30 36 
+37 34 20 4d 20 20 20 20 00 00 00 00 00 00 56 52 
+30 54 42 34 51 36 61 53 73 6d 6e 75 20 67 53 53 
+20 44 36 38 20 30 56 45 20 4f 54 31 20 42 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 01 80 
+01 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 01 01 ff ff ff 0f 00 00 07 00 
+
+
+
+Controller = 1
+Status = Success
+Description = No drive found!
+
+

@@ -1,0 +1,95 @@
+$VAR1 = {
+          'battery' => [
+                         {
+                           'batterywarning' => 'ON',
+                           'charging_status' => 'None',
+                           'learn_cycle_active' => 'No',
+                           'learn_cycle_requested' => 'No',
+                           'missing' => 'No',
+                           'name' => '0',
+                           'pack_will_fail' => 'No',
+                           'replacement_required' => 'No',
+                           'state' => 'Optimal',
+                           'temperature' => '30',
+                           'temperature_state' => 'OK',
+                           'voltage' => '3866',
+                           'voltage_state' => 'OK'
+                         }
+                       ],
+          'logical' => [
+                         {
+                           'controller' => '0',
+                           'current_cache' => 'RFWBD',
+                           'default_cache' => 'WriteBack',
+                           'name' => 'RAID10',
+                           'state' => 'Optl',
+                           'type' => 'RAID10'
+                         }
+                       ],
+          'physical' => [
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s0',
+                            'name' => 'Samsung SSD 860 EVO 1TB',
+                            'predictive' => undef,
+                            'serial' => 'S3Z9NB0K1Z49508',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s1',
+                            'name' => 'Samsung SSD 860 EVO 1TB',
+                            'predictive' => undef,
+                            'serial' => 'S3Z9NB0K1D49008',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s2',
+                            'name' => 'Samsung SSD 860 EVO 1TB',
+                            'predictive' => undef,
+                            'serial' => 'S3Z9NB0K1P49608',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s3',
+                            'name' => 'Samsung SSD 860 EVO 1TB',
+                            'predictive' => undef,
+                            'serial' => 'S3Z9NB0K1L47408',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s4',
+                            'name' => 'Samsung SSD 860 EVO 1TB',
+                            'predictive' => undef,
+                            'serial' => 'S3Z9NB0K1E49108',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s5',
+                            'name' => 'Samsung SSD 860 EVO 1TB',
+                            'predictive' => undef,
+                            'serial' => 'S3Z9NB0K1R49808',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s6',
+                            'name' => 'Samsung SSD 860 EVO 1TB',
+                            'predictive' => undef,
+                            'serial' => 'S3Z9NB0K1L50508',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s7',
+                            'name' => 'Samsung SSD 860 EVO 1TB',
+                            'predictive' => undef,
+                            'serial' => 'S3Z9NB0K1T49408',
+                            'state' => 'Onln'
+                          }
+                        ]
+        };

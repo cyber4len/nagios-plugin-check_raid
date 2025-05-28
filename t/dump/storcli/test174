@@ -1,0 +1,95 @@
+$VAR1 = {
+          'battery' => [
+                         {
+                           'batterywarning' => 'OFF',
+                           'charging_status' => 'None',
+                           'learn_cycle_active' => 'No',
+                           'learn_cycle_requested' => 'No',
+                           'missing' => 'Yes',
+                           'name' => '0',
+                           'pack_will_fail' => 'No',
+                           'replacement_required' => 'Yes',
+                           'state' => 'Cachevault is absent',
+                           'temperature' => 0,
+                           'temperature_state' => 'Unknown',
+                           'voltage' => 0,
+                           'voltage_state' => 'Unknown'
+                         }
+                       ],
+          'logical' => [
+                         {
+                           'controller' => '0',
+                           'current_cache' => 'NRWTD',
+                           'default_cache' => 'WriteThrough',
+                           'name' => '/c0/v0',
+                           'state' => 'Optl',
+                           'type' => 'RAID10'
+                         }
+                       ],
+          'physical' => [
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s0',
+                            'name' => 'SAMSUNG MZ7L31T9HBLT-00A07',
+                            'predictive' => undef,
+                            'serial' => 'S6ESNC0W666680',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s1',
+                            'name' => 'SAMSUNG MZ7L31T9HBLT-00A07',
+                            'predictive' => undef,
+                            'serial' => 'S6ESNC0W768680',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s2',
+                            'name' => 'SAMSUNG MZ7L31T9HBLT-00A07',
+                            'predictive' => undef,
+                            'serial' => 'S6ESNC0W266580',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s3',
+                            'name' => 'SAMSUNG MZ7L31T9HBLT-00A07',
+                            'predictive' => undef,
+                            'serial' => 'S6ESNC0W366580',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s4',
+                            'name' => 'SAMSUNG MZ7L31T9HBLT-00A07',
+                            'predictive' => undef,
+                            'serial' => 'S6ESNC0W668680',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s5',
+                            'name' => 'SAMSUNG MZ7L31T9HBLT-00A07',
+                            'predictive' => undef,
+                            'serial' => 'S6ESNC0W868680',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s6',
+                            'name' => 'SAMSUNG MZ7L31T9HBLT-00A07',
+                            'predictive' => undef,
+                            'serial' => 'S6ESNC0W166780',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s7',
+                            'name' => 'SAMSUNG MZ7L31T9HBLT-00A07',
+                            'predictive' => undef,
+                            'serial' => 'S6ESNC0W167880',
+                            'state' => 'Onln'
+                          }
+                        ]
+        };

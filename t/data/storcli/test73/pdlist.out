@@ -1,0 +1,618 @@
+Controller = 0
+Status = Success
+Description = Show Drive Information Succeeded.
+
+
+Drive /c0/e252/s0 :
+=================
+
+----------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model            Sp Type 
+----------------------------------------------------------------------------
+252:0    20 Onln   0 1.745 TB SAS  SSD Y   N  512B MZILT1T9HAJQ/007 U  -    
+----------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e252/s0 - Detailed Information :
+========================================
+
+Drive /c0/e252/s0 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+BBM Error Count = 0
+Drive Temperature =  32C (89.60 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e252/s0 Device attributes :
+===================================
+SN = S49NNA0R406920      
+Manufacturer Id = SAMSUNG 
+Model Number = MZILT1T9HAJQ/007
+NAND Vendor = NA
+WWN = 5002538B0122F041
+Firmware Revision = GXF4
+Firmware Release Number = N/A
+Raw size = 1.746 TB [0xdf8fe2b0 Sectors]
+Coerced size = 1.745 TB [0xdf7f0000 Sectors]
+Non Coerced size = 1.745 TB [0xdf7fe2b0 Sectors]
+Device Speed = 12.0Gb/s
+Link Speed = 6.0Gb/s
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 4 KB
+Connector Name = Port 0 - 3 x1
+
+
+Drive /c0/e252/s0 Policies/Settings :
+===================================
+Drive position = DriveGroup:0, Span:0, Row:0
+Enclosure position = 1
+Connected Port Number = 3(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x5002538b0122f042 
+   1 Active 6.0Gb/s   0x0                
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 c5 01 10 03 53 41 4d 53 55 4e 47 20 
+4d 5a 49 4c 54 31 54 39 48 41 4a 51 2f 30 30 37 
+47 58 46 34 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 54 00 00 00 a0 0c 60 05 c0 
+06 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+56 46 54 35 36 30 32 51 31 39 31 30 30 31 5f 4c 
+5f 30 77 ed 30 56 30 31 53 41 4d 53 55 4e 47 20 
+
+
+
+Drive /c0/e252/s1 :
+=================
+
+----------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model            Sp Type 
+----------------------------------------------------------------------------
+252:1    15 Onln   0 1.745 TB SAS  SSD Y   N  512B MZILT1T9HAJQ/007 U  -    
+----------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e252/s1 - Detailed Information :
+========================================
+
+Drive /c0/e252/s1 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+BBM Error Count = 0
+Drive Temperature =  32C (89.60 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e252/s1 Device attributes :
+===================================
+SN = S49NNA0R811220      
+Manufacturer Id = SAMSUNG 
+Model Number = MZILT1T9HAJQ/007
+NAND Vendor = NA
+WWN = 5002538B01230B61
+Firmware Revision = GXF4
+Firmware Release Number = N/A
+Raw size = 1.746 TB [0xdf8fe2b0 Sectors]
+Coerced size = 1.745 TB [0xdf7f0000 Sectors]
+Non Coerced size = 1.745 TB [0xdf7fe2b0 Sectors]
+Device Speed = 12.0Gb/s
+Link Speed = 6.0Gb/s
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 4 KB
+Connector Name = Port 0 - 3 x1
+
+
+Drive /c0/e252/s1 Policies/Settings :
+===================================
+Drive position = DriveGroup:0, Span:0, Row:1
+Enclosure position = 0
+Connected Port Number = 2(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x5002538b01230b62 
+   1 Active 6.0Gb/s   0x0                
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 c5 01 10 03 53 41 4d 53 55 4e 47 20 
+4d 5a 49 4c 54 31 54 39 48 41 4a 51 2f 30 30 37 
+47 58 46 34 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 54 00 00 00 a0 0c 60 05 c0 
+06 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+56 46 54 35 36 30 32 51 31 39 31 30 30 31 5f 4c 
+5f 30 77 ed 30 56 30 31 53 41 4d 53 55 4e 47 20 
+
+
+
+Drive /c0/e252/s2 :
+=================
+
+----------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model            Sp Type 
+----------------------------------------------------------------------------
+252:2    21 Onln   0 1.745 TB SAS  SSD Y   N  512B MZILT1T9HAJQ/007 U  -    
+----------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e252/s2 - Detailed Information :
+========================================
+
+Drive /c0/e252/s2 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+BBM Error Count = 0
+Drive Temperature =  32C (89.60 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e252/s2 Device attributes :
+===================================
+SN = S49NNA0R306920      
+Manufacturer Id = SAMSUNG 
+Model Number = MZILT1T9HAJQ/007
+NAND Vendor = NA
+WWN = 5002538B0122F031
+Firmware Revision = GXF4
+Firmware Release Number = N/A
+Raw size = 1.746 TB [0xdf8fe2b0 Sectors]
+Coerced size = 1.745 TB [0xdf7f0000 Sectors]
+Non Coerced size = 1.745 TB [0xdf7fe2b0 Sectors]
+Device Speed = 12.0Gb/s
+Link Speed = 6.0Gb/s
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 4 KB
+Connector Name = Port 0 - 3 x1
+
+
+Drive /c0/e252/s2 Policies/Settings :
+===================================
+Drive position = DriveGroup:0, Span:1, Row:0
+Enclosure position = 0
+Connected Port Number = 1(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x5002538b0122f032 
+   1 Active 6.0Gb/s   0x0                
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 c5 01 10 03 53 41 4d 53 55 4e 47 20 
+4d 5a 49 4c 54 31 54 39 48 41 4a 51 2f 30 30 37 
+47 58 46 34 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 54 00 00 00 a0 0c 60 05 c0 
+06 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+56 46 54 35 36 30 32 51 31 39 31 30 30 31 5f 4c 
+5f 30 77 ed 30 56 30 31 53 41 4d 53 55 4e 47 20 
+
+
+
+Drive /c0/e252/s3 :
+=================
+
+----------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model            Sp Type 
+----------------------------------------------------------------------------
+252:3    18 Onln   0 1.745 TB SAS  SSD Y   N  512B MZILT1T9HAJQ/007 U  -    
+----------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e252/s3 - Detailed Information :
+========================================
+
+Drive /c0/e252/s3 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+BBM Error Count = 0
+Drive Temperature =  33C (91.40 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e252/s3 Device attributes :
+===================================
+SN = S49NNA0R513520      
+Manufacturer Id = SAMSUNG 
+Model Number = MZILT1T9HAJQ/007
+NAND Vendor = NA
+WWN = 5002538B01231991
+Firmware Revision = GXF4
+Firmware Release Number = N/A
+Raw size = 1.746 TB [0xdf8fe2b0 Sectors]
+Coerced size = 1.745 TB [0xdf7f0000 Sectors]
+Non Coerced size = 1.745 TB [0xdf7fe2b0 Sectors]
+Device Speed = 12.0Gb/s
+Link Speed = 6.0Gb/s
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 4 KB
+Connector Name = Port 0 - 3 x1
+
+
+Drive /c0/e252/s3 Policies/Settings :
+===================================
+Drive position = DriveGroup:0, Span:1, Row:1
+Enclosure position = 0
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x5002538b01231992 
+   1 Active 6.0Gb/s   0x0                
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 c5 01 10 03 53 41 4d 53 55 4e 47 20 
+4d 5a 49 4c 54 31 54 39 48 41 4a 51 2f 30 30 37 
+47 58 46 34 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 54 00 00 00 a0 0c 60 05 c0 
+06 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+56 46 54 35 36 30 32 51 31 39 31 30 30 31 5f 4c 
+5f 30 77 ed 30 56 30 31 53 41 4d 53 55 4e 47 20 
+
+
+
+Drive /c0/e252/s4 :
+=================
+
+----------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model            Sp Type 
+----------------------------------------------------------------------------
+252:4    16 Onln   0 1.745 TB SAS  SSD Y   N  512B MZILT1T9HAJQ/007 U  -    
+----------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e252/s4 - Detailed Information :
+========================================
+
+Drive /c0/e252/s4 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+BBM Error Count = 0
+Drive Temperature =  33C (91.40 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e252/s4 Device attributes :
+===================================
+SN = S49NNA0R606920      
+Manufacturer Id = SAMSUNG 
+Model Number = MZILT1T9HAJQ/007
+NAND Vendor = NA
+WWN = 5002538B0122F061
+Firmware Revision = GXF4
+Firmware Release Number = N/A
+Raw size = 1.746 TB [0xdf8fe2b0 Sectors]
+Coerced size = 1.745 TB [0xdf7f0000 Sectors]
+Non Coerced size = 1.745 TB [0xdf7fe2b0 Sectors]
+Device Speed = 12.0Gb/s
+Link Speed = 6.0Gb/s
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 4 KB
+Connector Name = Port 4 - 7 x1
+
+
+Drive /c0/e252/s4 Policies/Settings :
+===================================
+Drive position = DriveGroup:0, Span:2, Row:0
+Enclosure position = 0
+Connected Port Number = 5(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x5002538b0122f062 
+   1 Active 6.0Gb/s   0x0                
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 c5 01 10 03 53 41 4d 53 55 4e 47 20 
+4d 5a 49 4c 54 31 54 39 48 41 4a 51 2f 30 30 37 
+47 58 46 34 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 54 00 00 00 a0 0c 60 05 c0 
+06 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+56 46 54 35 36 30 32 51 31 39 31 30 30 31 5f 4c 
+5f 30 77 ed 30 56 30 31 53 41 4d 53 55 4e 47 20 
+
+
+
+Drive /c0/e252/s5 :
+=================
+
+----------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model            Sp Type 
+----------------------------------------------------------------------------
+252:5    19 Onln   0 1.745 TB SAS  SSD Y   N  512B MZILT1T9HAJQ/007 U  -    
+----------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e252/s5 - Detailed Information :
+========================================
+
+Drive /c0/e252/s5 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+BBM Error Count = 0
+Drive Temperature =  32C (89.60 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e252/s5 Device attributes :
+===================================
+SN = S49NNA0R006920      
+Manufacturer Id = SAMSUNG 
+Model Number = MZILT1T9HAJQ/007
+NAND Vendor = NA
+WWN = 5002538B0122F001
+Firmware Revision = GXF4
+Firmware Release Number = N/A
+Raw size = 1.746 TB [0xdf8fe2b0 Sectors]
+Coerced size = 1.745 TB [0xdf7f0000 Sectors]
+Non Coerced size = 1.745 TB [0xdf7fe2b0 Sectors]
+Device Speed = 12.0Gb/s
+Link Speed = 6.0Gb/s
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 4 KB
+Connector Name = Port 4 - 7 x1
+
+
+Drive /c0/e252/s5 Policies/Settings :
+===================================
+Drive position = DriveGroup:0, Span:2, Row:1
+Enclosure position = 0
+Connected Port Number = 4(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x5002538b0122f002 
+   1 Active 6.0Gb/s   0x0                
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 c5 01 10 03 53 41 4d 53 55 4e 47 20 
+4d 5a 49 4c 54 31 54 39 48 41 4a 51 2f 30 30 37 
+47 58 46 34 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 54 00 00 00 a0 0c 60 05 c0 
+06 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+56 46 54 35 36 30 32 51 31 39 31 30 30 31 5f 4c 
+5f 30 77 ed 30 56 30 31 53 41 4d 53 55 4e 47 20 
+
+
+
+

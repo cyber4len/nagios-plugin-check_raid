@@ -1,0 +1,63 @@
+$VAR1 = {
+          'battery' => [
+                         {
+                           'batterywarning' => 'ON',
+                           'charging_status' => 'None',
+                           'learn_cycle_active' => 'No',
+                           'learn_cycle_requested' => 'No',
+                           'missing' => 'No',
+                           'name' => '0',
+                           'pack_will_fail' => 'No',
+                           'replacement_required' => 'No',
+                           'state' => 'Optimal',
+                           'temperature' => '42',
+                           'temperature_state' => 'OK',
+                           'voltage' => '3905',
+                           'voltage_state' => 'OK'
+                         }
+                       ],
+          'logical' => [
+                         {
+                           'controller' => '0',
+                           'current_cache' => 'RWTD',
+                           'default_cache' => 'WriteThrough',
+                           'name' => '/c0/v0',
+                           'state' => 'Optl',
+                           'type' => 'RAID10'
+                         }
+                       ],
+          'physical' => [
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s0',
+                            'name' => 'Hitachi HUS724040ALE641',
+                            'predictive' => undef,
+                            'serial' => 'PBTAWKK0',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s1',
+                            'name' => 'Hitachi HUS724040ALE641',
+                            'predictive' => undef,
+                            'serial' => 'PBT5LDJB',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s2',
+                            'name' => 'HGST HUS724040ALE640',
+                            'predictive' => undef,
+                            'serial' => 'PK2338P4CYRYHE',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s3',
+                            'name' => 'HGST HUS724040ALE640',
+                            'predictive' => undef,
+                            'serial' => 'PK2338P4CJYNHA',
+                            'state' => 'Onln'
+                          }
+                        ]
+        };

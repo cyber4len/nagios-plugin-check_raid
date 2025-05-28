@@ -1,0 +1,63 @@
+$VAR1 = {
+          'battery' => [
+                         {
+                           'batterywarning' => 'ON',
+                           'charging_status' => 'None',
+                           'learn_cycle_active' => 'No',
+                           'learn_cycle_requested' => 'No',
+                           'missing' => 'No',
+                           'name' => '0',
+                           'pack_will_fail' => 'No',
+                           'replacement_required' => 'No',
+                           'state' => 'Optimal',
+                           'temperature' => '55',
+                           'temperature_state' => 'OK',
+                           'voltage' => '3909',
+                           'voltage_state' => 'OK'
+                         }
+                       ],
+          'logical' => [
+                         {
+                           'controller' => '0',
+                           'current_cache' => 'RWBD',
+                           'default_cache' => 'WriteBack',
+                           'name' => '/c0/v0',
+                           'state' => 'Optl',
+                           'type' => 'RAID10'
+                         }
+                       ],
+          'physical' => [
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s0',
+                            'name' => 'HUSMR1619ASS204',
+                            'predictive' => undef,
+                            'serial' => '0SY6AJTA',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s1',
+                            'name' => 'HUSMR1619ASS204',
+                            'predictive' => undef,
+                            'serial' => '0SY6GSSA',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s2',
+                            'name' => 'HUSMR1619ASS204',
+                            'predictive' => undef,
+                            'serial' => '0SY6TLMA',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s3',
+                            'name' => 'HUSMR1619ASS204',
+                            'predictive' => undef,
+                            'serial' => '0SY6N89A',
+                            'state' => 'Onln'
+                          }
+                        ]
+        };

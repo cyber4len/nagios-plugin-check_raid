@@ -1,0 +1,410 @@
+Controller = 0
+Status = Success
+Description = Show Drive Information Succeeded.
+
+
+Drive /c0/e252/s0 :
+=================
+
+-----------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                   Sp Type 
+-----------------------------------------------------------------------------------
+252:0     5 Onln   0 3.637 TB SATA HDD N   N  512B Hitachi HUS724040ALE641 U  -    
+-----------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e252/s0 - Detailed Information :
+========================================
+
+Drive /c0/e252/s0 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+BBM Error Count = 0
+Drive Temperature =  33C (91.40 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e252/s0 Device attributes :
+===================================
+SN = PBTAWKK0            
+Manufacturer Id = ATA     
+Model Number = Hitachi HUS724040ALE641
+NAND Vendor = NA
+WWN = 5000CCA23DEA6F63
+Firmware Revision = MJAOA5F0
+Raw size = 3.638 TB [0x1d1c0beb0 Sectors]
+Coerced size = 3.637 TB [0x1d1b00000 Sectors]
+Non Coerced size = 3.637 TB [0x1d1b0beb0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 4 KB
+Connector Name = 
+
+
+Drive /c0/e252/s0 Policies/Settings :
+===================================
+Drive position = DriveGroup:0, Span:0, Row:0
+Enclosure position = 1
+Connected Port Number = 2(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 512B
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221103000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+5a 04 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 42 50 30 4b 57 41 54 4b 20 20 20 20 
+20 20 20 20 20 20 20 20 03 00 00 00 38 00 4a 4d 
+4f 41 35 41 30 46 69 48 61 74 68 63 20 69 55 48 
+37 53 34 32 34 30 41 30 45 4c 34 36 20 31 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 
+00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 00 01 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e252/s1 :
+=================
+
+-----------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                   Sp Type 
+-----------------------------------------------------------------------------------
+252:1     6 Onln   0 3.637 TB SATA HDD N   N  512B Hitachi HUS724040ALE641 U  -    
+-----------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e252/s1 - Detailed Information :
+========================================
+
+Drive /c0/e252/s1 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+BBM Error Count = 0
+Drive Temperature =  33C (91.40 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e252/s1 Device attributes :
+===================================
+SN = PBT5LDJB            
+Manufacturer Id = ATA     
+Model Number = Hitachi HUS724040ALE641
+NAND Vendor = NA
+WWN = 5000CCA23DE14416
+Firmware Revision = MJAOA5F0
+Raw size = 3.638 TB [0x1d1c0beb0 Sectors]
+Coerced size = 3.637 TB [0x1d1b00000 Sectors]
+Non Coerced size = 3.637 TB [0x1d1b0beb0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 4 KB
+Connector Name = 
+
+
+Drive /c0/e252/s1 Policies/Settings :
+===================================
+Drive position = DriveGroup:0, Span:0, Row:1
+Enclosure position = 1
+Connected Port Number = 1(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 512B
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221102000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+5a 04 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 42 50 42 4a 4c 35 54 44 20 20 20 20 
+20 20 20 20 20 20 20 20 03 00 00 00 38 00 4a 4d 
+4f 41 35 41 30 46 69 48 61 74 68 63 20 69 55 48 
+37 53 34 32 34 30 41 30 45 4c 34 36 20 31 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 
+00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 00 01 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e252/s2 :
+=================
+
+--------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                Sp Type 
+--------------------------------------------------------------------------------
+252:2     7 Onln   0 3.637 TB SATA HDD N   N  512B HGST HUS724040ALE640 U  -    
+--------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e252/s2 - Detailed Information :
+========================================
+
+Drive /c0/e252/s2 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+BBM Error Count = 0
+Drive Temperature =  34C (93.20 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e252/s2 Device attributes :
+===================================
+SN =       PK2338P4CYRYHE
+Manufacturer Id = ATA     
+Model Number = HGST HUS724040ALE640
+NAND Vendor = NA
+WWN = 5000CCA249D46FF8
+Firmware Revision = MJAOA580
+Raw size = 3.638 TB [0x1d1c0beb0 Sectors]
+Coerced size = 3.637 TB [0x1d1b00000 Sectors]
+Non Coerced size = 3.637 TB [0x1d1b0beb0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 4 KB
+Connector Name = 
+
+
+Drive /c0/e252/s2 Policies/Settings :
+===================================
+Drive position = DriveGroup:0, Span:1, Row:0
+Enclosure position = 1
+Connected Port Number = 3(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 512B
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221101000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+5a 04 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 20 20 20 20 20 20 4b 50 33 32 38 33 
+34 50 45 48 52 59 43 59 03 00 00 00 38 00 4a 4d 
+4f 41 35 41 30 38 47 48 54 53 48 20 53 55 32 37 
+30 34 30 34 4c 41 36 45 30 34 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 
+00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 00 01 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e252/s3 :
+=================
+
+--------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                Sp Type 
+--------------------------------------------------------------------------------
+252:3     4 Onln   0 3.637 TB SATA HDD N   N  512B HGST HUS724040ALE640 U  -    
+--------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e252/s3 - Detailed Information :
+========================================
+
+Drive /c0/e252/s3 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+BBM Error Count = 0
+Drive Temperature =  36C (96.80 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e252/s3 Device attributes :
+===================================
+SN =       PK2338P4CJYNHA
+Manufacturer Id = ATA     
+Model Number = HGST HUS724040ALE640
+NAND Vendor = NA
+WWN = 5000CCA249D2E2DE
+Firmware Revision = MJAOA580
+Raw size = 3.638 TB [0x1d1c0beb0 Sectors]
+Coerced size = 3.637 TB [0x1d1b00000 Sectors]
+Non Coerced size = 3.637 TB [0x1d1b0beb0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 4 KB
+Connector Name = 
+
+
+Drive /c0/e252/s3 Policies/Settings :
+===================================
+Drive position = DriveGroup:0, Span:1, Row:1
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 512B
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221100000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+5a 04 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 20 20 20 20 20 20 4b 50 33 32 38 33 
+34 50 41 48 59 4a 43 4e 03 00 00 00 38 00 4a 4d 
+4f 41 35 41 30 38 47 48 54 53 48 20 53 55 32 37 
+30 34 30 34 4c 41 36 45 30 34 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 
+00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 00 01 ff ff ff 0f 00 00 07 00 
+
+
+
+

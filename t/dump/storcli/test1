@@ -1,0 +1,63 @@
+$VAR1 = {
+          'battery' => [
+                         {
+                           'batterywarning' => 'ON',
+                           'charging_status' => 'None',
+                           'learn_cycle_active' => 'No',
+                           'learn_cycle_requested' => 'No',
+                           'missing' => 'No',
+                           'name' => '0',
+                           'pack_will_fail' => 'No',
+                           'replacement_required' => 'No',
+                           'state' => 'Optimal',
+                           'temperature' => '43',
+                           'temperature_state' => 'OK',
+                           'voltage' => '3890',
+                           'voltage_state' => 'OK'
+                         }
+                       ],
+          'logical' => [
+                         {
+                           'controller' => '0',
+                           'current_cache' => 'RFWBD',
+                           'default_cache' => 'WriteBack',
+                           'name' => '/c0/v0',
+                           'state' => 'Optl',
+                           'type' => 'RAID10'
+                         }
+                       ],
+          'physical' => [
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s0',
+                            'name' => 'SAMSUNG MZ7L3480HCHQ-00A07',
+                            'predictive' => undef,
+                            'serial' => 'S664NE0T489820',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s1',
+                            'name' => 'SAMSUNG MZ7L3480HCHQ-00A07',
+                            'predictive' => undef,
+                            'serial' => 'S664NG0T300910',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s2',
+                            'name' => 'SAMSUNG MZ7L3480HCHQ-00A07',
+                            'predictive' => undef,
+                            'serial' => 'S664NG0T800710',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s3',
+                            'name' => 'SAMSUNG MZ7L3480HCHQ-00A07',
+                            'predictive' => undef,
+                            'serial' => 'S664NG0T100910',
+                            'state' => 'Onln'
+                          }
+                        ]
+        };

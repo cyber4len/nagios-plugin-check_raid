@@ -1,0 +1,806 @@
+Controller = 0
+Status = Success
+Description = Show Drive Information Succeeded.
+
+
+Drive /c0/e32/s0 :
+================
+
+-----------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                   Sp Type 
+-----------------------------------------------------------------------------------
+32:0      0 Onln   0 1.818 TB SATA SSD Y   N  512B Samsung SSD 870 EVO 2TB U  -    
+-----------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s0 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s0 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 6
+Drive Temperature =  34C (93.20 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s0 Device attributes :
+==================================
+SN = S621NF0R8P32100     
+Manufacturer Id = ATA     
+Model Number = Samsung SSD 870 EVO 2TB
+NAND Vendor = NA
+WWN = 5002538F4180FC03
+Firmware Revision = SVT01B6Q
+Raw size = 1.819 TB [0xe8e088b0 Sectors]
+Coerced size = 1.818 TB [0xe8d00000 Sectors]
+Non Coerced size = 1.818 TB [0xe8d088b0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = Enabled
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s0 Policies/Settings :
+==================================
+Drive position = DriveGroup:0 
+Enclosure position = 1
+Connected Port Number = 2(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221104000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 36 53 31 32 46 4e 52 30 30 38 33 30 
+31 32 20 50 20 20 20 20 00 00 00 00 00 00 56 53 
+30 54 42 31 51 36 61 53 73 6d 6e 75 20 67 53 53 
+20 44 37 38 20 30 56 45 20 4f 54 32 20 42 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 01 80 
+01 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 01 01 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e32/s1 :
+================
+
+-----------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                   Sp Type 
+-----------------------------------------------------------------------------------
+32:1      1 Onln   0 1.818 TB SATA SSD Y   N  512B Samsung SSD 870 EVO 2TB U  -    
+-----------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s1 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s1 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 6
+Drive Temperature =  34C (93.20 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s1 Device attributes :
+==================================
+SN = S621NF0R8H31700     
+Manufacturer Id = ATA     
+Model Number = Samsung SSD 870 EVO 2TB
+NAND Vendor = NA
+WWN = 5002538F4180FBFF
+Firmware Revision = SVT01B6Q
+Raw size = 1.819 TB [0xe8e088b0 Sectors]
+Coerced size = 1.818 TB [0xe8d00000 Sectors]
+Non Coerced size = 1.818 TB [0xe8d088b0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = Enabled
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s1 Policies/Settings :
+==================================
+Drive position = DriveGroup:0 
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221100000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 36 53 31 32 46 4e 52 30 30 38 33 30 
+37 31 20 48 20 20 20 20 00 00 00 00 00 00 56 53 
+30 54 42 31 51 36 61 53 73 6d 6e 75 20 67 53 53 
+20 44 37 38 20 30 56 45 20 4f 54 32 20 42 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 01 80 
+01 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 01 01 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e32/s2 :
+================
+
+-----------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                   Sp Type 
+-----------------------------------------------------------------------------------
+32:2      2 Onln   0 1.818 TB SATA SSD Y   N  512B Samsung SSD 870 EVO 2TB U  -    
+-----------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s2 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s2 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 6
+Drive Temperature =  36C (96.80 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s2 Device attributes :
+==================================
+SN = S621NF0R8Y31900     
+Manufacturer Id = ATA     
+Model Number = Samsung SSD 870 EVO 2TB
+NAND Vendor = NA
+WWN = 5002538F4180FC01
+Firmware Revision = SVT01B6Q
+Raw size = 1.819 TB [0xe8e088b0 Sectors]
+Coerced size = 1.818 TB [0xe8d00000 Sectors]
+Non Coerced size = 1.818 TB [0xe8d088b0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = Enabled
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s2 Policies/Settings :
+==================================
+Drive position = DriveGroup:0 
+Enclosure position = 1
+Connected Port Number = 3(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221106000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 36 53 31 32 46 4e 52 30 30 38 33 30 
+39 31 20 59 20 20 20 20 00 00 00 00 00 00 56 53 
+30 54 42 31 51 36 61 53 73 6d 6e 75 20 67 53 53 
+20 44 37 38 20 30 56 45 20 4f 54 32 20 42 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 01 80 
+01 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 01 01 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e32/s3 :
+================
+
+-----------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                   Sp Type 
+-----------------------------------------------------------------------------------
+32:3      3 Onln   0 1.818 TB SATA SSD Y   N  512B Samsung SSD 870 EVO 2TB U  -    
+-----------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s3 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s3 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 6
+Drive Temperature =  37C (98.60 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s3 Device attributes :
+==================================
+SN = S621NF0R8L31800     
+Manufacturer Id = ATA     
+Model Number = Samsung SSD 870 EVO 2TB
+NAND Vendor = NA
+WWN = 5002538F4180FC00
+Firmware Revision = SVT01B6Q
+Raw size = 1.819 TB [0xe8e088b0 Sectors]
+Coerced size = 1.818 TB [0xe8d00000 Sectors]
+Non Coerced size = 1.818 TB [0xe8d088b0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = Enabled
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s3 Policies/Settings :
+==================================
+Drive position = DriveGroup:0 
+Enclosure position = 1
+Connected Port Number = 1(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221102000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 36 53 31 32 46 4e 52 30 30 38 33 30 
+38 31 20 4c 20 20 20 20 00 00 00 00 00 00 56 53 
+30 54 42 31 51 36 61 53 73 6d 6e 75 20 67 53 53 
+20 44 37 38 20 30 56 45 20 4f 54 32 20 42 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 01 80 
+01 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 01 01 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e32/s4 :
+================
+
+-------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model               Sp Type 
+-------------------------------------------------------------------------------
+32:4      4 Onln   1 7.276 TB SATA HDD N   N  512B TOSHIBA MG06ACA800E U  -    
+-------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s4 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s4 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  37C (98.60 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s4 Device attributes :
+==================================
+SN =         80J0A0EFKRM0
+Manufacturer Id = ATA     
+Model Number = TOSHIBA MG06ACA800E
+NAND Vendor = NA
+WWN = 5000039A58D14CF0
+Firmware Revision = 0108    
+Raw size = 7.277 TB [0x3a3812ab0 Sectors]
+Coerced size = 7.276 TB [0x3a3700000 Sectors]
+Non Coerced size = 7.276 TB [0x3a3712ab0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = Enabled
+Logical Sector Size = 512B
+Physical Sector Size = 4 KB
+Connector Name = 00 
+
+
+Drive /c0/e32/s4 Policies/Settings :
+==================================
+Drive position = DriveGroup:1 
+Enclosure position = 1
+Connected Port Number = 4(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221105000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 20 20 20 20 20 20 20 20 30 38 30 4a 
+30 41 30 4d 4b 46 45 52 00 00 00 00 00 00 31 30 
+38 30 20 20 20 20 4f 54 48 53 42 49 20 41 47 4d 
+36 30 43 41 38 41 30 30 20 45 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 
+00 00 00 2f 00 40 00 02 00 00 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 10 5d ff ff ff 0f 07 00 07 00 
+
+
+
+Drive /c0/e32/s5 :
+================
+
+-------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model               Sp Type 
+-------------------------------------------------------------------------------
+32:5      5 Onln   1 7.276 TB SATA HDD N   N  512B TOSHIBA MG06ACA800E U  -    
+-------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s5 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s5 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  38C (100.40 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s5 Device attributes :
+==================================
+SN =         80K0A0EFKRBK
+Manufacturer Id = ATA     
+Model Number = TOSHIBA MG06ACA800E
+NAND Vendor = NA
+WWN = 5000039A58D16784
+Firmware Revision = 0108    
+Raw size = 7.277 TB [0x3a3812ab0 Sectors]
+Coerced size = 7.276 TB [0x3a3700000 Sectors]
+Non Coerced size = 7.276 TB [0x3a3712ab0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = Enabled
+Logical Sector Size = 512B
+Physical Sector Size = 4 KB
+Connector Name = 00 
+
+
+Drive /c0/e32/s5 Policies/Settings :
+==================================
+Drive position = DriveGroup:1 
+Enclosure position = 1
+Connected Port Number = 6(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221101000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 20 20 20 20 20 20 20 20 30 38 30 4b 
+30 41 4b 42 4b 46 45 52 00 00 00 00 00 00 31 30 
+38 30 20 20 20 20 4f 54 48 53 42 49 20 41 47 4d 
+36 30 43 41 38 41 30 30 20 45 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 
+00 00 00 2f 00 40 00 02 00 00 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 10 5d ff ff ff 0f 07 00 07 00 
+
+
+
+Drive /c0/e32/s6 :
+================
+
+-------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model               Sp Type 
+-------------------------------------------------------------------------------
+32:6      6 Onln   1 7.276 TB SATA HDD N   N  512B TOSHIBA MG06ACA800E U  -    
+-------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s6 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s6 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  38C (100.40 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s6 Device attributes :
+==================================
+SN =         80J0A0EFKRKK
+Manufacturer Id = ATA     
+Model Number = TOSHIBA MG06ACA800E
+NAND Vendor = NA
+WWN = 5000039A58D14A07
+Firmware Revision = 0108    
+Raw size = 7.277 TB [0x3a3812ab0 Sectors]
+Coerced size = 7.276 TB [0x3a3700000 Sectors]
+Non Coerced size = 7.276 TB [0x3a3712ab0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = Enabled
+Logical Sector Size = 512B
+Physical Sector Size = 4 KB
+Connector Name = 00 
+
+
+Drive /c0/e32/s6 Policies/Settings :
+==================================
+Drive position = DriveGroup:1 
+Enclosure position = 1
+Connected Port Number = 7(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221107000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 20 20 20 20 20 20 20 20 30 38 30 4a 
+30 41 4b 4b 4b 46 45 52 00 00 00 00 00 00 31 30 
+38 30 20 20 20 20 4f 54 48 53 42 49 20 41 47 4d 
+36 30 43 41 38 41 30 30 20 45 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 
+00 00 00 2f 00 40 00 02 00 00 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 10 5d ff ff ff 0f 07 00 07 00 
+
+
+
+Drive /c0/e32/s7 :
+================
+
+-------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model               Sp Type 
+-------------------------------------------------------------------------------
+32:7      7 Onln   1 7.276 TB SATA HDD N   N  512B TOSHIBA MG06ACA800E U  -    
+-------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s7 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s7 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  39C (102.20 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s7 Device attributes :
+==================================
+SN =         80K0A0EFKRBS
+Manufacturer Id = ATA     
+Model Number = TOSHIBA MG06ACA800E
+NAND Vendor = NA
+WWN = 5000039A58D167C4
+Firmware Revision = 0108    
+Raw size = 7.277 TB [0x3a3812ab0 Sectors]
+Coerced size = 7.276 TB [0x3a3700000 Sectors]
+Non Coerced size = 7.276 TB [0x3a3712ab0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = Enabled
+Logical Sector Size = 512B
+Physical Sector Size = 4 KB
+Connector Name = 00 
+
+
+Drive /c0/e32/s7 Policies/Settings :
+==================================
+Drive position = DriveGroup:1 
+Enclosure position = 1
+Connected Port Number = 5(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221103000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 20 20 20 20 20 20 20 20 30 38 30 4b 
+30 41 53 42 4b 46 45 52 00 00 00 00 00 00 31 30 
+38 30 20 20 20 20 4f 54 48 53 42 49 20 41 47 4d 
+36 30 43 41 38 41 30 30 20 45 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 
+00 00 00 2f 00 40 00 02 00 00 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 10 5d ff ff ff 0f 07 00 07 00 
+
+
+
+

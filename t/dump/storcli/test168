@@ -1,0 +1,22 @@
+$VAR1 = {
+          'battery' => [
+                         {
+                           'batterywarning' => 'OFF',
+                           'charging_status' => 'None',
+                           'learn_cycle_active' => 'No',
+                           'learn_cycle_requested' => 'No',
+                           'missing' => 'Yes',
+                           'name' => '0',
+                           'pack_will_fail' => 'No',
+                           'replacement_required' => 'No',
+                           'state' => 'Un-supported command',
+                           'temperature' => 0,
+                           'temperature_state' => 'Unknown',
+                           'unsupported_command' => 'Yes',
+                           'voltage' => 0,
+                           'voltage_state' => 'Unknown'
+                         }
+                       ],
+          'logical' => [],
+          'physical' => []
+        };

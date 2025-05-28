@@ -1,0 +1,63 @@
+$VAR1 = {
+          'battery' => [
+                         {
+                           'batterywarning' => 'ON',
+                           'charging_status' => 'None',
+                           'learn_cycle_active' => 'No',
+                           'learn_cycle_requested' => 'No',
+                           'missing' => 'No',
+                           'name' => '0',
+                           'pack_will_fail' => 'No',
+                           'replacement_required' => 'No',
+                           'state' => 'Optimal',
+                           'temperature' => '32',
+                           'temperature_state' => 'OK',
+                           'voltage' => '3874',
+                           'voltage_state' => 'OK'
+                         }
+                       ],
+          'logical' => [
+                         {
+                           'controller' => '0',
+                           'current_cache' => 'NRWBD',
+                           'default_cache' => 'WriteBack',
+                           'name' => 'Virtual Disk 0',
+                           'state' => 'Optl',
+                           'type' => 'RAID10'
+                         }
+                       ],
+          'physical' => [
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s0',
+                            'name' => 'HUS726040ALS210',
+                            'predictive' => undef,
+                            'serial' => 'K7K1VM6T',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s1',
+                            'name' => 'HUS726040ALS210',
+                            'predictive' => undef,
+                            'serial' => 'K7K155TT',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s2',
+                            'name' => 'HUS726040ALS210',
+                            'predictive' => undef,
+                            'serial' => 'K7K18V0T',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s3',
+                            'name' => 'HUS726040ALS210',
+                            'predictive' => undef,
+                            'serial' => 'K7JXSSNT',
+                            'state' => 'Onln'
+                          }
+                        ]
+        };

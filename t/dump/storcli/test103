@@ -1,0 +1,103 @@
+$VAR1 = {
+          'battery' => [
+                         {
+                           'batterywarning' => 'OFF',
+                           'charging_status' => 'None',
+                           'learn_cycle_active' => 'No',
+                           'learn_cycle_requested' => 'No',
+                           'missing' => 'Yes',
+                           'name' => '0',
+                           'pack_will_fail' => 'No',
+                           'replacement_required' => 'Yes',
+                           'state' => 'Cachevault is absent',
+                           'temperature' => 0,
+                           'temperature_state' => 'Unknown',
+                           'voltage' => 0,
+                           'voltage_state' => 'Unknown'
+                         }
+                       ],
+          'logical' => [
+                         {
+                           'controller' => '0',
+                           'current_cache' => 'NRWTD',
+                           'default_cache' => 'WriteThrough',
+                           'name' => 'Virtual Disk 0',
+                           'state' => 'Optl',
+                           'type' => 'RAID10'
+                         },
+                         {
+                           'controller' => '0',
+                           'current_cache' => 'NRWTD',
+                           'default_cache' => 'WriteThrough',
+                           'name' => 'Virtual Disk 1',
+                           'state' => 'Optl',
+                           'type' => 'RAID10'
+                         }
+                       ],
+          'physical' => [
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s0',
+                            'name' => 'Samsung SSD 870 EVO 2TB',
+                            'predictive' => undef,
+                            'serial' => 'S621NF0R8P32100',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s1',
+                            'name' => 'Samsung SSD 870 EVO 2TB',
+                            'predictive' => undef,
+                            'serial' => 'S621NF0R8H31700',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s2',
+                            'name' => 'Samsung SSD 870 EVO 2TB',
+                            'predictive' => undef,
+                            'serial' => 'S621NF0R8Y31900',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s3',
+                            'name' => 'Samsung SSD 870 EVO 2TB',
+                            'predictive' => undef,
+                            'serial' => 'S621NF0R8L31800',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s4',
+                            'name' => 'TOSHIBA MG06ACA800E',
+                            'predictive' => undef,
+                            'serial' => '80J0A0EFKRM0',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s5',
+                            'name' => 'TOSHIBA MG06ACA800E',
+                            'predictive' => undef,
+                            'serial' => '80K0A0EFKRBK',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s6',
+                            'name' => 'TOSHIBA MG06ACA800E',
+                            'predictive' => undef,
+                            'serial' => '80J0A0EFKRKK',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s7',
+                            'name' => 'TOSHIBA MG06ACA800E',
+                            'predictive' => undef,
+                            'serial' => '80K0A0EFKRBS',
+                            'state' => 'Onln'
+                          }
+                        ]
+        };

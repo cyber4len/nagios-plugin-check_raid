@@ -1,0 +1,63 @@
+$VAR1 = {
+          'battery' => [
+                         {
+                           'batterywarning' => 'ON',
+                           'charging_status' => 'None',
+                           'learn_cycle_active' => 'No',
+                           'learn_cycle_requested' => 'No',
+                           'missing' => 'No',
+                           'name' => '0',
+                           'pack_will_fail' => 'No',
+                           'replacement_required' => 'No',
+                           'state' => 'Optimal',
+                           'temperature' => '33',
+                           'temperature_state' => 'OK',
+                           'voltage' => '3868',
+                           'voltage_state' => 'OK'
+                         }
+                       ],
+          'logical' => [
+                         {
+                           'controller' => '0',
+                           'current_cache' => 'NRWBD',
+                           'default_cache' => 'WriteBack',
+                           'name' => 'Virtual Disk 0',
+                           'state' => 'Optl',
+                           'type' => 'RAID10'
+                         }
+                       ],
+          'physical' => [
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s0',
+                            'name' => 'Samsung SSD 870 EVO 4TB',
+                            'predictive' => undef,
+                            'serial' => 'S6BCNX0T3M26001',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s1',
+                            'name' => 'Samsung SSD 870 EVO 4TB',
+                            'predictive' => undef,
+                            'serial' => 'S6BCNX0T3Y26301',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s2',
+                            'name' => 'Samsung SSD 870 EVO 4TB',
+                            'predictive' => undef,
+                            'serial' => 'S6BCNX0T3F25501',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s3',
+                            'name' => 'Samsung SSD 870 EVO 4TB',
+                            'predictive' => undef,
+                            'serial' => 'S6BCNX0T3R25301',
+                            'state' => 'Onln'
+                          }
+                        ]
+        };

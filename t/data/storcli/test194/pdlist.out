@@ -1,0 +1,414 @@
+Controller = 0
+Status = Success
+Description = Show Drive Information Succeeded.
+
+
+Drive /c0/e252/s4 :
+=================
+
+----------------------------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                                    Sp Type 
+----------------------------------------------------------------------------------------------------
+252:4     0 Onln   0 3.492 TB NVMe SSD N   N  512B Micron_9300_MTFDHAL3T8TDP                U  -    
+----------------------------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e252/s4 - Detailed Information :
+========================================
+
+Drive /c0/e252/s4 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  50C (122.00 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e252/s4 Device attributes :
+===================================
+SN = 222338BB308E        
+Manufacturer Id = NVMe    
+Model = Micron_9300_MTFDHAL3T8TDP               
+NAND Vendor = NA
+WWN = 30A07501388EB30B
+Firmware Revision = 11300DY0
+Raw size = 3.492 TB [0x1bf1f72b0 Sectors]
+Coerced size = 3.492 TB [0x1bf0f0000 Sectors]
+Non Coerced size = 3.492 TB [0x1bf0f72b0 Sectors]
+Device Speed = 8.0GT/s
+Link Speed = 8.0GT/s
+Write Cache = Disabled
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = C0.0 x4
+Max lane width = 4
+
+
+Drive /c0/e252/s4 Policies/Settings :
+===================================
+Drive position = DriveGroup:0, Span:0, Row:0
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = Yes
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Unmap capable = Yes
+Unmap capable for LDs = No
+Multipath = No
+
+Port Information :
+================
+
+----------------------------------------
+Port Status Linkspeed WWID              
+----------------------------------------
+   0 Active 8.0GT/s   0xbb38e380175a000 
+----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 45 00 00 02 4e 56 4d 65 20 20 20 20 
+4d 69 63 72 6f 6e 5f 39 33 30 30 5f 4d 54 46 44 
+30 44 59 30 32 32 32 33 33 38 38 45 42 33 30 42 
+20 20 20 20 20 20 20 20 00 00 00 c0 05 c0 06 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+
+Drive /c0/e252/s6 :
+=================
+
+----------------------------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                                    Sp Type 
+----------------------------------------------------------------------------------------------------
+252:6     1 Onln   0 3.492 TB NVMe SSD N   N  512B Micron_9300_MTFDHAL3T8TDP                U  -    
+----------------------------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e252/s6 - Detailed Information :
+========================================
+
+Drive /c0/e252/s6 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  46C (114.80 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e252/s6 Device attributes :
+===================================
+SN = 222338DF6F8E        
+Manufacturer Id = NVMe    
+Model = Micron_9300_MTFDHAL3T8TDP               
+NAND Vendor = NA
+WWN = 30A07501388EF6FD
+Firmware Revision = 11300DY0
+Raw size = 3.492 TB [0x1bf1f72b0 Sectors]
+Coerced size = 3.492 TB [0x1bf0f0000 Sectors]
+Non Coerced size = 3.492 TB [0x1bf0f72b0 Sectors]
+Device Speed = 8.0GT/s
+Link Speed = 8.0GT/s
+Write Cache = Disabled
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = C0.1 x4
+Max lane width = 4
+
+
+Drive /c0/e252/s6 Policies/Settings :
+===================================
+Drive position = DriveGroup:0, Span:0, Row:1
+Enclosure position = 0
+Connected Port Number = 1(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = Yes
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Unmap capable = Yes
+Unmap capable for LDs = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed WWID               
+-----------------------------------------
+   0 Active 8.0GT/s   0xfdf68e380175a000 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 45 00 00 02 4e 56 4d 65 20 20 20 20 
+4d 69 63 72 6f 6e 5f 39 33 30 30 5f 4d 54 46 44 
+30 44 59 30 32 32 32 33 33 38 38 45 46 36 46 44 
+20 20 20 20 20 20 20 20 00 00 00 c0 05 c0 06 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+
+Drive /c0/e252/s8 :
+=================
+
+----------------------------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                                    Sp Type 
+----------------------------------------------------------------------------------------------------
+252:8     2 Onln   0 3.492 TB NVMe SSD N   N  512B Micron_9300_MTFDHAL3T8TDP                U  -    
+----------------------------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e252/s8 - Detailed Information :
+========================================
+
+Drive /c0/e252/s8 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  47C (116.60 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e252/s8 Device attributes :
+===================================
+SN = 222338D05A8F        
+Manufacturer Id = NVMe    
+Model = Micron_9300_MTFDHAL3T8TDP               
+NAND Vendor = NA
+WWN = 30A07501388F05AD
+Firmware Revision = 11300DY0
+Raw size = 3.492 TB [0x1bf1f72b0 Sectors]
+Coerced size = 3.492 TB [0x1bf0f0000 Sectors]
+Non Coerced size = 3.492 TB [0x1bf0f72b0 Sectors]
+Device Speed = 8.0GT/s
+Link Speed = 8.0GT/s
+Write Cache = Disabled
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = C1.0 x4
+Max lane width = 4
+
+
+Drive /c0/e252/s8 Policies/Settings :
+===================================
+Drive position = DriveGroup:0, Span:1, Row:0
+Enclosure position = 0
+Connected Port Number = 2(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = Yes
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Unmap capable = Yes
+Unmap capable for LDs = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed WWID               
+-----------------------------------------
+   0 Active 8.0GT/s   0xad058f380175a000 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 45 00 00 02 4e 56 4d 65 20 20 20 20 
+4d 69 63 72 6f 6e 5f 39 33 30 30 5f 4d 54 46 44 
+30 44 59 30 32 32 32 33 33 38 38 46 30 35 41 44 
+20 20 20 20 20 20 20 20 00 00 00 c0 05 c0 06 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+
+Drive /c0/e252/s10 :
+==================
+
+----------------------------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                                    Sp Type 
+----------------------------------------------------------------------------------------------------
+252:10    3 Onln   0 3.492 TB NVMe SSD N   N  512B Micron_9300_MTFDHAL3T8TDP                U  -    
+----------------------------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e252/s10 - Detailed Information :
+=========================================
+
+Drive /c0/e252/s10 State :
+========================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  51C (123.80 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e252/s10 Device attributes :
+====================================
+SN = 222338AB308E        
+Manufacturer Id = NVMe    
+Model = Micron_9300_MTFDHAL3T8TDP               
+NAND Vendor = NA
+WWN = 30A07501388EB30A
+Firmware Revision = 11300DY0
+Raw size = 3.492 TB [0x1bf1f72b0 Sectors]
+Coerced size = 3.492 TB [0x1bf0f0000 Sectors]
+Non Coerced size = 3.492 TB [0x1bf0f72b0 Sectors]
+Device Speed = 8.0GT/s
+Link Speed = 8.0GT/s
+Write Cache = Disabled
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = C1.1 x4
+Max lane width = 4
+
+
+Drive /c0/e252/s10 Policies/Settings :
+====================================
+Drive position = DriveGroup:0, Span:1, Row:1
+Enclosure position = 1
+Connected Port Number = 3(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = Yes
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Unmap capable = Yes
+Unmap capable for LDs = No
+Multipath = No
+
+Port Information :
+================
+
+----------------------------------------
+Port Status Linkspeed WWID              
+----------------------------------------
+   0 Active 8.0GT/s   0xab38e380175a000 
+----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 45 00 00 02 4e 56 4d 65 20 20 20 20 
+4d 69 63 72 6f 6e 5f 39 33 30 30 5f 4d 54 46 44 
+30 44 59 30 32 32 32 33 33 38 38 45 42 33 30 41 
+20 20 20 20 20 20 20 20 00 00 00 c0 05 c0 06 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+
+

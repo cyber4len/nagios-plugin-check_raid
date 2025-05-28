@@ -1,0 +1,410 @@
+Controller = 0
+Status = Success
+Description = Show Drive Information Succeeded.
+
+
+Drive /c0/e252/s0 :
+=================
+
+-----------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                   Sp Type 
+-----------------------------------------------------------------------------------
+252:0     7 Onln   0 1.818 TB SATA SSD Y   N  512B Samsung SSD 870 EVO 2TB U  -    
+-----------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e252/s0 - Detailed Information :
+========================================
+
+Drive /c0/e252/s0 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+BBM Error Count = 0
+Drive Temperature = N/A
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e252/s0 Device attributes :
+===================================
+SN = S753NS0X2Z77404     
+Manufacturer Id = ATA     
+Model Number = Samsung SSD 870 EVO 2TB
+NAND Vendor = NA
+WWN = 5002538F3420C94C
+Firmware Revision = SVT03B6Q
+Raw size = 1.819 TB [0xe8e088b0 Sectors]
+Coerced size = 1.818 TB [0xe8d00000 Sectors]
+Non Coerced size = 1.818 TB [0xe8d088b0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 
+
+
+Drive /c0/e252/s0 Policies/Settings :
+===================================
+Drive position = DriveGroup:0, Span:0, Row:0
+Enclosure position = 1
+Connected Port Number = 1(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 512B
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221103000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 37 53 33 35 53 4e 58 30 30 32 37 34 
+34 37 20 5a 20 20 20 20 00 00 00 00 00 00 56 53 
+30 54 42 33 51 36 61 53 73 6d 6e 75 20 67 53 53 
+20 44 37 38 20 30 56 45 20 4f 54 32 20 42 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 01 80 
+01 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 01 01 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e252/s1 :
+=================
+
+-----------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                   Sp Type 
+-----------------------------------------------------------------------------------
+252:1     9 Onln   0 1.818 TB SATA SSD Y   N  512B Samsung SSD 870 EVO 2TB U  -    
+-----------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e252/s1 - Detailed Information :
+========================================
+
+Drive /c0/e252/s1 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+BBM Error Count = 0
+Drive Temperature = N/A
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e252/s1 Device attributes :
+===================================
+SN = S753NS0X2M77604     
+Manufacturer Id = ATA     
+Model Number = Samsung SSD 870 EVO 2TB
+NAND Vendor = NA
+WWN = 5002538F3420C94E
+Firmware Revision = SVT03B6Q
+Raw size = 1.819 TB [0xe8e088b0 Sectors]
+Coerced size = 1.818 TB [0xe8d00000 Sectors]
+Non Coerced size = 1.818 TB [0xe8d088b0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 
+
+
+Drive /c0/e252/s1 Policies/Settings :
+===================================
+Drive position = DriveGroup:0, Span:0, Row:1
+Enclosure position = 1
+Connected Port Number = 3(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 512B
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221102000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 37 53 33 35 53 4e 58 30 30 32 37 34 
+36 37 20 4d 20 20 20 20 00 00 00 00 00 00 56 53 
+30 54 42 33 51 36 61 53 73 6d 6e 75 20 67 53 53 
+20 44 37 38 20 30 56 45 20 4f 54 32 20 42 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 01 80 
+01 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 01 01 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e252/s2 :
+=================
+
+-----------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                   Sp Type 
+-----------------------------------------------------------------------------------
+252:2     8 Onln   0 1.818 TB SATA SSD Y   N  512B Samsung SSD 870 EVO 2TB U  -    
+-----------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e252/s2 - Detailed Information :
+========================================
+
+Drive /c0/e252/s2 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+BBM Error Count = 0
+Drive Temperature = N/A
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e252/s2 Device attributes :
+===================================
+SN = S753NS0X1J20407     
+Manufacturer Id = ATA     
+Model Number = Samsung SSD 870 EVO 2TB
+NAND Vendor = NA
+WWN = 5002538F3412F6A6
+Firmware Revision = SVT03B6Q
+Raw size = 1.819 TB [0xe8e088b0 Sectors]
+Coerced size = 1.818 TB [0xe8d00000 Sectors]
+Non Coerced size = 1.818 TB [0xe8d088b0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 
+
+
+Drive /c0/e252/s2 Policies/Settings :
+===================================
+Drive position = DriveGroup:0, Span:1, Row:0
+Enclosure position = 1
+Connected Port Number = 2(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 512B
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221101000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 37 53 33 35 53 4e 58 30 30 31 32 37 
+34 30 20 4a 20 20 20 20 00 00 00 00 00 00 56 53 
+30 54 42 33 51 36 61 53 73 6d 6e 75 20 67 53 53 
+20 44 37 38 20 30 56 45 20 4f 54 32 20 42 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 01 80 
+01 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 01 01 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e252/s3 :
+=================
+
+-----------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                   Sp Type 
+-----------------------------------------------------------------------------------
+252:3     6 Onln   0 1.818 TB SATA SSD Y   N  512B Samsung SSD 870 EVO 2TB U  -    
+-----------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e252/s3 - Detailed Information :
+========================================
+
+Drive /c0/e252/s3 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+BBM Error Count = 0
+Drive Temperature = N/A
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e252/s3 Device attributes :
+===================================
+SN = S753NS0X2J76604     
+Manufacturer Id = ATA     
+Model Number = Samsung SSD 870 EVO 2TB
+NAND Vendor = NA
+WWN = 5002538F3420C944
+Firmware Revision = SVT03B6Q
+Raw size = 1.819 TB [0xe8e088b0 Sectors]
+Coerced size = 1.818 TB [0xe8d00000 Sectors]
+Non Coerced size = 1.818 TB [0xe8d088b0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 
+
+
+Drive /c0/e252/s3 Policies/Settings :
+===================================
+Drive position = DriveGroup:0, Span:1, Row:1
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 512B
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221100000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 37 53 33 35 53 4e 58 30 30 32 37 34 
+36 36 20 4a 20 20 20 20 00 00 00 00 00 00 56 53 
+30 54 42 33 51 36 61 53 73 6d 6e 75 20 67 53 53 
+20 44 37 38 20 30 56 45 20 4f 54 32 20 42 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 01 80 
+01 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 01 01 ff ff ff 0f 00 00 07 00 
+
+
+
+

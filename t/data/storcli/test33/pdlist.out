@@ -1,0 +1,806 @@
+Controller = 0
+Status = Success
+Description = Show Drive Information Succeeded.
+
+
+Drive /c0/e252/s0 :
+=================
+
+---------------------------------------------------------------------------------
+EID:Slt DID State DG       Size Intf Med SED PI SeSz Model               Sp Type 
+---------------------------------------------------------------------------------
+252:0     1 Onln   0 744.687 GB SATA SSD N   N  512B INTEL SSDSC2BB800G6 U  -    
+---------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e252/s0 - Detailed Information :
+========================================
+
+Drive /c0/e252/s0 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  26C (78.80 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e252/s0 Device attributes :
+===================================
+SN = BTWA542401F8N0HG80  
+Manufacturer Id = ATA     
+Model Number = INTEL SSDSC2BB800G6
+NAND Vendor = NA
+WWN = 55CD2E404C109211
+Firmware Revision = G2010140
+Raw size = 745.211 GB [0x5d26ceb0 Sectors]
+Coerced size = 744.687 GB [0x5d160000 Sectors]
+Non Coerced size = 744.711 GB [0x5d16ceb0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = Enabled
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 4 KB
+Connector Name = Port 0 - 3 x1
+
+
+Drive /c0/e252/s0 Policies/Settings :
+===================================
+Drive position = DriveGroup:0, Span:0, Row:0
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = Yes
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221100000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 54 42 41 57 34 35 34 32 31 30 38 46 
+30 38 48 30 4e 47 20 20 00 00 00 00 00 00 32 47 
+31 30 31 30 30 34 4e 49 45 54 20 4c 53 53 53 44 
+32 43 42 42 30 38 47 30 20 36 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 01 80 
+00 40 00 2f 00 40 00 00 00 00 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 01 b1 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e252/s1 :
+=================
+
+---------------------------------------------------------------------------------
+EID:Slt DID State DG       Size Intf Med SED PI SeSz Model               Sp Type 
+---------------------------------------------------------------------------------
+252:1     0 Onln   0 744.687 GB SATA SSD N   N  512B INTEL SSDSC2BB800G6 U  -    
+---------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e252/s1 - Detailed Information :
+========================================
+
+Drive /c0/e252/s1 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  25C (77.00 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e252/s1 Device attributes :
+===================================
+SN = BTWA5424012ZN0HG80  
+Manufacturer Id = ATA     
+Model Number = INTEL SSDSC2BB800G6
+NAND Vendor = NA
+WWN = 55CD2E404C109072
+Firmware Revision = G2010140
+Raw size = 745.211 GB [0x5d26ceb0 Sectors]
+Coerced size = 744.687 GB [0x5d160000 Sectors]
+Non Coerced size = 744.711 GB [0x5d16ceb0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = Enabled
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 4 KB
+Connector Name = Port 0 - 3 x1
+
+
+Drive /c0/e252/s1 Policies/Settings :
+===================================
+Drive position = DriveGroup:0, Span:0, Row:1
+Enclosure position = 0
+Connected Port Number = 1(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = Yes
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221101000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 54 42 41 57 34 35 34 32 31 30 5a 32 
+30 38 48 30 4e 47 20 20 00 00 00 00 00 00 32 47 
+31 30 31 30 30 34 4e 49 45 54 20 4c 53 53 53 44 
+32 43 42 42 30 38 47 30 20 36 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 01 80 
+00 40 00 2f 00 40 00 00 00 00 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 01 b1 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e252/s2 :
+=================
+
+---------------------------------------------------------------------------------
+EID:Slt DID State DG       Size Intf Med SED PI SeSz Model               Sp Type 
+---------------------------------------------------------------------------------
+252:2     2 Onln   0 744.687 GB SATA SSD N   N  512B INTEL SSDSC2BB800G6 U  -    
+---------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e252/s2 - Detailed Information :
+========================================
+
+Drive /c0/e252/s2 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  23C (73.40 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e252/s2 Device attributes :
+===================================
+SN = BTWA54240131N0HG80  
+Manufacturer Id = ATA     
+Model Number = INTEL SSDSC2BB800G6
+NAND Vendor = NA
+WWN = 55CD2E404C109074
+Firmware Revision = G2010140
+Raw size = 745.211 GB [0x5d26ceb0 Sectors]
+Coerced size = 744.687 GB [0x5d160000 Sectors]
+Non Coerced size = 744.711 GB [0x5d16ceb0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = Enabled
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 4 KB
+Connector Name = Port 0 - 3 x1
+
+
+Drive /c0/e252/s2 Policies/Settings :
+===================================
+Drive position = DriveGroup:0, Span:1, Row:0
+Enclosure position = 0
+Connected Port Number = 2(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = Yes
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221102000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 54 42 41 57 34 35 34 32 31 30 31 33 
+30 38 48 30 4e 47 20 20 00 00 00 00 00 00 32 47 
+31 30 31 30 30 34 4e 49 45 54 20 4c 53 53 53 44 
+32 43 42 42 30 38 47 30 20 36 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 01 80 
+00 40 00 2f 00 40 00 00 00 00 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 01 b1 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e252/s3 :
+=================
+
+---------------------------------------------------------------------------------
+EID:Slt DID State DG       Size Intf Med SED PI SeSz Model               Sp Type 
+---------------------------------------------------------------------------------
+252:3     3 Onln   0 744.687 GB SATA SSD N   N  512B INTEL SSDSC2BB800G6 U  -    
+---------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e252/s3 - Detailed Information :
+========================================
+
+Drive /c0/e252/s3 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  23C (73.40 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e252/s3 Device attributes :
+===================================
+SN = BTWA542400ZEN0HG80  
+Manufacturer Id = ATA     
+Model Number = INTEL SSDSC2BB800G6
+NAND Vendor = NA
+WWN = 55CD2E404C108FF9
+Firmware Revision = G2010140
+Raw size = 745.211 GB [0x5d26ceb0 Sectors]
+Coerced size = 744.687 GB [0x5d160000 Sectors]
+Non Coerced size = 744.711 GB [0x5d16ceb0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = Enabled
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 4 KB
+Connector Name = Port 0 - 3 x1
+
+
+Drive /c0/e252/s3 Policies/Settings :
+===================================
+Drive position = DriveGroup:0, Span:1, Row:1
+Enclosure position = 0
+Connected Port Number = 3(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = Yes
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221103000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 54 42 41 57 34 35 34 32 30 30 45 5a 
+30 38 48 30 4e 47 20 20 00 00 00 00 00 00 32 47 
+31 30 31 30 30 34 4e 49 45 54 20 4c 53 53 53 44 
+32 43 42 42 30 38 47 30 20 36 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 01 80 
+00 40 00 2f 00 40 00 00 00 00 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 01 b1 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e252/s4 :
+=================
+
+---------------------------------------------------------------------------------
+EID:Slt DID State DG       Size Intf Med SED PI SeSz Model               Sp Type 
+---------------------------------------------------------------------------------
+252:4     4 Onln   0 744.687 GB SATA SSD N   N  512B INTEL SSDSC2BB800G6 U  -    
+---------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e252/s4 - Detailed Information :
+========================================
+
+Drive /c0/e252/s4 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  23C (73.40 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e252/s4 Device attributes :
+===================================
+SN = BTWA54240138N0HG80  
+Manufacturer Id = ATA     
+Model Number = INTEL SSDSC2BB800G6
+NAND Vendor = NA
+WWN = 55CD2E404C10907A
+Firmware Revision = G2010140
+Raw size = 745.211 GB [0x5d26ceb0 Sectors]
+Coerced size = 744.687 GB [0x5d160000 Sectors]
+Non Coerced size = 744.711 GB [0x5d16ceb0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = Enabled
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 4 KB
+Connector Name = Port 4 - 7 x1
+
+
+Drive /c0/e252/s4 Policies/Settings :
+===================================
+Drive position = DriveGroup:0, Span:2, Row:0
+Enclosure position = 0
+Connected Port Number = 4(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = Yes
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221104000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 54 42 41 57 34 35 34 32 31 30 38 33 
+30 38 48 30 4e 47 20 20 00 00 00 00 00 00 32 47 
+31 30 31 30 30 34 4e 49 45 54 20 4c 53 53 53 44 
+32 43 42 42 30 38 47 30 20 36 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 01 80 
+00 40 00 2f 00 40 00 00 00 00 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 01 b1 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e252/s5 :
+=================
+
+---------------------------------------------------------------------------------
+EID:Slt DID State DG       Size Intf Med SED PI SeSz Model               Sp Type 
+---------------------------------------------------------------------------------
+252:5     5 Onln   0 744.687 GB SATA SSD N   N  512B INTEL SSDSC2BB800G6 U  -    
+---------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e252/s5 - Detailed Information :
+========================================
+
+Drive /c0/e252/s5 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  22C (71.60 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e252/s5 Device attributes :
+===================================
+SN = BTWA5424012PN0HG80  
+Manufacturer Id = ATA     
+Model Number = INTEL SSDSC2BB800G6
+NAND Vendor = NA
+WWN = 55CD2E404C109068
+Firmware Revision = G2010140
+Raw size = 745.211 GB [0x5d26ceb0 Sectors]
+Coerced size = 744.687 GB [0x5d160000 Sectors]
+Non Coerced size = 744.711 GB [0x5d16ceb0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = Enabled
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 4 KB
+Connector Name = Port 4 - 7 x1
+
+
+Drive /c0/e252/s5 Policies/Settings :
+===================================
+Drive position = DriveGroup:0, Span:2, Row:1
+Enclosure position = 0
+Connected Port Number = 5(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = Yes
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221105000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 54 42 41 57 34 35 34 32 31 30 50 32 
+30 38 48 30 4e 47 20 20 00 00 00 00 00 00 32 47 
+31 30 31 30 30 34 4e 49 45 54 20 4c 53 53 53 44 
+32 43 42 42 30 38 47 30 20 36 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 01 80 
+00 40 00 2f 00 40 00 00 00 00 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 01 b1 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e252/s6 :
+=================
+
+---------------------------------------------------------------------------------
+EID:Slt DID State DG       Size Intf Med SED PI SeSz Model               Sp Type 
+---------------------------------------------------------------------------------
+252:6     6 Onln   0 744.687 GB SATA SSD N   N  512B INTEL SSDSC2BB800G6 U  -    
+---------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e252/s6 - Detailed Information :
+========================================
+
+Drive /c0/e252/s6 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  22C (71.60 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e252/s6 Device attributes :
+===================================
+SN = BTWA61750BJXN0HG80  
+Manufacturer Id = ATA     
+Model Number = INTEL SSDSC2BB800G6
+NAND Vendor = NA
+WWN = 55CD2E404C227295
+Firmware Revision = G2010140
+Raw size = 745.211 GB [0x5d26ceb0 Sectors]
+Coerced size = 744.687 GB [0x5d160000 Sectors]
+Non Coerced size = 744.711 GB [0x5d16ceb0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = Enabled
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 4 KB
+Connector Name = Port 4 - 7 x1
+
+
+Drive /c0/e252/s6 Policies/Settings :
+===================================
+Drive position = DriveGroup:0, Span:3, Row:0
+Enclosure position = 0
+Connected Port Number = 6(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = Yes
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221106000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 54 42 41 57 31 36 35 37 42 30 58 4a 
+30 38 48 30 4e 47 20 20 00 00 00 00 00 00 32 47 
+31 30 31 30 30 34 4e 49 45 54 20 4c 53 53 53 44 
+32 43 42 42 30 38 47 30 20 36 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 01 80 
+00 40 00 2f 00 40 00 00 00 00 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 01 b1 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e252/s7 :
+=================
+
+---------------------------------------------------------------------------------
+EID:Slt DID State DG       Size Intf Med SED PI SeSz Model               Sp Type 
+---------------------------------------------------------------------------------
+252:7     7 Onln   0 744.687 GB SATA SSD N   N  512B INTEL SSDSC2BB800G6 U  -    
+---------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e252/s7 - Detailed Information :
+========================================
+
+Drive /c0/e252/s7 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  22C (71.60 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e252/s7 Device attributes :
+===================================
+SN = BTWA542401H9N0HG80  
+Manufacturer Id = ATA     
+Model Number = INTEL SSDSC2BB800G6
+NAND Vendor = NA
+WWN = 55CD2E404C109256
+Firmware Revision = G2010140
+Raw size = 745.211 GB [0x5d26ceb0 Sectors]
+Coerced size = 744.687 GB [0x5d160000 Sectors]
+Non Coerced size = 744.711 GB [0x5d16ceb0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = Enabled
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 4 KB
+Connector Name = Port 4 - 7 x1
+
+
+Drive /c0/e252/s7 Policies/Settings :
+===================================
+Drive position = DriveGroup:0, Span:3, Row:1
+Enclosure position = 0
+Connected Port Number = 7(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = Yes
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221107000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 54 42 41 57 34 35 34 32 31 30 39 48 
+30 38 48 30 4e 47 20 20 00 00 00 00 00 00 32 47 
+31 30 31 30 30 34 4e 49 45 54 20 4c 53 53 53 44 
+32 43 42 42 30 38 47 30 20 36 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 01 80 
+00 40 00 2f 00 40 00 00 00 00 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 01 b1 ff ff ff 0f 00 00 07 00 
+
+
+
+

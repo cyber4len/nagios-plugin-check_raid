@@ -1,0 +1,806 @@
+Controller = 0
+Status = Success
+Description = Show Drive Information Succeeded.
+
+
+Drive /c0/e32/s0 :
+================
+
+-------------------------------------------------------------------------------------
+EID:Slt DID State DG       Size Intf Med SED PI SeSz Model                   Sp Type 
+-------------------------------------------------------------------------------------
+32:0      0 Onln   0 931.000 GB SATA SSD Y   N  512B Samsung SSD 860 EVO 1TB U  -    
+-------------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s0 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s0 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 6
+Drive Temperature =  29C (84.20 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s0 Device attributes :
+==================================
+SN = S3Z9NB0K1Z49508     
+Manufacturer Id = ATA     
+Model Number = Samsung SSD 860 EVO 1TB
+NAND Vendor = NA
+WWN = 5002538E40102E2B
+Firmware Revision = RVT01B6Q
+Raw size = 931.512 GB [0x74706db0 Sectors]
+Coerced size = 931.000 GB [0x74600000 Sectors]
+Non Coerced size = 931.012 GB [0x74606db0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = Enabled
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s0 Policies/Settings :
+==================================
+Drive position = DriveGroup:0 
+Enclosure position = 1
+Connected Port Number = 4(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221104000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 33 53 39 5a 42 4e 4b 30 30 31 34 38 
+35 39 20 5a 20 20 20 20 00 00 00 00 00 00 56 52 
+30 54 42 31 51 36 61 53 73 6d 6e 75 20 67 53 53 
+20 44 36 38 20 30 56 45 20 4f 54 31 20 42 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 01 80 
+01 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 01 01 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e32/s1 :
+================
+
+-------------------------------------------------------------------------------------
+EID:Slt DID State DG       Size Intf Med SED PI SeSz Model                   Sp Type 
+-------------------------------------------------------------------------------------
+32:1      1 Onln   0 931.000 GB SATA SSD Y   N  512B Samsung SSD 860 EVO 1TB U  -    
+-------------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s1 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s1 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 6
+Drive Temperature =  31C (87.80 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s1 Device attributes :
+==================================
+SN = S3Z9NB0K1D49008     
+Manufacturer Id = ATA     
+Model Number = Samsung SSD 860 EVO 1TB
+NAND Vendor = NA
+WWN = 5002538E40102E26
+Firmware Revision = RVT01B6Q
+Raw size = 931.512 GB [0x74706db0 Sectors]
+Coerced size = 931.000 GB [0x74600000 Sectors]
+Non Coerced size = 931.012 GB [0x74606db0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = Enabled
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s1 Policies/Settings :
+==================================
+Drive position = DriveGroup:0 
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221100000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 33 53 39 5a 42 4e 4b 30 30 31 34 38 
+30 39 20 44 20 20 20 20 00 00 00 00 00 00 56 52 
+30 54 42 31 51 36 61 53 73 6d 6e 75 20 67 53 53 
+20 44 36 38 20 30 56 45 20 4f 54 31 20 42 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 01 80 
+01 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 01 01 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e32/s2 :
+================
+
+-------------------------------------------------------------------------------------
+EID:Slt DID State DG       Size Intf Med SED PI SeSz Model                   Sp Type 
+-------------------------------------------------------------------------------------
+32:2      2 Onln   0 931.000 GB SATA SSD Y   N  512B Samsung SSD 860 EVO 1TB U  -    
+-------------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s2 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s2 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 6
+Drive Temperature =  29C (84.20 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s2 Device attributes :
+==================================
+SN = S3Z9NB0K1P49608     
+Manufacturer Id = ATA     
+Model Number = Samsung SSD 860 EVO 1TB
+NAND Vendor = NA
+WWN = 5002538E40102E2C
+Firmware Revision = RVT01B6Q
+Raw size = 931.512 GB [0x74706db0 Sectors]
+Coerced size = 931.000 GB [0x74600000 Sectors]
+Non Coerced size = 931.012 GB [0x74606db0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = Enabled
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s2 Policies/Settings :
+==================================
+Drive position = DriveGroup:0 
+Enclosure position = 1
+Connected Port Number = 6(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221106000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 33 53 39 5a 42 4e 4b 30 30 31 34 38 
+36 39 20 50 20 20 20 20 00 00 00 00 00 00 56 52 
+30 54 42 31 51 36 61 53 73 6d 6e 75 20 67 53 53 
+20 44 36 38 20 30 56 45 20 4f 54 31 20 42 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 01 80 
+01 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 01 01 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e32/s3 :
+================
+
+-------------------------------------------------------------------------------------
+EID:Slt DID State DG       Size Intf Med SED PI SeSz Model                   Sp Type 
+-------------------------------------------------------------------------------------
+32:3      3 Onln   0 931.000 GB SATA SSD Y   N  512B Samsung SSD 860 EVO 1TB U  -    
+-------------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s3 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s3 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 6
+Drive Temperature =  30C (86.00 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s3 Device attributes :
+==================================
+SN = S3Z9NB0K1L47408     
+Manufacturer Id = ATA     
+Model Number = Samsung SSD 860 EVO 1TB
+NAND Vendor = NA
+WWN = 5002538E40102E0C
+Firmware Revision = RVT01B6Q
+Raw size = 931.512 GB [0x74706db0 Sectors]
+Coerced size = 931.000 GB [0x74600000 Sectors]
+Non Coerced size = 931.012 GB [0x74606db0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = Enabled
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s3 Policies/Settings :
+==================================
+Drive position = DriveGroup:0 
+Enclosure position = 1
+Connected Port Number = 2(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221102000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 33 53 39 5a 42 4e 4b 30 30 31 34 38 
+34 37 20 4c 20 20 20 20 00 00 00 00 00 00 56 52 
+30 54 42 31 51 36 61 53 73 6d 6e 75 20 67 53 53 
+20 44 36 38 20 30 56 45 20 4f 54 31 20 42 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 01 80 
+01 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 01 01 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e32/s4 :
+================
+
+-------------------------------------------------------------------------------------
+EID:Slt DID State DG       Size Intf Med SED PI SeSz Model                   Sp Type 
+-------------------------------------------------------------------------------------
+32:4      4 Onln   0 931.000 GB SATA SSD Y   N  512B Samsung SSD 860 EVO 1TB U  -    
+-------------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s4 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s4 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 6
+Drive Temperature =  29C (84.20 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s4 Device attributes :
+==================================
+SN = S3Z9NB0K1E49108     
+Manufacturer Id = ATA     
+Model Number = Samsung SSD 860 EVO 1TB
+NAND Vendor = NA
+WWN = 5002538E40102E27
+Firmware Revision = RVT01B6Q
+Raw size = 931.512 GB [0x74706db0 Sectors]
+Coerced size = 931.000 GB [0x74600000 Sectors]
+Non Coerced size = 931.012 GB [0x74606db0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = Enabled
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s4 Policies/Settings :
+==================================
+Drive position = DriveGroup:0 
+Enclosure position = 1
+Connected Port Number = 5(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221105000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 33 53 39 5a 42 4e 4b 30 30 31 34 38 
+31 39 20 45 20 20 20 20 00 00 00 00 00 00 56 52 
+30 54 42 31 51 36 61 53 73 6d 6e 75 20 67 53 53 
+20 44 36 38 20 30 56 45 20 4f 54 31 20 42 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 01 80 
+01 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 01 01 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e32/s5 :
+================
+
+-------------------------------------------------------------------------------------
+EID:Slt DID State DG       Size Intf Med SED PI SeSz Model                   Sp Type 
+-------------------------------------------------------------------------------------
+32:5      5 Onln   0 931.000 GB SATA SSD Y   N  512B Samsung SSD 860 EVO 1TB U  -    
+-------------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s5 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s5 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 6
+Drive Temperature =  29C (84.20 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s5 Device attributes :
+==================================
+SN = S3Z9NB0K1R49808     
+Manufacturer Id = ATA     
+Model Number = Samsung SSD 860 EVO 1TB
+NAND Vendor = NA
+WWN = 5002538E40102E2E
+Firmware Revision = RVT01B6Q
+Raw size = 931.512 GB [0x74706db0 Sectors]
+Coerced size = 931.000 GB [0x74600000 Sectors]
+Non Coerced size = 931.012 GB [0x74606db0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = Enabled
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s5 Policies/Settings :
+==================================
+Drive position = DriveGroup:0 
+Enclosure position = 1
+Connected Port Number = 1(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221101000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 33 53 39 5a 42 4e 4b 30 30 31 34 38 
+38 39 20 52 20 20 20 20 00 00 00 00 00 00 56 52 
+30 54 42 31 51 36 61 53 73 6d 6e 75 20 67 53 53 
+20 44 36 38 20 30 56 45 20 4f 54 31 20 42 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 01 80 
+01 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 01 01 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e32/s6 :
+================
+
+-------------------------------------------------------------------------------------
+EID:Slt DID State DG       Size Intf Med SED PI SeSz Model                   Sp Type 
+-------------------------------------------------------------------------------------
+32:6      6 Onln   0 931.000 GB SATA SSD Y   N  512B Samsung SSD 860 EVO 1TB U  -    
+-------------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s6 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s6 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 6
+Drive Temperature =  29C (84.20 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s6 Device attributes :
+==================================
+SN = S3Z9NB0K1L50508     
+Manufacturer Id = ATA     
+Model Number = Samsung SSD 860 EVO 1TB
+NAND Vendor = NA
+WWN = 5002538E40102E76
+Firmware Revision = RVT01B6Q
+Raw size = 931.512 GB [0x74706db0 Sectors]
+Coerced size = 931.000 GB [0x74600000 Sectors]
+Non Coerced size = 931.012 GB [0x74606db0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = Enabled
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s6 Policies/Settings :
+==================================
+Drive position = DriveGroup:0 
+Enclosure position = 1
+Connected Port Number = 7(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221107000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 33 53 39 5a 42 4e 4b 30 30 31 35 38 
+35 30 20 4c 20 20 20 20 00 00 00 00 00 00 56 52 
+30 54 42 31 51 36 61 53 73 6d 6e 75 20 67 53 53 
+20 44 36 38 20 30 56 45 20 4f 54 31 20 42 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 01 80 
+01 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 01 01 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e32/s7 :
+================
+
+-------------------------------------------------------------------------------------
+EID:Slt DID State DG       Size Intf Med SED PI SeSz Model                   Sp Type 
+-------------------------------------------------------------------------------------
+32:7      7 Onln   0 931.000 GB SATA SSD Y   N  512B Samsung SSD 860 EVO 1TB U  -    
+-------------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s7 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s7 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 6
+Drive Temperature =  29C (84.20 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s7 Device attributes :
+==================================
+SN = S3Z9NB0K1T49408     
+Manufacturer Id = ATA     
+Model Number = Samsung SSD 860 EVO 1TB
+NAND Vendor = NA
+WWN = 5002538E40102E2A
+Firmware Revision = RVT01B6Q
+Raw size = 931.512 GB [0x74706db0 Sectors]
+Coerced size = 931.000 GB [0x74600000 Sectors]
+Non Coerced size = 931.012 GB [0x74606db0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = Enabled
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s7 Policies/Settings :
+==================================
+Drive position = DriveGroup:0 
+Enclosure position = 1
+Connected Port Number = 3(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221103000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 33 53 39 5a 42 4e 4b 30 30 31 34 38 
+34 39 20 54 20 20 20 20 00 00 00 00 00 00 56 52 
+30 54 42 31 51 36 61 53 73 6d 6e 75 20 67 53 53 
+20 44 36 38 20 30 56 45 20 4f 54 31 20 42 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 01 80 
+01 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 01 01 ff ff ff 0f 00 00 07 00 
+
+
+
+

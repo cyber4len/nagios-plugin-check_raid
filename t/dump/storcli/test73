@@ -1,0 +1,79 @@
+$VAR1 = {
+          'battery' => [
+                         {
+                           'batterywarning' => 'ON',
+                           'charging_status' => 'None',
+                           'learn_cycle_active' => 'No',
+                           'learn_cycle_requested' => 'No',
+                           'missing' => 'No',
+                           'name' => '0',
+                           'pack_will_fail' => 'No',
+                           'replacement_required' => 'No',
+                           'state' => 'Optimal',
+                           'temperature' => '30',
+                           'temperature_state' => 'OK',
+                           'voltage' => '3948',
+                           'voltage_state' => 'OK'
+                         }
+                       ],
+          'logical' => [
+                         {
+                           'controller' => '0',
+                           'current_cache' => 'RWBD',
+                           'default_cache' => 'WriteBack',
+                           'name' => '/c0/v0',
+                           'state' => 'Optl',
+                           'type' => 'RAID10'
+                         }
+                       ],
+          'physical' => [
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s0',
+                            'name' => 'MZILT1T9HAJQ/007',
+                            'predictive' => undef,
+                            'serial' => 'S49NNA0R406920',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s1',
+                            'name' => 'MZILT1T9HAJQ/007',
+                            'predictive' => undef,
+                            'serial' => 'S49NNA0R811220',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s2',
+                            'name' => 'MZILT1T9HAJQ/007',
+                            'predictive' => undef,
+                            'serial' => 'S49NNA0R306920',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s3',
+                            'name' => 'MZILT1T9HAJQ/007',
+                            'predictive' => undef,
+                            'serial' => 'S49NNA0R513520',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s4',
+                            'name' => 'MZILT1T9HAJQ/007',
+                            'predictive' => undef,
+                            'serial' => 'S49NNA0R606920',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s5',
+                            'name' => 'MZILT1T9HAJQ/007',
+                            'predictive' => undef,
+                            'serial' => 'S49NNA0R006920',
+                            'state' => 'Onln'
+                          }
+                        ]
+        };

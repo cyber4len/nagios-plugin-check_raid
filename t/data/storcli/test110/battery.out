@@ -1,0 +1,71 @@
+Controller = 0
+Status = Success
+Description = None
+
+
+BBU_Info :
+========
+
+----------------------
+Property      Value   
+----------------------
+Type          BBU     
+Voltage       3879 mV 
+Current       0 mA    
+Temperature   50 C    
+Battery State Optimal 
+----------------------
+
+
+BBU_Firmware_Status :
+===================
+
+-------------------------------------------------
+Property                                   Value 
+-------------------------------------------------
+Charging Status                            None  
+Voltage                                    OK    
+Temperature                                OK    
+Learn Cycle Requested                      No    
+Learn Cycle Active                         No    
+Learn Cycle Status                         OK    
+Learn Cycle Timeout                        No    
+I2C Errors Detected                        No    
+Battery Pack Missing                       No    
+Replacement required                       No    
+Remaining Capacity Low                     No    
+Periodic Learn Required                    No    
+Transparent Learn                          No    
+No space to cache offload                  No    
+Pack is about to fail & should be replaced No    
+Cache Offload premium feature required     No    
+Module microcode update required           No    
+-------------------------------------------------
+
+
+GasGaugeStatus :
+==============
+
+-------------------------------------
+Property                   Value     
+-------------------------------------
+GasGauge StatusCode        0x128     
+Fully Discharged           N/A       
+Fully Charged              N/A       
+Discharging                N/A       
+Initialized                N/A       
+Remaining Time Alarm       N/A       
+Terminate Discharge Alarm  N/A       
+Over Temperature           N/A       
+Charging Terminated        N/A       
+Over Charged               N/A       
+Relative State of Charge   89%       
+Charger System State       Complete  
+Remaining Capacity         403       
+Full Charge Capacity       453       
+Is SOH Good                Yes       
+Battery backup charge time 0 hour(s) 
+-------------------------------------
+
+
+

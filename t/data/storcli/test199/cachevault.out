@@ -1,0 +1,43 @@
+Controller = 0
+Status = Success
+Description = None
+
+
+Cachevault_Info :
+===============
+
+--------------------
+Property    Value   
+--------------------
+Type        CVPM02  
+Temperature 29 C    
+State       Optimal 
+--------------------
+
+
+Firmware_Status :
+===============
+
+---------------------------------------
+Property                         Value 
+---------------------------------------
+NVCache State                    OK    
+Replacement required             No    
+No space to cache offload        No    
+Module microcode update required No    
+---------------------------------------
+
+
+GasGaugeStatus :
+==============
+
+------------------------------
+Property                Value 
+------------------------------
+Pack Energy             231 J 
+Capacitance             100 % 
+Remaining Reserve Space 0     
+------------------------------
+
+
+

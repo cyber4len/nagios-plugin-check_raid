@@ -1,0 +1,231 @@
+$VAR1 = {
+          'battery' => [
+                         {
+                           'batterywarning' => 'OFF',
+                           'charging_status' => 'None',
+                           'learn_cycle_active' => 'No',
+                           'learn_cycle_requested' => 'No',
+                           'missing' => 'Yes',
+                           'name' => '0',
+                           'pack_will_fail' => 'No',
+                           'replacement_required' => 'No',
+                           'state' => 'Un-supported command',
+                           'temperature' => 0,
+                           'temperature_state' => 'Unknown',
+                           'unsupported_command' => 'Yes',
+                           'voltage' => 0,
+                           'voltage_state' => 'Unknown'
+                         }
+                       ],
+          'logical' => [],
+          'physical' => [
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e26/s0',
+                            'name' => 'ST14000NM0168',
+                            'predictive' => undef,
+                            'serial' => 'ZHHRMEZ5',
+                            'state' => 'UGood'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e26/s1',
+                            'name' => 'WUH721814AL5204',
+                            'predictive' => undef,
+                            'serial' => '6AT9VRGA',
+                            'state' => 'UGood'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e26/s2',
+                            'name' => 'WUH721814AL5204',
+                            'predictive' => undef,
+                            'serial' => '6AT902GA',
+                            'state' => 'UGood'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e26/s3',
+                            'name' => 'ST14000NM0168',
+                            'predictive' => undef,
+                            'serial' => 'ZH240TZ6',
+                            'state' => 'UGood'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e26/s4',
+                            'name' => 'ST14000NM0168',
+                            'predictive' => undef,
+                            'serial' => 'ZH94GHZ6',
+                            'state' => 'UGood'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e26/s5',
+                            'name' => 'ST14000NM0168',
+                            'predictive' => undef,
+                            'serial' => 'ZHCRMGZ5',
+                            'state' => 'UGood'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e26/s6',
+                            'name' => 'ST14000NM0168',
+                            'predictive' => undef,
+                            'serial' => 'ZH53BXZ6',
+                            'state' => 'UGood'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e26/s7',
+                            'name' => 'ST14000NM006J',
+                            'predictive' => undef,
+                            'serial' => 'ZRJ43A90',
+                            'state' => 'UGood'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e26/s8',
+                            'name' => 'ST14000NM0168',
+                            'predictive' => undef,
+                            'serial' => 'ZHE3JGZ6',
+                            'state' => 'UGood'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e26/s9',
+                            'name' => 'ST14000NM0168',
+                            'predictive' => undef,
+                            'serial' => 'ZH94GKZ6',
+                            'state' => 'UGood'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e26/s10',
+                            'name' => 'ST14000NM0168',
+                            'predictive' => undef,
+                            'serial' => 'ZHR40BZ6',
+                            'state' => 'UGood'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e26/s11',
+                            'name' => 'ST14000NM0168',
+                            'predictive' => undef,
+                            'serial' => 'ZHDL9FZ5',
+                            'state' => 'UGood'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e26/s12',
+                            'name' => 'ST14000NM0168',
+                            'predictive' => undef,
+                            'serial' => 'ZHA4F1Z6',
+                            'state' => 'UGood'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e26/s13',
+                            'name' => 'ST14000NM0168',
+                            'predictive' => undef,
+                            'serial' => 'ZHS3VBZ6',
+                            'state' => 'UGood'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e26/s14',
+                            'name' => 'ST14000NM0168',
+                            'predictive' => undef,
+                            'serial' => 'ZHK42YZ6',
+                            'state' => 'UGood'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e26/s15',
+                            'name' => 'ST14000NM0168',
+                            'predictive' => undef,
+                            'serial' => 'ZHVRLYZ5',
+                            'state' => 'UGood'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e26/s16',
+                            'name' => 'ST14000NM0168',
+                            'predictive' => undef,
+                            'serial' => 'ZHZ3BMZ6',
+                            'state' => 'UGood'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e26/s17',
+                            'name' => 'ST14000NM0168',
+                            'predictive' => undef,
+                            'serial' => 'ZHQ3BHZ6',
+                            'state' => 'UGood'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e26/s18',
+                            'name' => 'ST14000NM0168',
+                            'predictive' => undef,
+                            'serial' => 'ZHYRLYZ5',
+                            'state' => 'UGood'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e26/s19',
+                            'name' => 'ST14000NM0168',
+                            'predictive' => undef,
+                            'serial' => 'ZHKQJ3Z5',
+                            'state' => 'UGood'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e26/s20',
+                            'name' => 'ST14000NM0168',
+                            'predictive' => undef,
+                            'serial' => 'ZHRDCDZ5',
+                            'state' => 'UGood'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e26/s21',
+                            'name' => 'ST14000NM0168',
+                            'predictive' => undef,
+                            'serial' => 'ZHLQ60Z3',
+                            'state' => 'UGood'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e26/s22',
+                            'name' => 'ST14000NM0168',
+                            'predictive' => undef,
+                            'serial' => 'ZHCL49Z4',
+                            'state' => 'UGood'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e26/s23',
+                            'name' => 'ST14000NM0168',
+                            'predictive' => undef,
+                            'serial' => 'ZH5RM1Z5',
+                            'state' => 'UGood'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e26/s24',
+                            'name' => 'ST14000NM0168',
+                            'predictive' => undef,
+                            'serial' => 'ZHW44VZ6',
+                            'state' => 'UGood'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e26/s25',
+                            'name' => 'ST14000NM0168',
+                            'predictive' => undef,
+                            'serial' => 'ZH0SGRZ4',
+                            'state' => 'UGood'
+                          }
+                        ]
+        };

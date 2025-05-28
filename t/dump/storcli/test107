@@ -1,0 +1,95 @@
+$VAR1 = {
+          'battery' => [
+                         {
+                           'batterywarning' => 'ON',
+                           'charging_status' => 'None',
+                           'learn_cycle_active' => 'No',
+                           'learn_cycle_requested' => 'No',
+                           'missing' => 'No',
+                           'name' => '0',
+                           'pack_will_fail' => 'No',
+                           'replacement_required' => 'No',
+                           'state' => 'Optimal',
+                           'temperature' => '22',
+                           'temperature_state' => 'OK',
+                           'voltage' => '3974',
+                           'voltage_state' => 'OK'
+                         }
+                       ],
+          'logical' => [
+                         {
+                           'controller' => '0',
+                           'current_cache' => 'RAWBD',
+                           'default_cache' => 'WriteBack',
+                           'name' => '/c0/v0',
+                           'state' => 'Optl',
+                           'type' => 'RAID10'
+                         }
+                       ],
+          'physical' => [
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s0',
+                            'name' => 'HGST HUS724020ALA640',
+                            'predictive' => undef,
+                            'serial' => 'PN2134P6PSX4HA',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s1',
+                            'name' => 'HGST HUS724020ALA640',
+                            'predictive' => undef,
+                            'serial' => 'PN1134P6NTAMH8',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s2',
+                            'name' => 'HGST HUS724020ALA640',
+                            'predictive' => undef,
+                            'serial' => 'PN2134P6PZ1SHA',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s3',
+                            'name' => 'HGST HUS724020ALA640',
+                            'predictive' => undef,
+                            'serial' => 'PN1134P6NBVLHB',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s4',
+                            'name' => 'HGST HUS724020ALA640',
+                            'predictive' => undef,
+                            'serial' => 'PN1134P6N77NHB',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s5',
+                            'name' => 'HGST HUS724020ALA640',
+                            'predictive' => undef,
+                            'serial' => 'PN2134P6P9WRHA',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s6',
+                            'name' => 'HGST HUS724020ALA640',
+                            'predictive' => undef,
+                            'serial' => 'PN1134P6NR4BH8',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s7',
+                            'name' => 'HGST HUS724020ALA640',
+                            'predictive' => undef,
+                            'serial' => 'PN1134P6NBVJHB',
+                            'state' => 'Onln'
+                          }
+                        ]
+        };

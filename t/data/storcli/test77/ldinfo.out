@@ -1,0 +1,128 @@
+Controller = 0
+Status = Success
+Description = None
+
+
+/c0/v238 :
+========
+
+-------------------------------------------------------------
+DG/VD TYPE  State Access Consist Cache Cac sCC     Size Name 
+-------------------------------------------------------------
+0/238 RAID1 Optl  RW     Yes     RWTD  -   ON  6.985 TB      
+-------------------------------------------------------------
+
+VD=Virtual Drive| DG=Drive Group|Rec=Recovery
+Cac=CacheCade|OfLn=OffLine|Pdgd=Partially Degraded|Dgrd=Degraded
+Optl=Optimal|dflt=Default|RO=Read Only|RW=Read Write|HD=Hidden|TRANS=TransportReady
+B=Blocked|Consist=Consistent|R=Read Ahead Always|NR=No Read Ahead|WB=WriteBack
+AWB=Always WriteBack|WT=WriteThrough|C=Cached IO|D=Direct IO|sCC=Scheduled
+Check Consistency
+
+
+PDs for VD 238 :
+==============
+
+----------------------------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                                    Sp Type 
+----------------------------------------------------------------------------------------------------
+252:4     1 Onln   0 6.985 TB NVMe SSD Y   N  512B SAMSUNG MZQL27T6HBLA-00A07               U  -    
+252:4     0 Onln   0 6.985 TB NVMe SSD Y   N  512B SAMSUNG MZQL27T6HBLA-00A07               U  -    
+----------------------------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+VD238 Properties :
+================
+Strip Size = 512 KB
+Number of Blocks = 15001845760
+VD has Emulated PD = No
+Span Depth = 1
+Number of Drives Per Span = 2
+Write Cache(initial setting) = WriteBack
+Disk Cache Policy = Disk's Default
+Encryption = None
+Data Protection = None
+Active Operations = None
+Exposed to OS = Yes
+OS Drive Name = /dev/sda
+Creation Date = 29-12-2023
+Creation Time = 01:44:46 PM
+Emulation type = default
+Cachebypass size = Cachebypass-64k
+Cachebypass Mode = Cachebypass Intelligent
+Is LD Ready for OS Requests = Yes
+SCSI NAA Id = 600062b20b874c402d2189ce2e94f4fa
+Unmap Enabled = No
+
+
+/c0/v239 :
+========
+
+-------------------------------------------------------------
+DG/VD TYPE  State Access Consist Cache Cac sCC     Size Name 
+-------------------------------------------------------------
+1/239 RAID1 Optl  RW     Yes     RWTD  -   ON  1.745 TB      
+-------------------------------------------------------------
+
+VD=Virtual Drive| DG=Drive Group|Rec=Recovery
+Cac=CacheCade|OfLn=OffLine|Pdgd=Partially Degraded|Dgrd=Degraded
+Optl=Optimal|dflt=Default|RO=Read Only|RW=Read Write|HD=Hidden|TRANS=TransportReady
+B=Blocked|Consist=Consistent|R=Read Ahead Always|NR=No Read Ahead|WB=WriteBack
+AWB=Always WriteBack|WT=WriteThrough|C=Cached IO|D=Direct IO|sCC=Scheduled
+Check Consistency
+
+
+PDs for VD 239 :
+==============
+
+----------------------------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                                    Sp Type 
+----------------------------------------------------------------------------------------------------
+252:8     2 Onln   1 1.745 TB NVMe SSD Y   N  512B SAMSUNG MZQL21T9HCJR-00A07               U  -    
+252:12    3 Onln   1 1.745 TB NVMe SSD Y   N  512B SAMSUNG MZQL21T9HCJR-00A07               U  -    
+----------------------------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+VD239 Properties :
+================
+Strip Size = 1.000 MB
+Number of Blocks = 3749642240
+VD has Emulated PD = No
+Span Depth = 1
+Number of Drives Per Span = 2
+Write Cache(initial setting) = WriteBack
+Disk Cache Policy = Disk's Default
+Encryption = None
+Data Protection = None
+Active Operations = None
+Exposed to OS = Yes
+OS Drive Name = /dev/sdb
+Creation Date = 29-03-2024
+Creation Time = 06:43:11 AM
+Emulation type = default
+Cachebypass size = Cachebypass-64k
+Cachebypass Mode = Cachebypass Intelligent
+Is LD Ready for OS Requests = Yes
+SCSI NAA Id = 600062b20b874c402d991f7f4b932a0f
+Unmap Enabled = No
+
+
+

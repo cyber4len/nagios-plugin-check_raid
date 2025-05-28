@@ -1,0 +1,506 @@
+Controller = 0
+Status = Success
+Description = Show Drive Information Succeeded.
+
+
+Drive /c0/e32/s1 :
+================
+
+--------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                Sp Type 
+--------------------------------------------------------------------------------
+32:1      1 Onln   0 1.745 TB SATA SSD N   N  512B TOSHIBA KHK61RSE1T92 U  -    
+--------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s1 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s1 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  27C (80.60 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s1 Device attributes :
+==================================
+SN =         41LS10MTJ87R
+Manufacturer Id = ATA     
+Model Number = TOSHIBA KHK61RSE1T92
+NAND Vendor = NA
+WWN = 58CE38E9115C856C
+Firmware Revision = 1DET6102
+Raw size = 1.746 TB [0xdf8fe2b0 Sectors]
+Coerced size = 1.745 TB [0xdf7c0000 Sectors]
+Non Coerced size = 1.745 TB [0xdf7fe2b0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = Enabled
+Logical Sector Size = 512B
+Physical Sector Size = 4 KB
+Connector Name = 00 
+
+
+Drive /c0/e32/s1 Policies/Settings :
+==================================
+Drive position = DriveGroup:0 
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221100000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 00 00 37 c8 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 20 20 20 20 20 20 20 20 31 34 53 4c 
+30 31 52 37 4a 54 4d 38 00 00 00 00 00 00 44 31 
+54 45 31 36 32 30 4f 54 48 53 42 49 20 41 48 4b 
+36 4b 52 31 45 53 54 31 32 39 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 
+00 40 00 2f 00 40 00 00 00 00 06 00 00 00 00 00 
+00 00 00 00 00 00 10 99 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e32/s2 :
+================
+
+--------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                Sp Type 
+--------------------------------------------------------------------------------
+32:2      2 Onln   0 1.745 TB SATA SSD N   N  512B TOSHIBA KHK61RSE1T92 U  -    
+--------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s2 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s2 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  26C (78.80 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s2 Device attributes :
+==================================
+SN =         41LS10MTJ877
+Manufacturer Id = ATA     
+Model Number = TOSHIBA KHK61RSE1T92
+NAND Vendor = NA
+WWN = 58CE38E9115C8685
+Firmware Revision = 1DET6102
+Raw size = 1.746 TB [0xdf8fe2b0 Sectors]
+Coerced size = 1.745 TB [0xdf7c0000 Sectors]
+Non Coerced size = 1.745 TB [0xdf7fe2b0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = Enabled
+Logical Sector Size = 512B
+Physical Sector Size = 4 KB
+Connector Name = 00 
+
+
+Drive /c0/e32/s2 Policies/Settings :
+==================================
+Drive position = DriveGroup:0 
+Enclosure position = 1
+Connected Port Number = 5(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221106000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 00 00 37 c8 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 20 20 20 20 20 20 20 20 31 34 53 4c 
+30 31 37 37 4a 54 4d 38 00 00 00 00 00 00 44 31 
+54 45 31 36 32 30 4f 54 48 53 42 49 20 41 48 4b 
+36 4b 52 31 45 53 54 31 32 39 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 
+00 40 00 2f 00 40 00 00 00 00 06 00 00 00 00 00 
+00 00 00 00 00 00 10 99 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e32/s3 :
+================
+
+--------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                Sp Type 
+--------------------------------------------------------------------------------
+32:3      3 Onln   0 1.745 TB SATA SSD N   N  512B TOSHIBA KHK61RSE1T92 U  -    
+--------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s3 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s3 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  27C (80.60 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s3 Device attributes :
+==================================
+SN =         41LS10MTJ88B
+Manufacturer Id = ATA     
+Model Number = TOSHIBA KHK61RSE1T92
+NAND Vendor = NA
+WWN = 58CE38E9115C85E6
+Firmware Revision = 1DET6102
+Raw size = 1.746 TB [0xdf8fe2b0 Sectors]
+Coerced size = 1.745 TB [0xdf7c0000 Sectors]
+Non Coerced size = 1.745 TB [0xdf7fe2b0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = Enabled
+Logical Sector Size = 512B
+Physical Sector Size = 4 KB
+Connector Name = 00 
+
+
+Drive /c0/e32/s3 Policies/Settings :
+==================================
+Drive position = DriveGroup:0 
+Enclosure position = 1
+Connected Port Number = 2(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221102000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 00 00 37 c8 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 20 20 20 20 20 20 20 20 31 34 53 4c 
+30 31 42 38 4a 54 4d 38 00 00 00 00 00 00 44 31 
+54 45 31 36 32 30 4f 54 48 53 42 49 20 41 48 4b 
+36 4b 52 31 45 53 54 31 32 39 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 
+00 40 00 2f 00 40 00 00 00 00 06 00 00 00 00 00 
+00 00 00 00 00 00 10 99 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e32/s4 :
+================
+
+--------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                Sp Type 
+--------------------------------------------------------------------------------
+32:4      4 Onln   0 1.745 TB SATA SSD N   N  512B TOSHIBA KHK61RSE1T92 U  -    
+--------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s4 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s4 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  27C (80.60 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s4 Device attributes :
+==================================
+SN =         41LS10MTJ889
+Manufacturer Id = ATA     
+Model Number = TOSHIBA KHK61RSE1T92
+NAND Vendor = NA
+WWN = 58CE38E9115C84C7
+Firmware Revision = 1DET6102
+Raw size = 1.746 TB [0xdf8fe2b0 Sectors]
+Coerced size = 1.745 TB [0xdf7c0000 Sectors]
+Non Coerced size = 1.745 TB [0xdf7fe2b0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = Enabled
+Logical Sector Size = 512B
+Physical Sector Size = 4 KB
+Connector Name = 00 
+
+
+Drive /c0/e32/s4 Policies/Settings :
+==================================
+Drive position = DriveGroup:0 
+Enclosure position = 1
+Connected Port Number = 4(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221105000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 00 00 37 c8 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 20 20 20 20 20 20 20 20 31 34 53 4c 
+30 31 39 38 4a 54 4d 38 00 00 00 00 00 00 44 31 
+54 45 31 36 32 30 4f 54 48 53 42 49 20 41 48 4b 
+36 4b 52 31 45 53 54 31 32 39 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 
+00 40 00 2f 00 40 00 00 00 00 06 00 00 00 00 00 
+00 00 00 00 00 00 10 99 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e32/s5 :
+================
+
+--------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                Sp Type 
+--------------------------------------------------------------------------------
+32:5      5 Onln   0 1.745 TB SATA SSD N   N  512B TOSHIBA KHK61RSE1T92 U  -    
+--------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s5 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s5 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  27C (80.60 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s5 Device attributes :
+==================================
+SN =         41LS10MTJ88E
+Manufacturer Id = ATA     
+Model Number = TOSHIBA KHK61RSE1T92
+NAND Vendor = NA
+WWN = 58CE38E9115C8656
+Firmware Revision = 1DET6102
+Raw size = 1.746 TB [0xdf8fe2b0 Sectors]
+Coerced size = 1.745 TB [0xdf7c0000 Sectors]
+Non Coerced size = 1.745 TB [0xdf7fe2b0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+NCQ setting = N/A
+Write Cache = Enabled
+Logical Sector Size = 512B
+Physical Sector Size = 4 KB
+Connector Name = 00 
+
+
+Drive /c0/e32/s5 Policies/Settings :
+==================================
+Drive position = DriveGroup:0 
+Enclosure position = 1
+Connected Port Number = 1(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x4433221101000000 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 00 00 37 c8 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 20 20 20 20 20 20 20 20 31 34 53 4c 
+30 31 45 38 4a 54 4d 38 00 00 00 00 00 00 44 31 
+54 45 31 36 32 30 4f 54 48 53 42 49 20 41 48 4b 
+36 4b 52 31 45 53 54 31 32 39 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 
+00 40 00 2f 00 40 00 00 00 00 06 00 00 00 00 00 
+00 00 00 00 00 00 10 99 ff ff ff 0f 00 00 07 00 
+
+
+
+

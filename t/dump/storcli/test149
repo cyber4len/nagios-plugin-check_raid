@@ -1,0 +1,63 @@
+$VAR1 = {
+          'battery' => [
+                         {
+                           'batterywarning' => 'ON',
+                           'charging_status' => 'None',
+                           'learn_cycle_active' => 'No',
+                           'learn_cycle_requested' => 'No',
+                           'missing' => 'No',
+                           'name' => '0',
+                           'pack_will_fail' => 'No',
+                           'replacement_required' => 'No',
+                           'state' => 'Optimal',
+                           'temperature' => '31',
+                           'temperature_state' => 'OK',
+                           'voltage' => '3918',
+                           'voltage_state' => 'OK'
+                         }
+                       ],
+          'logical' => [
+                         {
+                           'controller' => '0',
+                           'current_cache' => 'RFWBD',
+                           'default_cache' => 'WriteBack',
+                           'name' => 'RAID10',
+                           'state' => 'Optl',
+                           'type' => 'RAID10'
+                         }
+                       ],
+          'physical' => [
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s0',
+                            'name' => 'H7240AS60SUN4.0T',
+                            'predictive' => undef,
+                            'serial' => '001520EL2J5X PEX2J5GL',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s1',
+                            'name' => 'H7240AS60SUN4.0T',
+                            'predictive' => undef,
+                            'serial' => '001520EKVHJX PEXVHJGK',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s2',
+                            'name' => 'H7240AS60SUN4.0T',
+                            'predictive' => undef,
+                            'serial' => '001520EKNDDX PEXNDDGK',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s3',
+                            'name' => 'H7240AS60SUN4.0T',
+                            'predictive' => undef,
+                            'serial' => '001520EK4RMX PEX4RMGK',
+                            'state' => 'Onln'
+                          }
+                        ]
+        };

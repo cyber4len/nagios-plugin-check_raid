@@ -1,0 +1,814 @@
+Controller = 0
+Status = Success
+Description = Show Drive Information Succeeded.
+
+
+Drive /c0/e8/s0 :
+===============
+
+------------------------------------------------------------------------------
+EID:Slt DID State DG       Size Intf Med SED PI SeSz Model            Sp Type 
+------------------------------------------------------------------------------
+8:0      21 Onln   0 837.843 GB SAS  HDD N   N  512B AL13SEB900       U  -    
+------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e8/s0 - Detailed Information :
+======================================
+
+Drive /c0/e8/s0 State :
+=====================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  29C (84.20 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e8/s0 Device attributes :
+=================================
+SN = Y4H0A06FTR4Z
+Manufacturer Id = TOSHIBA 
+Model Number = AL13SEB900      
+NAND Vendor = NA
+WWN = 50000395E821CCE9
+Firmware Revision = 0101
+Firmware Release Number = N/A
+Raw size = 838.362 GB [0x68cb9e30 Sectors]
+Coerced size = 837.843 GB [0x68bb0000 Sectors]
+Non Coerced size = 837.862 GB [0x68bb9e30 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 12.0Gb/s
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = Port 0 - 3 & Port 4 - 7 
+
+
+Drive /c0/e8/s0 Policies/Settings :
+=================================
+Drive position = DriveGroup:0, Span:0, Row:0
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x50000395e821ccea 
+   1 Active 12.0Gb/s  0x0                
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 05 12 5b 00 10 02 54 4f 53 48 49 42 41 20 
+41 4c 31 33 53 45 42 39 30 30 20 20 20 20 20 20 
+30 31 30 31 59 34 48 30 41 30 34 5a 46 54 52 36 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+
+Drive /c0/e8/s1 :
+===============
+
+------------------------------------------------------------------------------
+EID:Slt DID State DG       Size Intf Med SED PI SeSz Model            Sp Type 
+------------------------------------------------------------------------------
+8:1      23 Onln   0 837.843 GB SAS  HDD N   N  512B AL13SEB900       U  -    
+------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e8/s1 - Detailed Information :
+======================================
+
+Drive /c0/e8/s1 State :
+=====================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  27C (80.60 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e8/s1 Device attributes :
+=================================
+SN = Y4H0A06FTR57
+Manufacturer Id = TOSHIBA 
+Model Number = AL13SEB900      
+NAND Vendor = NA
+WWN = 50000395E821CE6D
+Firmware Revision = 0101
+Firmware Release Number = N/A
+Raw size = 838.362 GB [0x68cb9e30 Sectors]
+Coerced size = 837.843 GB [0x68bb0000 Sectors]
+Non Coerced size = 837.862 GB [0x68bb9e30 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 12.0Gb/s
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = Port 0 - 3 & Port 4 - 7 
+
+
+Drive /c0/e8/s1 Policies/Settings :
+=================================
+Drive position = DriveGroup:0, Span:1, Row:0
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x50000395e821ce6e 
+   1 Active 12.0Gb/s  0x0                
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 05 12 5b 00 10 02 54 4f 53 48 49 42 41 20 
+41 4c 31 33 53 45 42 39 30 30 20 20 20 20 20 20 
+30 31 30 31 59 34 48 30 41 30 35 37 46 54 52 36 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+
+Drive /c0/e8/s2 :
+===============
+
+------------------------------------------------------------------------------
+EID:Slt DID State DG       Size Intf Med SED PI SeSz Model            Sp Type 
+------------------------------------------------------------------------------
+8:2      25 Onln   0 837.843 GB SAS  HDD N   N  512B AL13SEB900       U  -    
+------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e8/s2 - Detailed Information :
+======================================
+
+Drive /c0/e8/s2 State :
+=====================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  29C (84.20 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e8/s2 Device attributes :
+=================================
+SN = Y480A06FTR0K
+Manufacturer Id = TOSHIBA 
+Model Number = AL13SEB900      
+NAND Vendor = NA
+WWN = 50000395E80A4E85
+Firmware Revision = 0101
+Firmware Release Number = N/A
+Raw size = 838.362 GB [0x68cb9e30 Sectors]
+Coerced size = 837.843 GB [0x68bb0000 Sectors]
+Non Coerced size = 837.862 GB [0x68bb9e30 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 12.0Gb/s
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = Port 0 - 3 & Port 4 - 7 
+
+
+Drive /c0/e8/s2 Policies/Settings :
+=================================
+Drive position = DriveGroup:0, Span:0, Row:1
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x50000395e80a4e86 
+   1 Active 12.0Gb/s  0x0                
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 05 12 5b 00 10 02 54 4f 53 48 49 42 41 20 
+41 4c 31 33 53 45 42 39 30 30 20 20 20 20 20 20 
+30 31 30 31 59 34 38 30 41 30 30 4b 46 54 52 36 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+
+Drive /c0/e8/s3 :
+===============
+
+------------------------------------------------------------------------------
+EID:Slt DID State DG       Size Intf Med SED PI SeSz Model            Sp Type 
+------------------------------------------------------------------------------
+8:3      24 Onln   0 837.843 GB SAS  HDD N   N  512B AL13SEB900       U  -    
+------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e8/s3 - Detailed Information :
+======================================
+
+Drive /c0/e8/s3 State :
+=====================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  29C (84.20 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e8/s3 Device attributes :
+=================================
+SN = Y480A06FTR0J
+Manufacturer Id = TOSHIBA 
+Model Number = AL13SEB900      
+NAND Vendor = NA
+WWN = 50000395E80A4E75
+Firmware Revision = 0101
+Firmware Release Number = N/A
+Raw size = 838.362 GB [0x68cb9e30 Sectors]
+Coerced size = 837.843 GB [0x68bb0000 Sectors]
+Non Coerced size = 837.862 GB [0x68bb9e30 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 12.0Gb/s
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = Port 0 - 3 & Port 4 - 7 
+
+
+Drive /c0/e8/s3 Policies/Settings :
+=================================
+Drive position = DriveGroup:0, Span:1, Row:1
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x50000395e80a4e76 
+   1 Active 12.0Gb/s  0x0                
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 05 12 5b 00 10 02 54 4f 53 48 49 42 41 20 
+41 4c 31 33 53 45 42 39 30 30 20 20 20 20 20 20 
+30 31 30 31 59 34 38 30 41 30 30 4a 46 54 52 36 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+
+Drive /c0/e8/s5 :
+===============
+
+------------------------------------------------------------------------------
+EID:Slt DID State DG       Size Intf Med SED PI SeSz Model            Sp Type 
+------------------------------------------------------------------------------
+8:5      28 Onln   0 837.843 GB SAS  HDD N   N  512B AL13SEB900       U  -    
+------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e8/s5 - Detailed Information :
+======================================
+
+Drive /c0/e8/s5 State :
+=====================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  28C (82.40 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e8/s5 Device attributes :
+=================================
+SN = Y4H0A06FTR53
+Manufacturer Id = TOSHIBA 
+Model Number = AL13SEB900      
+NAND Vendor = NA
+WWN = 50000395E821CDB9
+Firmware Revision = 0101
+Firmware Release Number = N/A
+Raw size = 838.362 GB [0x68cb9e30 Sectors]
+Coerced size = 837.843 GB [0x68bb0000 Sectors]
+Non Coerced size = 837.862 GB [0x68bb9e30 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 12.0Gb/s
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = Port 0 - 3 & Port 4 - 7 
+
+
+Drive /c0/e8/s5 Policies/Settings :
+=================================
+Drive position = DriveGroup:0, Span:2, Row:1
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x50000395e821cdba 
+   1 Active 12.0Gb/s  0x0                
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 05 12 5b 00 10 02 54 4f 53 48 49 42 41 20 
+41 4c 31 33 53 45 42 39 30 30 20 20 20 20 20 20 
+30 31 30 31 59 34 48 30 41 30 35 33 46 54 52 36 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+
+Drive /c0/e8/s6 :
+===============
+
+------------------------------------------------------------------------------
+EID:Slt DID State DG       Size Intf Med SED PI SeSz Model            Sp Type 
+------------------------------------------------------------------------------
+8:6      29 Onln   0 837.843 GB SAS  HDD N   N  512B AL13SEB900       U  -    
+------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e8/s6 - Detailed Information :
+======================================
+
+Drive /c0/e8/s6 State :
+=====================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  29C (84.20 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e8/s6 Device attributes :
+=================================
+SN = Y480A06FTR1K
+Manufacturer Id = TOSHIBA 
+Model Number = AL13SEB900      
+NAND Vendor = NA
+WWN = 50000395E80A5F0D
+Firmware Revision = 0101
+Firmware Release Number = N/A
+Raw size = 838.362 GB [0x68cb9e30 Sectors]
+Coerced size = 837.843 GB [0x68bb0000 Sectors]
+Non Coerced size = 837.862 GB [0x68bb9e30 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 12.0Gb/s
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = Port 0 - 3 & Port 4 - 7 
+
+
+Drive /c0/e8/s6 Policies/Settings :
+=================================
+Drive position = DriveGroup:0, Span:3, Row:0
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x50000395e80a5f0e 
+   1 Active 12.0Gb/s  0x0                
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 05 12 5b 00 10 02 54 4f 53 48 49 42 41 20 
+41 4c 31 33 53 45 42 39 30 30 20 20 20 20 20 20 
+30 31 30 31 59 34 38 30 41 30 31 4b 46 54 52 36 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+
+Drive /c0/e8/s7 :
+===============
+
+------------------------------------------------------------------------------
+EID:Slt DID State DG       Size Intf Med SED PI SeSz Model            Sp Type 
+------------------------------------------------------------------------------
+8:7      27 Onln   0 837.843 GB SAS  HDD N   N  512B AL13SEB900       U  -    
+------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e8/s7 - Detailed Information :
+======================================
+
+Drive /c0/e8/s7 State :
+=====================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  27C (80.60 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e8/s7 Device attributes :
+=================================
+SN = Y4H0A06FTR34
+Manufacturer Id = TOSHIBA 
+Model Number = AL13SEB900      
+NAND Vendor = NA
+WWN = 50000395E821BA35
+Firmware Revision = 0101
+Firmware Release Number = N/A
+Raw size = 838.362 GB [0x68cb9e30 Sectors]
+Coerced size = 837.843 GB [0x68bb0000 Sectors]
+Non Coerced size = 837.862 GB [0x68bb9e30 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 12.0Gb/s
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = Port 0 - 3 & Port 4 - 7 
+
+
+Drive /c0/e8/s7 Policies/Settings :
+=================================
+Drive position = DriveGroup:0, Span:3, Row:1
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x50000395e821ba36 
+   1 Active 12.0Gb/s  0x0                
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 05 12 5b 00 10 02 54 4f 53 48 49 42 41 20 
+41 4c 31 33 53 45 42 39 30 30 20 20 20 20 20 20 
+30 31 30 31 59 34 48 30 41 30 33 34 46 54 52 36 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+
+Drive /c0/e8/s8 :
+===============
+
+------------------------------------------------------------------------------
+EID:Slt DID State DG       Size Intf Med SED PI SeSz Model            Sp Type 
+------------------------------------------------------------------------------
+8:8      22 Onln   0 837.843 GB SAS  HDD N   N  512B AL13SEB900       U  -    
+------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e8/s8 - Detailed Information :
+======================================
+
+Drive /c0/e8/s8 State :
+=====================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  28C (82.40 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e8/s8 Device attributes :
+=================================
+SN = Y4H0A06FTR5C
+Manufacturer Id = TOSHIBA 
+Model Number = AL13SEB900      
+NAND Vendor = NA
+WWN = 50000395E821E321
+Firmware Revision = 0101
+Firmware Release Number = N/A
+Raw size = 838.362 GB [0x68cb9e30 Sectors]
+Coerced size = 837.843 GB [0x68bb0000 Sectors]
+Non Coerced size = 837.862 GB [0x68bb9e30 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 12.0Gb/s
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = Port 0 - 3 & Port 4 - 7 
+
+
+Drive /c0/e8/s8 Policies/Settings :
+=================================
+Drive position = DriveGroup:0, Span:2, Row:0
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = Yes
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x50000395e821e322 
+   1 Active 12.0Gb/s  0x0                
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 05 12 5b 00 10 02 54 4f 53 48 49 42 41 20 
+41 4c 31 33 53 45 42 39 30 30 20 20 20 20 20 20 
+30 31 30 31 59 34 48 30 41 30 35 43 46 54 52 36 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+
+

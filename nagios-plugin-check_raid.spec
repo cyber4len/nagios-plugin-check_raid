@@ -50,6 +50,7 @@ Supports:
 - HP/Compaq Smart Array via cciss_vol_status (hpsa supported too)
 - LSI Logic MegaRAID SAS series via MegaCli
 - LSI MegaRaid via lsraid
+- LSI MegaRaid via storcli
 - Linux 3ware SATA RAID via tw_cli
 - Linux DPT/I2O hardware RAID controllers via /proc/scsi/dpt_i2o
 - Linux GDTH hardware RAID controllers via /proc/scsi/gdth

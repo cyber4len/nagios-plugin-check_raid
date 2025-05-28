@@ -1,0 +1,410 @@
+Controller = 0
+Status = Success
+Description = Show Drive Information Succeeded.
+
+
+Drive /c0/e32/s0 :
+================
+
+----------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model            Sp Type 
+----------------------------------------------------------------------------
+32:0      0 Onln   0 3.637 TB SAS  HDD N   N  512B H7240AS60SUN4.0T U  -    
+----------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s0 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s0 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  31C (87.80 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s0 Device attributes :
+==================================
+SN = 001520EL2J5X        PEX2J5GL
+Manufacturer Id = HGST    
+Model Number = H7240AS60SUN4.0T
+NAND Vendor = NA
+WWN = 5000CCA07320E097
+Firmware Revision = A3A0
+Firmware Release Number = A3A09050
+Raw size = 3.638 TB [0x1d1c0beb0 Sectors]
+Coerced size = 3.637 TB [0x1d1b00000 Sectors]
+Non Coerced size = 3.637 TB [0x1d1b0beb0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+Write Cache = Disabled
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s0 Policies/Settings :
+==================================
+Drive position = DriveGroup:0 
+Enclosure position = 1
+Connected Port Number = 2(path0) 
+Sequence Number = 12
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x5000cca07320e095 
+   1 Active 6.0Gb/s   0x0                
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 06 12 9f 01 10 02 48 47 53 54 20 20 20 20 
+48 37 32 34 30 41 53 36 30 53 55 4e 34 2e 30 54 
+41 33 41 30 31 35 32 30 45 4c 32 4a 35 58 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+43 6f 70 79 72 69 67 68 74 20 28 43 29 20 48 47 
+53 54 2c 20 61 20 57 65 73 74 65 72 6e 20 44 69 
+
+
+
+Drive /c0/e32/s1 :
+================
+
+----------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model            Sp Type 
+----------------------------------------------------------------------------
+32:1      1 Onln   0 3.637 TB SAS  HDD N   N  512B H7240AS60SUN4.0T U  -    
+----------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s1 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s1 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  31C (87.80 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s1 Device attributes :
+==================================
+SN = 001520EKVHJX        PEXVHJGK
+Manufacturer Id = HGST    
+Model Number = H7240AS60SUN4.0T
+NAND Vendor = NA
+WWN = 5000CCA07320772B
+Firmware Revision = A3A0
+Firmware Release Number = A3A09050
+Raw size = 3.638 TB [0x1d1c0beb0 Sectors]
+Coerced size = 3.637 TB [0x1d1b00000 Sectors]
+Non Coerced size = 3.637 TB [0x1d1b0beb0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+Write Cache = Disabled
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s1 Policies/Settings :
+==================================
+Drive position = DriveGroup:0 
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x5000cca073207729 
+   1 Active 6.0Gb/s   0x0                
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 06 12 9f 01 10 02 48 47 53 54 20 20 20 20 
+48 37 32 34 30 41 53 36 30 53 55 4e 34 2e 30 54 
+41 33 41 30 31 35 32 30 45 4b 56 48 4a 58 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+43 6f 70 79 72 69 67 68 74 20 28 43 29 20 48 47 
+53 54 2c 20 61 20 57 65 73 74 65 72 6e 20 44 69 
+
+
+
+Drive /c0/e32/s2 :
+================
+
+----------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model            Sp Type 
+----------------------------------------------------------------------------
+32:2      2 Onln   0 3.637 TB SAS  HDD N   N  512B H7240AS60SUN4.0T U  -    
+----------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s2 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s2 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  28C (82.40 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s2 Device attributes :
+==================================
+SN = 001520EKNDDX        PEXNDDGK
+Manufacturer Id = HGST    
+Model Number = H7240AS60SUN4.0T
+NAND Vendor = NA
+WWN = 5000CCA073201B8F
+Firmware Revision = A3A0
+Firmware Release Number = A3A09050
+Raw size = 3.638 TB [0x1d1c0beb0 Sectors]
+Coerced size = 3.637 TB [0x1d1b00000 Sectors]
+Non Coerced size = 3.637 TB [0x1d1b0beb0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+Write Cache = Disabled
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s2 Policies/Settings :
+==================================
+Drive position = DriveGroup:0 
+Enclosure position = 1
+Connected Port Number = 3(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x5000cca073201b8d 
+   1 Active 6.0Gb/s   0x0                
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 06 12 9f 01 10 02 48 47 53 54 20 20 20 20 
+48 37 32 34 30 41 53 36 30 53 55 4e 34 2e 30 54 
+41 33 41 30 31 35 32 30 45 4b 4e 44 44 58 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+43 6f 70 79 72 69 67 68 74 20 28 43 29 20 48 47 
+53 54 2c 20 61 20 57 65 73 74 65 72 6e 20 44 69 
+
+
+
+Drive /c0/e32/s3 :
+================
+
+----------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model            Sp Type 
+----------------------------------------------------------------------------
+32:3      3 Onln   0 3.637 TB SAS  HDD N   N  512B H7240AS60SUN4.0T U  -    
+----------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s3 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s3 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  28C (82.40 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s3 Device attributes :
+==================================
+SN = 001520EK4RMX        PEX4RMGK
+Manufacturer Id = HGST    
+Model Number = H7240AS60SUN4.0T
+NAND Vendor = NA
+WWN = 5000CCA0731F3043
+Firmware Revision = A3A0
+Firmware Release Number = A3A09050
+Raw size = 3.638 TB [0x1d1c0beb0 Sectors]
+Coerced size = 3.637 TB [0x1d1b00000 Sectors]
+Non Coerced size = 3.637 TB [0x1d1b0beb0 Sectors]
+Device Speed = 6.0Gb/s
+Link Speed = 6.0Gb/s
+Write Cache = Disabled
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s3 Policies/Settings :
+==================================
+Drive position = DriveGroup:0 
+Enclosure position = 1
+Connected Port Number = 1(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 6.0Gb/s   0x5000cca0731f3041 
+   1 Active 6.0Gb/s   0x0                
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 06 12 9f 01 10 02 48 47 53 54 20 20 20 20 
+48 37 32 34 30 41 53 36 30 53 55 4e 34 2e 30 54 
+41 33 41 30 31 35 32 30 45 4b 34 52 4d 58 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+43 6f 70 79 72 69 67 68 74 20 28 43 29 20 48 47 
+53 54 2c 20 61 20 57 65 73 74 65 72 6e 20 44 69 
+
+
+
+

@@ -1,0 +1,79 @@
+$VAR1 = {
+          'battery' => [
+                         {
+                           'batterywarning' => 'OFF',
+                           'charging_status' => 'None',
+                           'learn_cycle_active' => 'No',
+                           'learn_cycle_requested' => 'No',
+                           'missing' => 'Yes',
+                           'name' => '0',
+                           'pack_will_fail' => 'No',
+                           'replacement_required' => 'Yes',
+                           'state' => 'Cachevault is absent',
+                           'temperature' => 0,
+                           'temperature_state' => 'Unknown',
+                           'voltage' => 0,
+                           'voltage_state' => 'Unknown'
+                         }
+                       ],
+          'logical' => [
+                         {
+                           'controller' => '0',
+                           'current_cache' => 'NRWTD',
+                           'default_cache' => 'WriteThrough',
+                           'name' => '/c0/v0',
+                           'state' => 'Optl',
+                           'type' => 'RAID10'
+                         }
+                       ],
+          'physical' => [
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s0',
+                            'name' => 'Samsung SSD 870 EVO 2TB',
+                            'predictive' => undef,
+                            'serial' => 'S621NF0R309939N',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s1',
+                            'name' => 'Samsung SSD 870 EVO 2TB',
+                            'predictive' => undef,
+                            'serial' => 'S621NF0R309937E',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s2',
+                            'name' => 'Samsung SSD 870 EVO 2TB',
+                            'predictive' => undef,
+                            'serial' => 'S621NF0R309934K',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s3',
+                            'name' => 'Samsung SSD 870 EVO 2TB',
+                            'predictive' => undef,
+                            'serial' => 'S621NF0R309941A',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s4',
+                            'name' => 'Samsung SSD 870 EVO 2TB',
+                            'predictive' => undef,
+                            'serial' => 'S621NF0R309944H',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s5',
+                            'name' => 'Samsung SSD 870 EVO 2TB',
+                            'predictive' => undef,
+                            'serial' => 'S621NF0R309936B',
+                            'state' => 'Onln'
+                          }
+                        ]
+        };

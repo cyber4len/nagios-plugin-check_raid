@@ -1,0 +1,2242 @@
+Controller = 0
+Status = Success
+Description = Show Drive Information Succeeded.
+
+
+Drive /c0/e26/s0 :
+================
+
+------------------------------------------------------------------------
+EID:Slt DID State DG      Size Intf Med SED PI SeSz Model            Sp 
+------------------------------------------------------------------------
+26:0     15 UGood -  12.473 TB SAS  HDD -   -  512B ST14000NM0168    -  
+------------------------------------------------------------------------
+
+EID-Enclosure Device ID|Slt-Slot No|DID-Device ID|DG-DriveGroup
+UGood-Unconfigured Good|UBad-Unconfigured Bad|Intf-Interface
+Med-Media Type|SED-Self Encryptive Drive|PI-Protection Info
+SeSz-Sector Size|Sp-Spun|U-Up|D-Down|T-Transition
+
+
+Drive /c0/e26/s0 - Detailed Information :
+=======================================
+
+Drive /c0/e26/s0 State :
+======================
+Shield Counter = N/A
+Media Error Count = N/A
+Other Error Count = N/A
+Predictive Failure Count = N/A
+S.M.A.R.T alert flagged by drive = N/A
+
+
+Drive /c0/e26/s0 Device attributes :
+==================================
+Manufacturer Id = SEAGATE 
+Model Number = ST14000NM0168   
+NAND Vendor = NA
+SN = ZHHRMEZ5
+WWN = 5000C500AF2F3D9C
+Firmware Revision = RSL5
+Raw size = 12.473 TB [0x63cbfffff Sectors]
+Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Non Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Device Speed = Unknown
+Link Speed = 12.0Gb/s
+Sector Size = 512B
+Config ID = NA
+Number of Blocks = 26789019647
+Connector Name = N/A
+
+
+Drive /c0/e26/s0 Policies/Settings :
+==================================
+Enclosure position = Unavailable
+Connected Port Number = 0 
+Sequence Number = 0
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = N/A
+Successful diagnostics completion on = N/A
+SED Capable = N/A
+SED Enabled = N/A
+Secured = N/A
+Needs EKM Attention = N/A
+PI Eligible = N/A
+Certified = N/A
+Wide Port Capable = N/A
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x5000c500af2f3d9d 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 8b 01 10 02 53 45 41 47 41 54 45 20 
+53 54 31 34 30 30 30 4e 4d 30 31 36 38 20 20 20 
+52 53 4c 35 5a 48 5a 35 52 4d 45 48 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 a2 0c 60 20 e0 
+04 60 04 c0 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 
+30 32 31 20 53 65 61 67 61 74 65 20 41 6c 6c 20 
+
+
+
+Drive /c0/e26/s1 :
+================
+
+------------------------------------------------------------------------
+EID:Slt DID State DG      Size Intf Med SED PI SeSz Model            Sp 
+------------------------------------------------------------------------
+26:1     16 UGood -  12.732 TB SAS  HDD -   -  512B WUH721814AL5204  -  
+------------------------------------------------------------------------
+
+EID-Enclosure Device ID|Slt-Slot No|DID-Device ID|DG-DriveGroup
+UGood-Unconfigured Good|UBad-Unconfigured Bad|Intf-Interface
+Med-Media Type|SED-Self Encryptive Drive|PI-Protection Info
+SeSz-Sector Size|Sp-Spun|U-Up|D-Down|T-Transition
+
+
+Drive /c0/e26/s1 - Detailed Information :
+=======================================
+
+Drive /c0/e26/s1 State :
+======================
+Shield Counter = N/A
+Media Error Count = N/A
+Other Error Count = N/A
+Predictive Failure Count = N/A
+S.M.A.R.T alert flagged by drive = N/A
+
+
+Drive /c0/e26/s1 Device attributes :
+==================================
+Manufacturer Id = WDC     
+Model Number = WUH721814AL5204 
+NAND Vendor = NA
+SN =         6AT9VRGA
+WWN = 5000CCA2DE12C2EF
+Firmware Revision = C6A0
+Raw size = 12.732 TB [0x65ddfffff Sectors]
+Coerced size = 12.732 TB [0x65ddfffff Sectors]
+Non Coerced size = 12.732 TB [0x65ddfffff Sectors]
+Device Speed = Unknown
+Link Speed = 12.0Gb/s
+Sector Size = 512B
+Config ID = NA
+Number of Blocks = 27344764927
+Connector Name = N/A
+
+
+Drive /c0/e26/s1 Policies/Settings :
+==================================
+Enclosure position = Unavailable
+Connected Port Number = 0 
+Sequence Number = 0
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = N/A
+Successful diagnostics completion on = N/A
+SED Capable = N/A
+SED Enabled = N/A
+Secured = N/A
+Needs EKM Attention = N/A
+PI Eligible = N/A
+Certified = N/A
+Wide Port Capable = N/A
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x5000cca2de12c2ed 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 9f 01 10 02 57 44 43 20 20 20 20 20 
+57 55 48 37 32 31 38 31 34 41 4c 35 32 30 34 20 
+43 36 41 30 36 41 47 41 39 56 52 54 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+28 63 29 20 57 65 73 74 65 72 6e 20 44 69 67 69 
+74 61 6c 20 43 6f 72 70 6f 72 61 74 69 6f 6e 20 
+
+
+
+Drive /c0/e26/s2 :
+================
+
+------------------------------------------------------------------------
+EID:Slt DID State DG      Size Intf Med SED PI SeSz Model            Sp 
+------------------------------------------------------------------------
+26:2     27 UGood -  12.732 TB SAS  HDD -   -  512B WUH721814AL5204  -  
+------------------------------------------------------------------------
+
+EID-Enclosure Device ID|Slt-Slot No|DID-Device ID|DG-DriveGroup
+UGood-Unconfigured Good|UBad-Unconfigured Bad|Intf-Interface
+Med-Media Type|SED-Self Encryptive Drive|PI-Protection Info
+SeSz-Sector Size|Sp-Spun|U-Up|D-Down|T-Transition
+
+
+Drive /c0/e26/s2 - Detailed Information :
+=======================================
+
+Drive /c0/e26/s2 State :
+======================
+Shield Counter = N/A
+Media Error Count = N/A
+Other Error Count = N/A
+Predictive Failure Count = N/A
+S.M.A.R.T alert flagged by drive = N/A
+
+
+Drive /c0/e26/s2 Device attributes :
+==================================
+Manufacturer Id = WDC     
+Model Number = WUH721814AL5204 
+NAND Vendor = NA
+SN =         6AT902GA
+WWN = 5000CCA2DE12B607
+Firmware Revision = C6A0
+Raw size = 12.732 TB [0x65ddfffff Sectors]
+Coerced size = 12.732 TB [0x65ddfffff Sectors]
+Non Coerced size = 12.732 TB [0x65ddfffff Sectors]
+Device Speed = Unknown
+Link Speed = 12.0Gb/s
+Sector Size = 512B
+Config ID = NA
+Number of Blocks = 27344764927
+Connector Name = N/A
+
+
+Drive /c0/e26/s2 Policies/Settings :
+==================================
+Enclosure position = Unavailable
+Connected Port Number = 0 
+Sequence Number = 0
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = N/A
+Successful diagnostics completion on = N/A
+SED Capable = N/A
+SED Enabled = N/A
+Secured = N/A
+Needs EKM Attention = N/A
+PI Eligible = N/A
+Certified = N/A
+Wide Port Capable = N/A
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x5000cca2de12b605 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 9f 01 10 02 57 44 43 20 20 20 20 20 
+57 55 48 37 32 31 38 31 34 41 4c 35 32 30 34 20 
+43 36 41 30 36 41 47 41 39 30 32 54 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+28 63 29 20 57 65 73 74 65 72 6e 20 44 69 67 69 
+74 61 6c 20 43 6f 72 70 6f 72 61 74 69 6f 6e 20 
+
+
+
+Drive /c0/e26/s3 :
+================
+
+------------------------------------------------------------------------
+EID:Slt DID State DG      Size Intf Med SED PI SeSz Model            Sp 
+------------------------------------------------------------------------
+26:3     17 UGood -  12.473 TB SAS  HDD -   -  512B ST14000NM0168    -  
+------------------------------------------------------------------------
+
+EID-Enclosure Device ID|Slt-Slot No|DID-Device ID|DG-DriveGroup
+UGood-Unconfigured Good|UBad-Unconfigured Bad|Intf-Interface
+Med-Media Type|SED-Self Encryptive Drive|PI-Protection Info
+SeSz-Sector Size|Sp-Spun|U-Up|D-Down|T-Transition
+
+
+Drive /c0/e26/s3 - Detailed Information :
+=======================================
+
+Drive /c0/e26/s3 State :
+======================
+Shield Counter = N/A
+Media Error Count = N/A
+Other Error Count = N/A
+Predictive Failure Count = N/A
+S.M.A.R.T alert flagged by drive = N/A
+
+
+Drive /c0/e26/s3 Device attributes :
+==================================
+Manufacturer Id = SEAGATE 
+Model Number = ST14000NM0168   
+NAND Vendor = NA
+SN = ZH240TZ6
+WWN = 5000C500AF528758
+Firmware Revision = RSL5
+Raw size = 12.473 TB [0x63cbfffff Sectors]
+Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Non Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Device Speed = Unknown
+Link Speed = 12.0Gb/s
+Sector Size = 512B
+Config ID = NA
+Number of Blocks = 26789019647
+Connector Name = N/A
+
+
+Drive /c0/e26/s3 Policies/Settings :
+==================================
+Enclosure position = Unavailable
+Connected Port Number = 0 
+Sequence Number = 0
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = N/A
+Successful diagnostics completion on = N/A
+SED Capable = N/A
+SED Enabled = N/A
+Secured = N/A
+Needs EKM Attention = N/A
+PI Eligible = N/A
+Certified = N/A
+Wide Port Capable = N/A
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x5000c500af528759 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 8b 01 10 02 53 45 41 47 41 54 45 20 
+53 54 31 34 30 30 30 4e 4d 30 31 36 38 20 20 20 
+52 53 4c 35 5a 48 5a 36 34 30 54 32 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 a2 0c 60 20 e0 
+04 60 04 c0 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 
+30 32 31 20 53 65 61 67 61 74 65 20 41 6c 6c 20 
+
+
+
+Drive /c0/e26/s4 :
+================
+
+------------------------------------------------------------------------
+EID:Slt DID State DG      Size Intf Med SED PI SeSz Model            Sp 
+------------------------------------------------------------------------
+26:4     18 UGood -  12.473 TB SAS  HDD -   -  512B ST14000NM0168    -  
+------------------------------------------------------------------------
+
+EID-Enclosure Device ID|Slt-Slot No|DID-Device ID|DG-DriveGroup
+UGood-Unconfigured Good|UBad-Unconfigured Bad|Intf-Interface
+Med-Media Type|SED-Self Encryptive Drive|PI-Protection Info
+SeSz-Sector Size|Sp-Spun|U-Up|D-Down|T-Transition
+
+
+Drive /c0/e26/s4 - Detailed Information :
+=======================================
+
+Drive /c0/e26/s4 State :
+======================
+Shield Counter = N/A
+Media Error Count = N/A
+Other Error Count = N/A
+Predictive Failure Count = N/A
+S.M.A.R.T alert flagged by drive = N/A
+
+
+Drive /c0/e26/s4 Device attributes :
+==================================
+Manufacturer Id = SEAGATE 
+Model Number = ST14000NM0168   
+NAND Vendor = NA
+SN = ZH94GHZ6
+WWN = 5000C500AF537EB4
+Firmware Revision = RSL5
+Raw size = 12.473 TB [0x63cbfffff Sectors]
+Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Non Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Device Speed = Unknown
+Link Speed = 12.0Gb/s
+Sector Size = 512B
+Config ID = NA
+Number of Blocks = 26789019647
+Connector Name = N/A
+
+
+Drive /c0/e26/s4 Policies/Settings :
+==================================
+Enclosure position = Unavailable
+Connected Port Number = 0 
+Sequence Number = 0
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = N/A
+Successful diagnostics completion on = N/A
+SED Capable = N/A
+SED Enabled = N/A
+Secured = N/A
+Needs EKM Attention = N/A
+PI Eligible = N/A
+Certified = N/A
+Wide Port Capable = N/A
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x5000c500af537eb5 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 8b 01 10 02 53 45 41 47 41 54 45 20 
+53 54 31 34 30 30 30 4e 4d 30 31 36 38 20 20 20 
+52 53 4c 35 5a 48 5a 36 34 47 48 39 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 a2 0c 60 20 e0 
+04 60 04 c0 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 
+30 32 31 20 53 65 61 67 61 74 65 20 41 6c 6c 20 
+
+
+
+Drive /c0/e26/s5 :
+================
+
+------------------------------------------------------------------------
+EID:Slt DID State DG      Size Intf Med SED PI SeSz Model            Sp 
+------------------------------------------------------------------------
+26:5     19 UGood -  12.473 TB SAS  HDD -   -  512B ST14000NM0168    -  
+------------------------------------------------------------------------
+
+EID-Enclosure Device ID|Slt-Slot No|DID-Device ID|DG-DriveGroup
+UGood-Unconfigured Good|UBad-Unconfigured Bad|Intf-Interface
+Med-Media Type|SED-Self Encryptive Drive|PI-Protection Info
+SeSz-Sector Size|Sp-Spun|U-Up|D-Down|T-Transition
+
+
+Drive /c0/e26/s5 - Detailed Information :
+=======================================
+
+Drive /c0/e26/s5 State :
+======================
+Shield Counter = N/A
+Media Error Count = N/A
+Other Error Count = N/A
+Predictive Failure Count = N/A
+S.M.A.R.T alert flagged by drive = N/A
+
+
+Drive /c0/e26/s5 Device attributes :
+==================================
+Manufacturer Id = SEAGATE 
+Model Number = ST14000NM0168   
+NAND Vendor = NA
+SN = ZHCRMGZ5
+WWN = 5000C500AF2F36A0
+Firmware Revision = RSL5
+Raw size = 12.473 TB [0x63cbfffff Sectors]
+Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Non Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Device Speed = Unknown
+Link Speed = 12.0Gb/s
+Sector Size = 512B
+Config ID = NA
+Number of Blocks = 26789019647
+Connector Name = N/A
+
+
+Drive /c0/e26/s5 Policies/Settings :
+==================================
+Enclosure position = Unavailable
+Connected Port Number = 0 
+Sequence Number = 0
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = N/A
+Successful diagnostics completion on = N/A
+SED Capable = N/A
+SED Enabled = N/A
+Secured = N/A
+Needs EKM Attention = N/A
+PI Eligible = N/A
+Certified = N/A
+Wide Port Capable = N/A
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x5000c500af2f36a1 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 8b 01 10 02 53 45 41 47 41 54 45 20 
+53 54 31 34 30 30 30 4e 4d 30 31 36 38 20 20 20 
+52 53 4c 35 5a 48 5a 35 52 4d 47 43 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 a2 0c 60 20 e0 
+04 60 04 c0 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 
+30 32 31 20 53 65 61 67 61 74 65 20 41 6c 6c 20 
+
+
+
+Drive /c0/e26/s6 :
+================
+
+------------------------------------------------------------------------
+EID:Slt DID State DG      Size Intf Med SED PI SeSz Model            Sp 
+------------------------------------------------------------------------
+26:6     20 UGood -  12.473 TB SAS  HDD -   -  512B ST14000NM0168    -  
+------------------------------------------------------------------------
+
+EID-Enclosure Device ID|Slt-Slot No|DID-Device ID|DG-DriveGroup
+UGood-Unconfigured Good|UBad-Unconfigured Bad|Intf-Interface
+Med-Media Type|SED-Self Encryptive Drive|PI-Protection Info
+SeSz-Sector Size|Sp-Spun|U-Up|D-Down|T-Transition
+
+
+Drive /c0/e26/s6 - Detailed Information :
+=======================================
+
+Drive /c0/e26/s6 State :
+======================
+Shield Counter = N/A
+Media Error Count = N/A
+Other Error Count = N/A
+Predictive Failure Count = N/A
+S.M.A.R.T alert flagged by drive = N/A
+
+
+Drive /c0/e26/s6 Device attributes :
+==================================
+Manufacturer Id = SEAGATE 
+Model Number = ST14000NM0168   
+NAND Vendor = NA
+SN = ZH53BXZ6
+WWN = 5000C500AF548A48
+Firmware Revision = RSL5
+Raw size = 12.473 TB [0x63cbfffff Sectors]
+Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Non Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Device Speed = Unknown
+Link Speed = 12.0Gb/s
+Sector Size = 512B
+Config ID = NA
+Number of Blocks = 26789019647
+Connector Name = N/A
+
+
+Drive /c0/e26/s6 Policies/Settings :
+==================================
+Enclosure position = Unavailable
+Connected Port Number = 0 
+Sequence Number = 0
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = N/A
+Successful diagnostics completion on = N/A
+SED Capable = N/A
+SED Enabled = N/A
+Secured = N/A
+Needs EKM Attention = N/A
+PI Eligible = N/A
+Certified = N/A
+Wide Port Capable = N/A
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x5000c500af548a49 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 8b 01 10 02 53 45 41 47 41 54 45 20 
+53 54 31 34 30 30 30 4e 4d 30 31 36 38 20 20 20 
+52 53 4c 35 5a 48 5a 36 33 42 58 35 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 a2 0c 60 20 e0 
+04 60 04 c0 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 
+30 32 31 20 53 65 61 67 61 74 65 20 41 6c 6c 20 
+
+
+
+Drive /c0/e26/s7 :
+================
+
+------------------------------------------------------------------------
+EID:Slt DID State DG      Size Intf Med SED PI SeSz Model            Sp 
+------------------------------------------------------------------------
+26:7     21 UGood -  12.473 TB SAS  HDD -   -  512B ST14000NM006J    -  
+------------------------------------------------------------------------
+
+EID-Enclosure Device ID|Slt-Slot No|DID-Device ID|DG-DriveGroup
+UGood-Unconfigured Good|UBad-Unconfigured Bad|Intf-Interface
+Med-Media Type|SED-Self Encryptive Drive|PI-Protection Info
+SeSz-Sector Size|Sp-Spun|U-Up|D-Down|T-Transition
+
+
+Drive /c0/e26/s7 - Detailed Information :
+=======================================
+
+Drive /c0/e26/s7 State :
+======================
+Shield Counter = N/A
+Media Error Count = N/A
+Other Error Count = N/A
+Predictive Failure Count = N/A
+S.M.A.R.T alert flagged by drive = N/A
+
+
+Drive /c0/e26/s7 Device attributes :
+==================================
+Manufacturer Id = SEAGATE 
+Model Number = ST14000NM006J   
+NAND Vendor = NA
+SN = ZRJ43A90
+WWN = 5000C500DADAB144
+Firmware Revision = PSLB
+Raw size = 12.473 TB [0x63cbfffff Sectors]
+Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Non Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Device Speed = Unknown
+Link Speed = 12.0Gb/s
+Sector Size = 512B
+Config ID = NA
+Number of Blocks = 26789019647
+Connector Name = N/A
+
+
+Drive /c0/e26/s7 Policies/Settings :
+==================================
+Enclosure position = Unavailable
+Connected Port Number = 0 
+Sequence Number = 0
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = N/A
+Successful diagnostics completion on = N/A
+SED Capable = N/A
+SED Enabled = N/A
+Secured = N/A
+Needs EKM Attention = N/A
+PI Eligible = N/A
+Certified = N/A
+Wide Port Capable = N/A
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x5000c500dadab145 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 8b 01 10 02 53 45 41 47 41 54 45 20 
+53 54 31 34 30 30 30 4e 4d 30 30 36 4a 20 20 20 
+50 53 4c 42 5a 52 39 30 34 33 41 4a 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 a2 0c 80 21 00 
+05 c0 06 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 
+30 32 32 20 53 65 61 67 61 74 65 20 41 6c 6c 20 
+
+
+
+Drive /c0/e26/s8 :
+================
+
+------------------------------------------------------------------------
+EID:Slt DID State DG      Size Intf Med SED PI SeSz Model            Sp 
+------------------------------------------------------------------------
+26:8     22 UGood -  12.473 TB SAS  HDD -   -  512B ST14000NM0168    -  
+------------------------------------------------------------------------
+
+EID-Enclosure Device ID|Slt-Slot No|DID-Device ID|DG-DriveGroup
+UGood-Unconfigured Good|UBad-Unconfigured Bad|Intf-Interface
+Med-Media Type|SED-Self Encryptive Drive|PI-Protection Info
+SeSz-Sector Size|Sp-Spun|U-Up|D-Down|T-Transition
+
+
+Drive /c0/e26/s8 - Detailed Information :
+=======================================
+
+Drive /c0/e26/s8 State :
+======================
+Shield Counter = N/A
+Media Error Count = N/A
+Other Error Count = N/A
+Predictive Failure Count = N/A
+S.M.A.R.T alert flagged by drive = N/A
+
+
+Drive /c0/e26/s8 Device attributes :
+==================================
+Manufacturer Id = SEAGATE 
+Model Number = ST14000NM0168   
+NAND Vendor = NA
+SN = ZHE3JGZ6
+WWN = 5000C500AF53112C
+Firmware Revision = RSL5
+Raw size = 12.473 TB [0x63cbfffff Sectors]
+Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Non Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Device Speed = Unknown
+Link Speed = 12.0Gb/s
+Sector Size = 512B
+Config ID = NA
+Number of Blocks = 26789019647
+Connector Name = N/A
+
+
+Drive /c0/e26/s8 Policies/Settings :
+==================================
+Enclosure position = Unavailable
+Connected Port Number = 0 
+Sequence Number = 0
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = N/A
+Successful diagnostics completion on = N/A
+SED Capable = N/A
+SED Enabled = N/A
+Secured = N/A
+Needs EKM Attention = N/A
+PI Eligible = N/A
+Certified = N/A
+Wide Port Capable = N/A
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x5000c500af53112d 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 8b 01 10 02 53 45 41 47 41 54 45 20 
+53 54 31 34 30 30 30 4e 4d 30 31 36 38 20 20 20 
+52 53 4c 35 5a 48 5a 36 33 4a 47 45 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 a2 0c 60 20 e0 
+04 60 04 c0 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 
+30 32 31 20 53 65 61 67 61 74 65 20 41 6c 6c 20 
+
+
+
+Drive /c0/e26/s9 :
+================
+
+------------------------------------------------------------------------
+EID:Slt DID State DG      Size Intf Med SED PI SeSz Model            Sp 
+------------------------------------------------------------------------
+26:9     23 UGood -  12.473 TB SAS  HDD -   -  512B ST14000NM0168    -  
+------------------------------------------------------------------------
+
+EID-Enclosure Device ID|Slt-Slot No|DID-Device ID|DG-DriveGroup
+UGood-Unconfigured Good|UBad-Unconfigured Bad|Intf-Interface
+Med-Media Type|SED-Self Encryptive Drive|PI-Protection Info
+SeSz-Sector Size|Sp-Spun|U-Up|D-Down|T-Transition
+
+
+Drive /c0/e26/s9 - Detailed Information :
+=======================================
+
+Drive /c0/e26/s9 State :
+======================
+Shield Counter = N/A
+Media Error Count = N/A
+Other Error Count = N/A
+Predictive Failure Count = N/A
+S.M.A.R.T alert flagged by drive = N/A
+
+
+Drive /c0/e26/s9 Device attributes :
+==================================
+Manufacturer Id = SEAGATE 
+Model Number = ST14000NM0168   
+NAND Vendor = NA
+SN = ZH94GKZ6
+WWN = 5000C500AF537768
+Firmware Revision = RSL5
+Raw size = 12.473 TB [0x63cbfffff Sectors]
+Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Non Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Device Speed = Unknown
+Link Speed = 12.0Gb/s
+Sector Size = 512B
+Config ID = NA
+Number of Blocks = 26789019647
+Connector Name = N/A
+
+
+Drive /c0/e26/s9 Policies/Settings :
+==================================
+Enclosure position = Unavailable
+Connected Port Number = 0 
+Sequence Number = 0
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = N/A
+Successful diagnostics completion on = N/A
+SED Capable = N/A
+SED Enabled = N/A
+Secured = N/A
+Needs EKM Attention = N/A
+PI Eligible = N/A
+Certified = N/A
+Wide Port Capable = N/A
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x5000c500af537769 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 8b 01 10 02 53 45 41 47 41 54 45 20 
+53 54 31 34 30 30 30 4e 4d 30 31 36 38 20 20 20 
+52 53 4c 35 5a 48 5a 36 34 47 4b 39 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 a2 0c 60 20 e0 
+04 60 04 c0 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 
+30 32 31 20 53 65 61 67 61 74 65 20 41 6c 6c 20 
+
+
+
+Drive /c0/e26/s10 :
+=================
+
+------------------------------------------------------------------------
+EID:Slt DID State DG      Size Intf Med SED PI SeSz Model            Sp 
+------------------------------------------------------------------------
+26:10    24 UGood -  12.473 TB SAS  HDD -   -  512B ST14000NM0168    -  
+------------------------------------------------------------------------
+
+EID-Enclosure Device ID|Slt-Slot No|DID-Device ID|DG-DriveGroup
+UGood-Unconfigured Good|UBad-Unconfigured Bad|Intf-Interface
+Med-Media Type|SED-Self Encryptive Drive|PI-Protection Info
+SeSz-Sector Size|Sp-Spun|U-Up|D-Down|T-Transition
+
+
+Drive /c0/e26/s10 - Detailed Information :
+========================================
+
+Drive /c0/e26/s10 State :
+=======================
+Shield Counter = N/A
+Media Error Count = N/A
+Other Error Count = N/A
+Predictive Failure Count = N/A
+S.M.A.R.T alert flagged by drive = N/A
+
+
+Drive /c0/e26/s10 Device attributes :
+===================================
+Manufacturer Id = SEAGATE 
+Model Number = ST14000NM0168   
+NAND Vendor = NA
+SN = ZHR40BZ6
+WWN = 5000C500AF52B624
+Firmware Revision = RSL5
+Raw size = 12.473 TB [0x63cbfffff Sectors]
+Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Non Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Device Speed = Unknown
+Link Speed = 12.0Gb/s
+Sector Size = 512B
+Config ID = NA
+Number of Blocks = 26789019647
+Connector Name = N/A
+
+
+Drive /c0/e26/s10 Policies/Settings :
+===================================
+Enclosure position = Unavailable
+Connected Port Number = 0 
+Sequence Number = 0
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = N/A
+Successful diagnostics completion on = N/A
+SED Capable = N/A
+SED Enabled = N/A
+Secured = N/A
+Needs EKM Attention = N/A
+PI Eligible = N/A
+Certified = N/A
+Wide Port Capable = N/A
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x5000c500af52b625 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 8b 01 10 02 53 45 41 47 41 54 45 20 
+53 54 31 34 30 30 30 4e 4d 30 31 36 38 20 20 20 
+52 53 4c 35 5a 48 5a 36 34 30 42 52 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 a2 0c 60 20 e0 
+04 60 04 c0 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 
+30 32 31 20 53 65 61 67 61 74 65 20 41 6c 6c 20 
+
+
+
+Drive /c0/e26/s11 :
+=================
+
+------------------------------------------------------------------------
+EID:Slt DID State DG      Size Intf Med SED PI SeSz Model            Sp 
+------------------------------------------------------------------------
+26:11    25 UGood -  12.473 TB SAS  HDD -   -  512B ST14000NM0168    -  
+------------------------------------------------------------------------
+
+EID-Enclosure Device ID|Slt-Slot No|DID-Device ID|DG-DriveGroup
+UGood-Unconfigured Good|UBad-Unconfigured Bad|Intf-Interface
+Med-Media Type|SED-Self Encryptive Drive|PI-Protection Info
+SeSz-Sector Size|Sp-Spun|U-Up|D-Down|T-Transition
+
+
+Drive /c0/e26/s11 - Detailed Information :
+========================================
+
+Drive /c0/e26/s11 State :
+=======================
+Shield Counter = N/A
+Media Error Count = N/A
+Other Error Count = N/A
+Predictive Failure Count = N/A
+S.M.A.R.T alert flagged by drive = N/A
+
+
+Drive /c0/e26/s11 Device attributes :
+===================================
+Manufacturer Id = SEAGATE 
+Model Number = ST14000NM0168   
+NAND Vendor = NA
+SN = ZHDL9FZ5
+WWN = 5000C500AF0A0028
+Firmware Revision = RSL5
+Raw size = 12.473 TB [0x63cbfffff Sectors]
+Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Non Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Device Speed = Unknown
+Link Speed = 12.0Gb/s
+Sector Size = 512B
+Config ID = NA
+Number of Blocks = 26789019647
+Connector Name = N/A
+
+
+Drive /c0/e26/s11 Policies/Settings :
+===================================
+Enclosure position = Unavailable
+Connected Port Number = 0 
+Sequence Number = 0
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = N/A
+Successful diagnostics completion on = N/A
+SED Capable = N/A
+SED Enabled = N/A
+Secured = N/A
+Needs EKM Attention = N/A
+PI Eligible = N/A
+Certified = N/A
+Wide Port Capable = N/A
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x5000c500af0a0029 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 8b 01 10 02 53 45 41 47 41 54 45 20 
+53 54 31 34 30 30 30 4e 4d 30 31 36 38 20 20 20 
+52 53 4c 35 5a 48 5a 35 4c 39 46 44 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 a2 0c 60 20 e0 
+04 60 04 c0 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 
+30 32 31 20 53 65 61 67 61 74 65 20 41 6c 6c 20 
+
+
+
+Drive /c0/e26/s12 :
+=================
+
+------------------------------------------------------------------------
+EID:Slt DID State DG      Size Intf Med SED PI SeSz Model            Sp 
+------------------------------------------------------------------------
+26:12     0 UGood -  12.473 TB SAS  HDD -   -  512B ST14000NM0168    -  
+------------------------------------------------------------------------
+
+EID-Enclosure Device ID|Slt-Slot No|DID-Device ID|DG-DriveGroup
+UGood-Unconfigured Good|UBad-Unconfigured Bad|Intf-Interface
+Med-Media Type|SED-Self Encryptive Drive|PI-Protection Info
+SeSz-Sector Size|Sp-Spun|U-Up|D-Down|T-Transition
+
+
+Drive /c0/e26/s12 - Detailed Information :
+========================================
+
+Drive /c0/e26/s12 State :
+=======================
+Shield Counter = N/A
+Media Error Count = N/A
+Other Error Count = N/A
+Predictive Failure Count = N/A
+S.M.A.R.T alert flagged by drive = N/A
+
+
+Drive /c0/e26/s12 Device attributes :
+===================================
+Manufacturer Id = SEAGATE 
+Model Number = ST14000NM0168   
+NAND Vendor = NA
+SN = ZHA4F1Z6
+WWN = 5000C500AF54068C
+Firmware Revision = RSL5
+Raw size = 12.473 TB [0x63cbfffff Sectors]
+Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Non Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Device Speed = Unknown
+Link Speed = 12.0Gb/s
+Sector Size = 512B
+Config ID = NA
+Number of Blocks = 26789019647
+Connector Name = N/A
+
+
+Drive /c0/e26/s12 Policies/Settings :
+===================================
+Enclosure position = Unavailable
+Connected Port Number = 0 
+Sequence Number = 0
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = N/A
+Successful diagnostics completion on = N/A
+SED Capable = N/A
+SED Enabled = N/A
+Secured = N/A
+Needs EKM Attention = N/A
+PI Eligible = N/A
+Certified = N/A
+Wide Port Capable = N/A
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x5000c500af54068d 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 8b 01 10 02 53 45 41 47 41 54 45 20 
+53 54 31 34 30 30 30 4e 4d 30 31 36 38 20 20 20 
+52 53 4c 35 5a 48 5a 36 34 46 31 41 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 a2 0c 60 20 e0 
+04 60 04 c0 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 
+30 32 31 20 53 65 61 67 61 74 65 20 41 6c 6c 20 
+
+
+
+Drive /c0/e26/s13 :
+=================
+
+------------------------------------------------------------------------
+EID:Slt DID State DG      Size Intf Med SED PI SeSz Model            Sp 
+------------------------------------------------------------------------
+26:13     1 UGood -  12.473 TB SAS  HDD -   -  512B ST14000NM0168    -  
+------------------------------------------------------------------------
+
+EID-Enclosure Device ID|Slt-Slot No|DID-Device ID|DG-DriveGroup
+UGood-Unconfigured Good|UBad-Unconfigured Bad|Intf-Interface
+Med-Media Type|SED-Self Encryptive Drive|PI-Protection Info
+SeSz-Sector Size|Sp-Spun|U-Up|D-Down|T-Transition
+
+
+Drive /c0/e26/s13 - Detailed Information :
+========================================
+
+Drive /c0/e26/s13 State :
+=======================
+Shield Counter = N/A
+Media Error Count = N/A
+Other Error Count = N/A
+Predictive Failure Count = N/A
+S.M.A.R.T alert flagged by drive = N/A
+
+
+Drive /c0/e26/s13 Device attributes :
+===================================
+Manufacturer Id = SEAGATE 
+Model Number = ST14000NM0168   
+NAND Vendor = NA
+SN = ZHS3VBZ6
+WWN = 5000C500AF53039C
+Firmware Revision = RSL5
+Raw size = 12.473 TB [0x63cbfffff Sectors]
+Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Non Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Device Speed = Unknown
+Link Speed = 12.0Gb/s
+Sector Size = 512B
+Config ID = NA
+Number of Blocks = 26789019647
+Connector Name = N/A
+
+
+Drive /c0/e26/s13 Policies/Settings :
+===================================
+Enclosure position = Unavailable
+Connected Port Number = 0 
+Sequence Number = 0
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = N/A
+Successful diagnostics completion on = N/A
+SED Capable = N/A
+SED Enabled = N/A
+Secured = N/A
+Needs EKM Attention = N/A
+PI Eligible = N/A
+Certified = N/A
+Wide Port Capable = N/A
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x5000c500af53039d 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 8b 01 10 02 53 45 41 47 41 54 45 20 
+53 54 31 34 30 30 30 4e 4d 30 31 36 38 20 20 20 
+52 53 4c 35 5a 48 5a 36 33 56 42 53 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 a2 0c 60 20 e0 
+04 60 04 c0 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 
+30 32 31 20 53 65 61 67 61 74 65 20 41 6c 6c 20 
+
+
+
+Drive /c0/e26/s14 :
+=================
+
+------------------------------------------------------------------------
+EID:Slt DID State DG      Size Intf Med SED PI SeSz Model            Sp 
+------------------------------------------------------------------------
+26:14     2 UGood -  12.473 TB SAS  HDD -   -  512B ST14000NM0168    -  
+------------------------------------------------------------------------
+
+EID-Enclosure Device ID|Slt-Slot No|DID-Device ID|DG-DriveGroup
+UGood-Unconfigured Good|UBad-Unconfigured Bad|Intf-Interface
+Med-Media Type|SED-Self Encryptive Drive|PI-Protection Info
+SeSz-Sector Size|Sp-Spun|U-Up|D-Down|T-Transition
+
+
+Drive /c0/e26/s14 - Detailed Information :
+========================================
+
+Drive /c0/e26/s14 State :
+=======================
+Shield Counter = N/A
+Media Error Count = N/A
+Other Error Count = N/A
+Predictive Failure Count = N/A
+S.M.A.R.T alert flagged by drive = N/A
+
+
+Drive /c0/e26/s14 Device attributes :
+===================================
+Manufacturer Id = SEAGATE 
+Model Number = ST14000NM0168   
+NAND Vendor = NA
+SN = ZHK42YZ6
+WWN = 5000C500AF51AB3C
+Firmware Revision = RSL5
+Raw size = 12.473 TB [0x63cbfffff Sectors]
+Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Non Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Device Speed = Unknown
+Link Speed = 12.0Gb/s
+Sector Size = 512B
+Config ID = NA
+Number of Blocks = 26789019647
+Connector Name = N/A
+
+
+Drive /c0/e26/s14 Policies/Settings :
+===================================
+Enclosure position = Unavailable
+Connected Port Number = 0 
+Sequence Number = 0
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = N/A
+Successful diagnostics completion on = N/A
+SED Capable = N/A
+SED Enabled = N/A
+Secured = N/A
+Needs EKM Attention = N/A
+PI Eligible = N/A
+Certified = N/A
+Wide Port Capable = N/A
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x5000c500af51ab3d 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 8b 01 10 02 53 45 41 47 41 54 45 20 
+53 54 31 34 30 30 30 4e 4d 30 31 36 38 20 20 20 
+52 53 4c 35 5a 48 5a 36 34 32 59 4b 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 a2 0c 60 20 e0 
+04 60 04 c0 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 
+30 32 31 20 53 65 61 67 61 74 65 20 41 6c 6c 20 
+
+
+
+Drive /c0/e26/s15 :
+=================
+
+------------------------------------------------------------------------
+EID:Slt DID State DG      Size Intf Med SED PI SeSz Model            Sp 
+------------------------------------------------------------------------
+26:15     3 UGood -  12.473 TB SAS  HDD -   -  512B ST14000NM0168    -  
+------------------------------------------------------------------------
+
+EID-Enclosure Device ID|Slt-Slot No|DID-Device ID|DG-DriveGroup
+UGood-Unconfigured Good|UBad-Unconfigured Bad|Intf-Interface
+Med-Media Type|SED-Self Encryptive Drive|PI-Protection Info
+SeSz-Sector Size|Sp-Spun|U-Up|D-Down|T-Transition
+
+
+Drive /c0/e26/s15 - Detailed Information :
+========================================
+
+Drive /c0/e26/s15 State :
+=======================
+Shield Counter = N/A
+Media Error Count = N/A
+Other Error Count = N/A
+Predictive Failure Count = N/A
+S.M.A.R.T alert flagged by drive = N/A
+
+
+Drive /c0/e26/s15 Device attributes :
+===================================
+Manufacturer Id = SEAGATE 
+Model Number = ST14000NM0168   
+NAND Vendor = NA
+SN = ZHVRLYZ5
+WWN = 5000C500AF2F56F8
+Firmware Revision = RSL5
+Raw size = 12.473 TB [0x63cbfffff Sectors]
+Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Non Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Device Speed = Unknown
+Link Speed = 12.0Gb/s
+Sector Size = 512B
+Config ID = NA
+Number of Blocks = 26789019647
+Connector Name = N/A
+
+
+Drive /c0/e26/s15 Policies/Settings :
+===================================
+Enclosure position = Unavailable
+Connected Port Number = 0 
+Sequence Number = 0
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = N/A
+Successful diagnostics completion on = N/A
+SED Capable = N/A
+SED Enabled = N/A
+Secured = N/A
+Needs EKM Attention = N/A
+PI Eligible = N/A
+Certified = N/A
+Wide Port Capable = N/A
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x5000c500af2f56f9 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 8b 01 10 02 53 45 41 47 41 54 45 20 
+53 54 31 34 30 30 30 4e 4d 30 31 36 38 20 20 20 
+52 53 4c 35 5a 48 5a 35 52 4c 59 56 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 a2 0c 60 20 e0 
+04 60 04 c0 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 
+30 32 31 20 53 65 61 67 61 74 65 20 41 6c 6c 20 
+
+
+
+Drive /c0/e26/s16 :
+=================
+
+------------------------------------------------------------------------
+EID:Slt DID State DG      Size Intf Med SED PI SeSz Model            Sp 
+------------------------------------------------------------------------
+26:16     4 UGood -  12.473 TB SAS  HDD -   -  512B ST14000NM0168    -  
+------------------------------------------------------------------------
+
+EID-Enclosure Device ID|Slt-Slot No|DID-Device ID|DG-DriveGroup
+UGood-Unconfigured Good|UBad-Unconfigured Bad|Intf-Interface
+Med-Media Type|SED-Self Encryptive Drive|PI-Protection Info
+SeSz-Sector Size|Sp-Spun|U-Up|D-Down|T-Transition
+
+
+Drive /c0/e26/s16 - Detailed Information :
+========================================
+
+Drive /c0/e26/s16 State :
+=======================
+Shield Counter = N/A
+Media Error Count = N/A
+Other Error Count = N/A
+Predictive Failure Count = N/A
+S.M.A.R.T alert flagged by drive = N/A
+
+
+Drive /c0/e26/s16 Device attributes :
+===================================
+Manufacturer Id = SEAGATE 
+Model Number = ST14000NM0168   
+NAND Vendor = NA
+SN = ZHZ3BMZ6
+WWN = 5000C500AF54C328
+Firmware Revision = RSL5
+Raw size = 12.473 TB [0x63cbfffff Sectors]
+Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Non Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Device Speed = Unknown
+Link Speed = 12.0Gb/s
+Sector Size = 512B
+Config ID = NA
+Number of Blocks = 26789019647
+Connector Name = N/A
+
+
+Drive /c0/e26/s16 Policies/Settings :
+===================================
+Enclosure position = Unavailable
+Connected Port Number = 0 
+Sequence Number = 0
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = N/A
+Successful diagnostics completion on = N/A
+SED Capable = N/A
+SED Enabled = N/A
+Secured = N/A
+Needs EKM Attention = N/A
+PI Eligible = N/A
+Certified = N/A
+Wide Port Capable = N/A
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x5000c500af54c329 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 8b 01 10 02 53 45 41 47 41 54 45 20 
+53 54 31 34 30 30 30 4e 4d 30 31 36 38 20 20 20 
+52 53 4c 35 5a 48 5a 36 33 42 4d 5a 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 a2 0c 60 20 e0 
+04 60 04 c0 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 
+30 32 31 20 53 65 61 67 61 74 65 20 41 6c 6c 20 
+
+
+
+Drive /c0/e26/s17 :
+=================
+
+------------------------------------------------------------------------
+EID:Slt DID State DG      Size Intf Med SED PI SeSz Model            Sp 
+------------------------------------------------------------------------
+26:17     5 UGood -  12.473 TB SAS  HDD -   -  512B ST14000NM0168    -  
+------------------------------------------------------------------------
+
+EID-Enclosure Device ID|Slt-Slot No|DID-Device ID|DG-DriveGroup
+UGood-Unconfigured Good|UBad-Unconfigured Bad|Intf-Interface
+Med-Media Type|SED-Self Encryptive Drive|PI-Protection Info
+SeSz-Sector Size|Sp-Spun|U-Up|D-Down|T-Transition
+
+
+Drive /c0/e26/s17 - Detailed Information :
+========================================
+
+Drive /c0/e26/s17 State :
+=======================
+Shield Counter = N/A
+Media Error Count = N/A
+Other Error Count = N/A
+Predictive Failure Count = N/A
+S.M.A.R.T alert flagged by drive = N/A
+
+
+Drive /c0/e26/s17 Device attributes :
+===================================
+Manufacturer Id = SEAGATE 
+Model Number = ST14000NM0168   
+NAND Vendor = NA
+SN = ZHQ3BHZ6
+WWN = 5000C500AF54C818
+Firmware Revision = RSL5
+Raw size = 12.473 TB [0x63cbfffff Sectors]
+Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Non Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Device Speed = Unknown
+Link Speed = 12.0Gb/s
+Sector Size = 512B
+Config ID = NA
+Number of Blocks = 26789019647
+Connector Name = N/A
+
+
+Drive /c0/e26/s17 Policies/Settings :
+===================================
+Enclosure position = Unavailable
+Connected Port Number = 0 
+Sequence Number = 0
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = N/A
+Successful diagnostics completion on = N/A
+SED Capable = N/A
+SED Enabled = N/A
+Secured = N/A
+Needs EKM Attention = N/A
+PI Eligible = N/A
+Certified = N/A
+Wide Port Capable = N/A
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x5000c500af54c819 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 8b 01 10 02 53 45 41 47 41 54 45 20 
+53 54 31 34 30 30 30 4e 4d 30 31 36 38 20 20 20 
+52 53 4c 35 5a 48 5a 36 33 42 48 51 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 a2 0c 60 20 e0 
+04 60 04 c0 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 
+30 32 31 20 53 65 61 67 61 74 65 20 41 6c 6c 20 
+
+
+
+Drive /c0/e26/s18 :
+=================
+
+------------------------------------------------------------------------
+EID:Slt DID State DG      Size Intf Med SED PI SeSz Model            Sp 
+------------------------------------------------------------------------
+26:18     6 UGood -  12.473 TB SAS  HDD -   -  512B ST14000NM0168    -  
+------------------------------------------------------------------------
+
+EID-Enclosure Device ID|Slt-Slot No|DID-Device ID|DG-DriveGroup
+UGood-Unconfigured Good|UBad-Unconfigured Bad|Intf-Interface
+Med-Media Type|SED-Self Encryptive Drive|PI-Protection Info
+SeSz-Sector Size|Sp-Spun|U-Up|D-Down|T-Transition
+
+
+Drive /c0/e26/s18 - Detailed Information :
+========================================
+
+Drive /c0/e26/s18 State :
+=======================
+Shield Counter = N/A
+Media Error Count = N/A
+Other Error Count = N/A
+Predictive Failure Count = N/A
+S.M.A.R.T alert flagged by drive = N/A
+
+
+Drive /c0/e26/s18 Device attributes :
+===================================
+Manufacturer Id = SEAGATE 
+Model Number = ST14000NM0168   
+NAND Vendor = NA
+SN = ZHYRLYZ5
+WWN = 5000C500AF2F568C
+Firmware Revision = RSL5
+Raw size = 12.473 TB [0x63cbfffff Sectors]
+Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Non Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Device Speed = Unknown
+Link Speed = 12.0Gb/s
+Sector Size = 512B
+Config ID = NA
+Number of Blocks = 26789019647
+Connector Name = N/A
+
+
+Drive /c0/e26/s18 Policies/Settings :
+===================================
+Enclosure position = Unavailable
+Connected Port Number = 0 
+Sequence Number = 0
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = N/A
+Successful diagnostics completion on = N/A
+SED Capable = N/A
+SED Enabled = N/A
+Secured = N/A
+Needs EKM Attention = N/A
+PI Eligible = N/A
+Certified = N/A
+Wide Port Capable = N/A
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x5000c500af2f568d 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 8b 01 10 02 53 45 41 47 41 54 45 20 
+53 54 31 34 30 30 30 4e 4d 30 31 36 38 20 20 20 
+52 53 4c 35 5a 48 5a 35 52 4c 59 59 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 a2 0c 60 20 e0 
+04 60 04 c0 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 
+30 32 31 20 53 65 61 67 61 74 65 20 41 6c 6c 20 
+
+
+
+Drive /c0/e26/s19 :
+=================
+
+------------------------------------------------------------------------
+EID:Slt DID State DG      Size Intf Med SED PI SeSz Model            Sp 
+------------------------------------------------------------------------
+26:19     7 UGood -  12.473 TB SAS  HDD -   -  512B ST14000NM0168    -  
+------------------------------------------------------------------------
+
+EID-Enclosure Device ID|Slt-Slot No|DID-Device ID|DG-DriveGroup
+UGood-Unconfigured Good|UBad-Unconfigured Bad|Intf-Interface
+Med-Media Type|SED-Self Encryptive Drive|PI-Protection Info
+SeSz-Sector Size|Sp-Spun|U-Up|D-Down|T-Transition
+
+
+Drive /c0/e26/s19 - Detailed Information :
+========================================
+
+Drive /c0/e26/s19 State :
+=======================
+Shield Counter = N/A
+Media Error Count = N/A
+Other Error Count = N/A
+Predictive Failure Count = N/A
+S.M.A.R.T alert flagged by drive = N/A
+
+
+Drive /c0/e26/s19 Device attributes :
+===================================
+Manufacturer Id = SEAGATE 
+Model Number = ST14000NM0168   
+NAND Vendor = NA
+SN = ZHKQJ3Z5
+WWN = 5000C500AF2FCB50
+Firmware Revision = RSL5
+Raw size = 12.473 TB [0x63cbfffff Sectors]
+Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Non Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Device Speed = Unknown
+Link Speed = 12.0Gb/s
+Sector Size = 512B
+Config ID = NA
+Number of Blocks = 26789019647
+Connector Name = N/A
+
+
+Drive /c0/e26/s19 Policies/Settings :
+===================================
+Enclosure position = Unavailable
+Connected Port Number = 0 
+Sequence Number = 0
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = N/A
+Successful diagnostics completion on = N/A
+SED Capable = N/A
+SED Enabled = N/A
+Secured = N/A
+Needs EKM Attention = N/A
+PI Eligible = N/A
+Certified = N/A
+Wide Port Capable = N/A
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x5000c500af2fcb51 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 8b 01 10 02 53 45 41 47 41 54 45 20 
+53 54 31 34 30 30 30 4e 4d 30 31 36 38 20 20 20 
+52 53 4c 35 5a 48 5a 35 51 4a 33 4b 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 a2 0c 60 20 e0 
+04 60 04 c0 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 
+30 32 31 20 53 65 61 67 61 74 65 20 41 6c 6c 20 
+
+
+
+Drive /c0/e26/s20 :
+=================
+
+------------------------------------------------------------------------
+EID:Slt DID State DG      Size Intf Med SED PI SeSz Model            Sp 
+------------------------------------------------------------------------
+26:20     8 UGood -  12.473 TB SAS  HDD -   -  512B ST14000NM0168    -  
+------------------------------------------------------------------------
+
+EID-Enclosure Device ID|Slt-Slot No|DID-Device ID|DG-DriveGroup
+UGood-Unconfigured Good|UBad-Unconfigured Bad|Intf-Interface
+Med-Media Type|SED-Self Encryptive Drive|PI-Protection Info
+SeSz-Sector Size|Sp-Spun|U-Up|D-Down|T-Transition
+
+
+Drive /c0/e26/s20 - Detailed Information :
+========================================
+
+Drive /c0/e26/s20 State :
+=======================
+Shield Counter = N/A
+Media Error Count = N/A
+Other Error Count = N/A
+Predictive Failure Count = N/A
+S.M.A.R.T alert flagged by drive = N/A
+
+
+Drive /c0/e26/s20 Device attributes :
+===================================
+Manufacturer Id = SEAGATE 
+Model Number = ST14000NM0168   
+NAND Vendor = NA
+SN = ZHRDCDZ5
+WWN = 5000C500AF52DBB8
+Firmware Revision = RSL5
+Raw size = 12.473 TB [0x63cbfffff Sectors]
+Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Non Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Device Speed = Unknown
+Link Speed = 12.0Gb/s
+Sector Size = 512B
+Config ID = NA
+Number of Blocks = 26789019647
+Connector Name = N/A
+
+
+Drive /c0/e26/s20 Policies/Settings :
+===================================
+Enclosure position = Unavailable
+Connected Port Number = 0 
+Sequence Number = 0
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = N/A
+Successful diagnostics completion on = N/A
+SED Capable = N/A
+SED Enabled = N/A
+Secured = N/A
+Needs EKM Attention = N/A
+PI Eligible = N/A
+Certified = N/A
+Wide Port Capable = N/A
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x5000c500af52dbb9 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 8b 01 10 02 53 45 41 47 41 54 45 20 
+53 54 31 34 30 30 30 4e 4d 30 31 36 38 20 20 20 
+52 53 4c 35 5a 48 5a 35 44 43 44 52 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 a2 0c 60 20 e0 
+04 60 04 c0 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 
+30 32 31 20 53 65 61 67 61 74 65 20 41 6c 6c 20 
+
+
+
+Drive /c0/e26/s21 :
+=================
+
+------------------------------------------------------------------------
+EID:Slt DID State DG      Size Intf Med SED PI SeSz Model            Sp 
+------------------------------------------------------------------------
+26:21     9 UGood -  12.473 TB SAS  HDD -   -  512B ST14000NM0168    -  
+------------------------------------------------------------------------
+
+EID-Enclosure Device ID|Slt-Slot No|DID-Device ID|DG-DriveGroup
+UGood-Unconfigured Good|UBad-Unconfigured Bad|Intf-Interface
+Med-Media Type|SED-Self Encryptive Drive|PI-Protection Info
+SeSz-Sector Size|Sp-Spun|U-Up|D-Down|T-Transition
+
+
+Drive /c0/e26/s21 - Detailed Information :
+========================================
+
+Drive /c0/e26/s21 State :
+=======================
+Shield Counter = N/A
+Media Error Count = N/A
+Other Error Count = N/A
+Predictive Failure Count = N/A
+S.M.A.R.T alert flagged by drive = N/A
+
+
+Drive /c0/e26/s21 Device attributes :
+===================================
+Manufacturer Id = SEAGATE 
+Model Number = ST14000NM0168   
+NAND Vendor = NA
+SN = ZHLQ60Z3
+WWN = 5000C500AE5F685C
+Firmware Revision = RSL5
+Raw size = 12.473 TB [0x63cbfffff Sectors]
+Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Non Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Device Speed = Unknown
+Link Speed = 12.0Gb/s
+Sector Size = 512B
+Config ID = NA
+Number of Blocks = 26789019647
+Connector Name = N/A
+
+
+Drive /c0/e26/s21 Policies/Settings :
+===================================
+Enclosure position = Unavailable
+Connected Port Number = 0 
+Sequence Number = 0
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = N/A
+Successful diagnostics completion on = N/A
+SED Capable = N/A
+SED Enabled = N/A
+Secured = N/A
+Needs EKM Attention = N/A
+PI Eligible = N/A
+Certified = N/A
+Wide Port Capable = N/A
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x5000c500ae5f685d 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 8b 01 10 02 53 45 41 47 41 54 45 20 
+53 54 31 34 30 30 30 4e 4d 30 31 36 38 20 20 20 
+52 53 4c 35 5a 48 5a 33 51 36 30 4c 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 a2 0c 60 20 e0 
+04 60 04 c0 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 
+30 32 31 20 53 65 61 67 61 74 65 20 41 6c 6c 20 
+
+
+
+Drive /c0/e26/s22 :
+=================
+
+------------------------------------------------------------------------
+EID:Slt DID State DG      Size Intf Med SED PI SeSz Model            Sp 
+------------------------------------------------------------------------
+26:22    10 UGood -  12.473 TB SAS  HDD -   -  512B ST14000NM0168    -  
+------------------------------------------------------------------------
+
+EID-Enclosure Device ID|Slt-Slot No|DID-Device ID|DG-DriveGroup
+UGood-Unconfigured Good|UBad-Unconfigured Bad|Intf-Interface
+Med-Media Type|SED-Self Encryptive Drive|PI-Protection Info
+SeSz-Sector Size|Sp-Spun|U-Up|D-Down|T-Transition
+
+
+Drive /c0/e26/s22 - Detailed Information :
+========================================
+
+Drive /c0/e26/s22 State :
+=======================
+Shield Counter = N/A
+Media Error Count = N/A
+Other Error Count = N/A
+Predictive Failure Count = N/A
+S.M.A.R.T alert flagged by drive = N/A
+
+
+Drive /c0/e26/s22 Device attributes :
+===================================
+Manufacturer Id = SEAGATE 
+Model Number = ST14000NM0168   
+NAND Vendor = NA
+SN = ZHCL49Z4
+WWN = 5000C500AEAB2108
+Firmware Revision = RSL5
+Raw size = 12.473 TB [0x63cbfffff Sectors]
+Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Non Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Device Speed = Unknown
+Link Speed = 12.0Gb/s
+Sector Size = 512B
+Config ID = NA
+Number of Blocks = 26789019647
+Connector Name = N/A
+
+
+Drive /c0/e26/s22 Policies/Settings :
+===================================
+Enclosure position = Unavailable
+Connected Port Number = 0 
+Sequence Number = 0
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = N/A
+Successful diagnostics completion on = N/A
+SED Capable = N/A
+SED Enabled = N/A
+Secured = N/A
+Needs EKM Attention = N/A
+PI Eligible = N/A
+Certified = N/A
+Wide Port Capable = N/A
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x5000c500aeab2109 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 8b 01 10 02 53 45 41 47 41 54 45 20 
+53 54 31 34 30 30 30 4e 4d 30 31 36 38 20 20 20 
+52 53 4c 35 5a 48 5a 34 4c 34 39 43 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 a2 0c 60 20 e0 
+04 60 04 c0 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 
+30 32 31 20 53 65 61 67 61 74 65 20 41 6c 6c 20 
+
+
+
+Drive /c0/e26/s23 :
+=================
+
+------------------------------------------------------------------------
+EID:Slt DID State DG      Size Intf Med SED PI SeSz Model            Sp 
+------------------------------------------------------------------------
+26:23    11 UGood -  12.473 TB SAS  HDD -   -  512B ST14000NM0168    -  
+------------------------------------------------------------------------
+
+EID-Enclosure Device ID|Slt-Slot No|DID-Device ID|DG-DriveGroup
+UGood-Unconfigured Good|UBad-Unconfigured Bad|Intf-Interface
+Med-Media Type|SED-Self Encryptive Drive|PI-Protection Info
+SeSz-Sector Size|Sp-Spun|U-Up|D-Down|T-Transition
+
+
+Drive /c0/e26/s23 - Detailed Information :
+========================================
+
+Drive /c0/e26/s23 State :
+=======================
+Shield Counter = N/A
+Media Error Count = N/A
+Other Error Count = N/A
+Predictive Failure Count = N/A
+S.M.A.R.T alert flagged by drive = N/A
+
+
+Drive /c0/e26/s23 Device attributes :
+===================================
+Manufacturer Id = SEAGATE 
+Model Number = ST14000NM0168   
+NAND Vendor = NA
+SN = ZH5RM1Z5
+WWN = 5000C500AF2F510C
+Firmware Revision = RSL5
+Raw size = 12.473 TB [0x63cbfffff Sectors]
+Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Non Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Device Speed = Unknown
+Link Speed = 12.0Gb/s
+Sector Size = 512B
+Config ID = NA
+Number of Blocks = 26789019647
+Connector Name = N/A
+
+
+Drive /c0/e26/s23 Policies/Settings :
+===================================
+Enclosure position = Unavailable
+Connected Port Number = 0 
+Sequence Number = 0
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = N/A
+Successful diagnostics completion on = N/A
+SED Capable = N/A
+SED Enabled = N/A
+Secured = N/A
+Needs EKM Attention = N/A
+PI Eligible = N/A
+Certified = N/A
+Wide Port Capable = N/A
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x5000c500af2f510d 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 8b 01 10 02 53 45 41 47 41 54 45 20 
+53 54 31 34 30 30 30 4e 4d 30 31 36 38 20 20 20 
+52 53 4c 35 5a 48 5a 35 52 4d 31 35 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 a2 0c 60 20 e0 
+04 60 04 c0 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 
+30 32 31 20 53 65 61 67 61 74 65 20 41 6c 6c 20 
+
+
+
+Drive /c0/e26/s24 :
+=================
+
+------------------------------------------------------------------------
+EID:Slt DID State DG      Size Intf Med SED PI SeSz Model            Sp 
+------------------------------------------------------------------------
+26:24    12 UGood -  12.473 TB SAS  HDD -   -  512B ST14000NM0168    -  
+------------------------------------------------------------------------
+
+EID-Enclosure Device ID|Slt-Slot No|DID-Device ID|DG-DriveGroup
+UGood-Unconfigured Good|UBad-Unconfigured Bad|Intf-Interface
+Med-Media Type|SED-Self Encryptive Drive|PI-Protection Info
+SeSz-Sector Size|Sp-Spun|U-Up|D-Down|T-Transition
+
+
+Drive /c0/e26/s24 - Detailed Information :
+========================================
+
+Drive /c0/e26/s24 State :
+=======================
+Shield Counter = N/A
+Media Error Count = N/A
+Other Error Count = N/A
+Predictive Failure Count = N/A
+S.M.A.R.T alert flagged by drive = N/A
+
+
+Drive /c0/e26/s24 Device attributes :
+===================================
+Manufacturer Id = SEAGATE 
+Model Number = ST14000NM0168   
+NAND Vendor = NA
+SN = ZHW44VZ6
+WWN = 5000C500AF559224
+Firmware Revision = RSL5
+Raw size = 12.473 TB [0x63cbfffff Sectors]
+Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Non Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Device Speed = Unknown
+Link Speed = 12.0Gb/s
+Sector Size = 512B
+Config ID = NA
+Number of Blocks = 26789019647
+Connector Name = N/A
+
+
+Drive /c0/e26/s24 Policies/Settings :
+===================================
+Enclosure position = Unavailable
+Connected Port Number = 0 
+Sequence Number = 0
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = N/A
+Successful diagnostics completion on = N/A
+SED Capable = N/A
+SED Enabled = N/A
+Secured = N/A
+Needs EKM Attention = N/A
+PI Eligible = N/A
+Certified = N/A
+Wide Port Capable = N/A
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x5000c500af559225 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 8b 01 10 02 53 45 41 47 41 54 45 20 
+53 54 31 34 30 30 30 4e 4d 30 31 36 38 20 20 20 
+52 53 4c 35 5a 48 5a 36 34 34 56 57 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 a2 0c 60 20 e0 
+04 60 04 c0 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 
+30 32 31 20 53 65 61 67 61 74 65 20 41 6c 6c 20 
+
+
+
+Drive /c0/e26/s25 :
+=================
+
+------------------------------------------------------------------------
+EID:Slt DID State DG      Size Intf Med SED PI SeSz Model            Sp 
+------------------------------------------------------------------------
+26:25    13 UGood -  12.473 TB SAS  HDD -   -  512B ST14000NM0168    -  
+------------------------------------------------------------------------
+
+EID-Enclosure Device ID|Slt-Slot No|DID-Device ID|DG-DriveGroup
+UGood-Unconfigured Good|UBad-Unconfigured Bad|Intf-Interface
+Med-Media Type|SED-Self Encryptive Drive|PI-Protection Info
+SeSz-Sector Size|Sp-Spun|U-Up|D-Down|T-Transition
+
+
+Drive /c0/e26/s25 - Detailed Information :
+========================================
+
+Drive /c0/e26/s25 State :
+=======================
+Shield Counter = N/A
+Media Error Count = N/A
+Other Error Count = N/A
+Predictive Failure Count = N/A
+S.M.A.R.T alert flagged by drive = N/A
+
+
+Drive /c0/e26/s25 Device attributes :
+===================================
+Manufacturer Id = SEAGATE 
+Model Number = ST14000NM0168   
+NAND Vendor = NA
+SN = ZH0SGRZ4
+WWN = 5000C500AECA8F30
+Firmware Revision = RSL5
+Raw size = 12.473 TB [0x63cbfffff Sectors]
+Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Non Coerced size = 12.473 TB [0x63cbfffff Sectors]
+Device Speed = Unknown
+Link Speed = 12.0Gb/s
+Sector Size = 512B
+Config ID = NA
+Number of Blocks = 26789019647
+Connector Name = N/A
+
+
+Drive /c0/e26/s25 Policies/Settings :
+===================================
+Enclosure position = Unavailable
+Connected Port Number = 0 
+Sequence Number = 0
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = N/A
+Successful diagnostics completion on = N/A
+SED Capable = N/A
+SED Enabled = N/A
+Secured = N/A
+Needs EKM Attention = N/A
+PI Eligible = N/A
+Certified = N/A
+Wide Port Capable = N/A
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 12.0Gb/s  0x5000c500aeca8f31 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 8b 01 10 02 53 45 41 47 41 54 45 20 
+53 54 31 34 30 30 30 4e 4d 30 31 36 38 20 20 20 
+52 53 4c 35 5a 48 5a 34 53 47 52 30 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 a2 0c 60 20 e0 
+04 60 04 c0 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 43 6f 70 79 72 69 67 68 74 20 28 63 29 20 32 
+30 32 31 20 53 65 61 67 61 74 65 20 41 6c 6c 20 
+
+
+
+

@@ -1,0 +1,66 @@
+Controller = 0
+Status = Success
+Description = None
+
+
+/c0/v0 :
+======
+
+--------------------------------------------------------------
+DG/VD TYPE   State Access Consist Cache Cac sCC     Size Name 
+--------------------------------------------------------------
+0/0   RAID10 Optl  RW     Yes     RWBD  -   OFF 7.276 TB      
+--------------------------------------------------------------
+
+VD=Virtual Drive| DG=Drive Group|Rec=Recovery
+Cac=CacheCade|Rec=Recovery|OfLn=OffLine|Pdgd=Partially Degraded|Dgrd=Degraded
+Optl=Optimal|dflt=Default|RO=Read Only|RW=Read Write|HD=Hidden|TRANS=TransportReady
+B=Blocked|Consist=Consistent|R=Read Ahead Always|NR=No Read Ahead|WB=WriteBack
+FWB=Force WriteBack|WT=WriteThrough|C=Cached IO|D=Direct IO|sCC=Scheduled
+Check Consistency
+
+
+PDs for VD 0 :
+============
+
+--------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                Sp Type 
+--------------------------------------------------------------------------------
+32:0      0 Onln   0 3.637 TB SATA HDD N   N  512B HGST HUS726T4TALA6L4 U  -    
+32:1      1 Onln   0 3.637 TB SATA HDD N   N  512B HGST HUS726T4TALA6L4 U  -    
+32:4      4 Onln   0 3.637 TB SATA HDD N   N  512B HGST HUS726T4TALA6L4 U  -    
+32:5      5 Onln   0 3.637 TB SATA HDD N   N  512B HGST HUS726T4TALA6L4 U  -    
+--------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+VD0 Properties :
+==============
+Strip Size = 64 KB
+Number of Blocks = 15625879552
+Span Depth = 2
+Number of Drives Per Span = 2
+Write Cache(initial setting) = WriteBack
+Disk Cache Policy = Disk's Default
+Encryption = None
+Data Protection = None
+Active Operations = None
+Exposed to OS = Yes
+OS Drive Name = /dev/sda
+Creation Date = 16-06-2021
+Creation Time = 10:34:20 AM
+Emulation type = default
+Is LD Ready for OS Requests = Yes
+SCSI NAA Id = 644a842012463000285c902ceff9869b
+Unmap Enabled = N/A
+
+
+

@@ -1,0 +1,95 @@
+$VAR1 = {
+          'battery' => [
+                         {
+                           'batterywarning' => 'ON',
+                           'charging_status' => 'None',
+                           'learn_cycle_active' => 'No',
+                           'learn_cycle_requested' => 'No',
+                           'missing' => 'No',
+                           'name' => '0',
+                           'pack_will_fail' => 'No',
+                           'replacement_required' => 'No',
+                           'state' => 'Optimal',
+                           'temperature' => '56',
+                           'temperature_state' => 'OK',
+                           'voltage' => '3895',
+                           'voltage_state' => 'OK'
+                         }
+                       ],
+          'logical' => [
+                         {
+                           'controller' => '0',
+                           'current_cache' => 'RWBD',
+                           'default_cache' => 'WriteBack',
+                           'name' => '/c0/v0',
+                           'state' => 'Optl',
+                           'type' => 'RAID10'
+                         }
+                       ],
+          'physical' => [
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s0',
+                            'name' => 'HUC101818CS4204',
+                            'predictive' => undef,
+                            'serial' => '08VEAJUA',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s1',
+                            'name' => 'HUC101818CS4204',
+                            'predictive' => undef,
+                            'serial' => '08HG7UMA',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s2',
+                            'name' => 'HUC101818CS4204',
+                            'predictive' => undef,
+                            'serial' => '08HG7GLA',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s3',
+                            'name' => 'HUC101818CS4204',
+                            'predictive' => undef,
+                            'serial' => '08HG704A',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s4',
+                            'name' => 'HUC101818CS4204',
+                            'predictive' => undef,
+                            'serial' => '08HG7NZA',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s5',
+                            'name' => 'HUC101818CS4204',
+                            'predictive' => undef,
+                            'serial' => '08HG5L0A',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s6',
+                            'name' => 'HUC101818CS4204',
+                            'predictive' => undef,
+                            'serial' => '08HG7EGA',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s7',
+                            'name' => 'HUC101818CS4204',
+                            'predictive' => undef,
+                            'serial' => '08HG6T3A',
+                            'state' => 'Onln'
+                          }
+                        ]
+        };

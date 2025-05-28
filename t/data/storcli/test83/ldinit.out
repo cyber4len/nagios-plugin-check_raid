@@ -1,0 +1,21 @@
+Controller = 0
+Status = Success
+Description = None
+
+
+VD Operation Status :
+===================
+
+-----------------------------------------------------------
+VD Operation Progress% Status          Estimated Time Left 
+-----------------------------------------------------------
+ 0 INIT      -         Not in progress -                   
+ 1 INIT      -         Not in progress -                   
+-----------------------------------------------------------
+
+
+Controller = 1
+Status = Success
+Description = No VD's have been configured.
+
+

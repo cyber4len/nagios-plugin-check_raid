@@ -78,6 +78,15 @@ my %sudo = (
                 "CHECK_RAID ALL=(root) NOPASSWD: $bindir/sas3ircu * STATUS",
                 "CHECK_RAID ALL=(root) NOPASSWD: $bindir/sas3ircu * DISPLAY",
         ],
+        storcli => [
+                "CHECK_RAID ALL=(root) NOPASSWD: $bindir/storcli /call/eall/sall show all nolog",
+                "CHECK_RAID ALL=(root) NOPASSWD: $bindir/storcli /call/eall/sall show initialization nolog",
+                "CHECK_RAID ALL=(root) NOPASSWD: $bindir/storcli /call/eall/sall show rebuild nolog",
+                "CHECK_RAID ALL=(root) NOPASSWD: $bindir/storcli /call/vall show all nolog",
+                "CHECK_RAID ALL=(root) NOPASSWD: $bindir/storcli /call/vall show init nolog",
+                "CHECK_RAID ALL=(root) NOPASSWD: $bindir/storcli /call/bbu show status nolog",
+                "CHECK_RAID ALL=(root) NOPASSWD: $bindir/storcli /call/cv show status nolog",
+        ],
 	hpacucli => [
 		"CHECK_RAID ALL=(root) NOPASSWD: $bindir/hpacucli controller all show status",
 		"CHECK_RAID ALL=(root) NOPASSWD: $bindir/hpacucli controller * logicaldrive all show",

@@ -1,0 +1,321 @@
+Controller = 0
+Status = Success
+Description = Show Drive Information Succeeded.
+
+
+Drive /c0/e252/s4 :
+=================
+
+----------------------------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                                    Sp Type 
+----------------------------------------------------------------------------------------------------
+252:4     0 Onln   0 6.985 TB NVMe SSD Y   N  512B SAMSUNG MZQL27T6HBLA-00A07               U  -    
+----------------------------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e252/s4 - Detailed Information :
+========================================
+
+Drive /c0/e252/s4 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  32C (89.60 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e252/s4 Device attributes :
+===================================
+SN = S6CKNT0W747291      
+Manufacturer Id = NVMe    
+Model = SAMSUNG MZQL27T6HBLA-00A07              
+NAND Vendor = NA
+WWN = 3F5C95C1C3C2BCE4
+Firmware Revision = GDC5602Q
+Raw size = 6.985 TB [0x37e3e92b0 Sectors]
+Coerced size = 6.985 TB [0x37e2e0000 Sectors]
+Non Coerced size = 6.985 TB [0x37e2e92b0 Sectors]
+Device Speed = 16.0GT/s
+Link Speed = 16.0GT/s
+Write Cache = Disabled
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = C0.1 x4
+Max lane width = 4
+
+
+Drive /c0/e252/s4 Policies/Settings :
+===================================
+Drive position = DriveGroup:0, Span:0, Row:1
+Enclosure position = 0
+Connected Port Number = 1(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = TCG Opal
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = Yes
+Sanitize Support = CryptoErase, BlockErase
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Unmap capable = Yes
+Unmap capable for LDs = Yes
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed WWID               
+-----------------------------------------
+   0 Active 16.0GT/s  0xe4bcc2c3c1955c4f 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 45 00 00 02 4e 56 4d 65 20 20 20 20 
+53 41 4d 53 55 4e 47 20 4d 5a 51 4c 32 37 54 36 
+36 30 32 51 53 36 43 4b 4e 54 30 57 39 31 34 37 
+32 37 20 20 20 20 20 20 00 00 00 c0 05 c0 06 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e252/s8 :
+=================
+
+----------------------------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                                    Sp Type 
+----------------------------------------------------------------------------------------------------
+252:8     2 Onln   1 1.745 TB NVMe SSD Y   N  512B SAMSUNG MZQL21T9HCJR-00A07               U  -    
+----------------------------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e252/s8 - Detailed Information :
+========================================
+
+Drive /c0/e252/s8 State :
+=======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  32C (89.60 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e252/s8 Device attributes :
+===================================
+SN = S64GNA0T042972      
+Manufacturer Id = NVMe    
+Model = SAMSUNG MZQL21T9HCJR-00A07              
+NAND Vendor = NA
+WWN = 3F5C75C8CBB1BEE2
+Firmware Revision = GDC5602Q
+Raw size = 1.746 TB [0xdf8fe2b0 Sectors]
+Coerced size = 1.745 TB [0xdf7f0000 Sectors]
+Non Coerced size = 1.745 TB [0xdf7fe2b0 Sectors]
+Device Speed = 16.0GT/s
+Link Speed = 16.0GT/s
+Write Cache = Disabled
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = C1.0 x4
+Max lane width = 4
+
+
+Drive /c0/e252/s8 Policies/Settings :
+===================================
+Drive position = DriveGroup:1, Span:0, Row:0
+Enclosure position = 1
+Connected Port Number = 8(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = TCG Opal
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = Yes
+Sanitize Support = CryptoErase, BlockErase
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Unmap capable = Yes
+Unmap capable for LDs = Yes
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed WWID               
+-----------------------------------------
+   0 Active 16.0GT/s  0xe2beb1cbc8755c4f 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 45 00 00 02 4e 56 4d 65 20 20 20 20 
+53 41 4d 53 55 4e 47 20 4d 5a 51 4c 32 31 54 39 
+36 30 32 51 53 36 34 47 4e 41 30 54 37 32 34 32 
+39 30 20 20 20 20 20 20 00 00 00 c0 05 c0 06 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+
+Drive /c0/e252/s12 :
+==================
+
+----------------------------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model                                    Sp Type 
+----------------------------------------------------------------------------------------------------
+252:12    3 Onln   1 1.745 TB NVMe SSD Y   N  512B SAMSUNG MZQL21T9HCJR-00A07               U  -    
+----------------------------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e252/s12 - Detailed Information :
+=========================================
+
+Drive /c0/e252/s12 State :
+========================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  31C (87.80 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e252/s12 Device attributes :
+====================================
+SN = S64GNA0T354772      
+Manufacturer Id = NVMe    
+Model = SAMSUNG MZQL21T9HCJR-00A07              
+NAND Vendor = NA
+WWN = 3F5C78C6CDB2BEE2
+Firmware Revision = GDC5602Q
+Raw size = 1.746 TB [0xdf8fe2b0 Sectors]
+Coerced size = 1.745 TB [0xdf7f0000 Sectors]
+Non Coerced size = 1.745 TB [0xdf7fe2b0 Sectors]
+Device Speed = 16.0GT/s
+Link Speed = 16.0GT/s
+Write Cache = Disabled
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = C1.1 x4
+Max lane width = 4
+
+
+Drive /c0/e252/s12 Policies/Settings :
+====================================
+Drive position = DriveGroup:1, Span:0, Row:1
+Enclosure position = 0
+Connected Port Number = 9(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = TCG Opal
+SED Capable = Yes
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = Yes
+Sanitize Support = CryptoErase, BlockErase
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 0 KB
+Certified = No
+Wide Port Capable = No
+Unmap capable = Yes
+Unmap capable for LDs = Yes
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed WWID               
+-----------------------------------------
+   0 Active 16.0GT/s  0xe2beb2cdc6785c4f 
+-----------------------------------------
+
+
+Inquiry Data = 
+00 00 07 12 45 00 00 02 4e 56 4d 65 20 20 20 20 
+53 41 4d 53 55 4e 47 20 4d 5a 51 4c 32 31 54 39 
+36 30 32 51 53 36 34 47 4e 41 30 54 37 32 35 34 
+37 33 20 20 20 20 20 20 00 00 00 c0 05 c0 06 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+
+
+

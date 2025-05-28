@@ -1,0 +1,406 @@
+Controller = 0
+Status = Success
+Description = Show Drive Information Succeeded.
+
+
+Drive /c0/e32/s0 :
+================
+
+-------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model               Sp Type 
+-------------------------------------------------------------------------------
+32:0      0 Onln   0 3.637 TB SATA HDD N   N  512B ST4000NM0033-9ZM170 U  -    
+-------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s0 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s0 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  29C (84.20 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s0 Device attributes :
+==================================
+SN =             Z19WGCZ5
+Manufacturer Id = ATA     
+Model Number = ST4000NM0033-9ZM170
+NAND Vendor = NA
+WWN = 5000C500797D3BEF
+Firmware Revision =     GA10
+Raw size = 3.638 TB [0x1d1c0beb0 Sectors]
+Coerced size = 3.637 TB [0x1d1b00000 Sectors]
+Non Coerced size = 3.637 TB [0x1d1b0beb0 Sectors]
+Device Speed = 3.0Gb/s
+Link Speed = 3.0Gb/s
+NCQ setting = N/A
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s0 Policies/Settings :
+==================================
+Drive position = DriveGroup:0, Span:0, Row:0
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 512B
+Certified = Yes
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 3.0Gb/s   0x500056b37789abee 
+-----------------------------------------
+
+
+Inquiry Data = 
+5a 0c ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 20 20 20 20 20 20 20 20 20 20 20 20 
+31 5a 35 5a 47 57 39 43 00 00 00 00 00 00 20 20 
+20 20 41 47 30 31 54 53 30 34 30 30 4d 4e 30 30 
+33 33 39 2d 4d 5a 37 31 20 30 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 
+00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 10 00 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e32/s1 :
+================
+
+-------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model               Sp Type 
+-------------------------------------------------------------------------------
+32:1      1 Onln   0 3.637 TB SATA HDD N   N  512B ST4000NM0033-9ZM170 U  -    
+-------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s1 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s1 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  29C (84.20 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s1 Device attributes :
+==================================
+SN =             Z10WEPZ5
+Manufacturer Id = ATA     
+Model Number = ST4000NM0033-9ZM170
+NAND Vendor = NA
+WWN = 5000C500797D7F14
+Firmware Revision =     GA10
+Raw size = 3.638 TB [0x1d1c0beb0 Sectors]
+Coerced size = 3.637 TB [0x1d1b00000 Sectors]
+Non Coerced size = 3.637 TB [0x1d1b0beb0 Sectors]
+Device Speed = 3.0Gb/s
+Link Speed = 3.0Gb/s
+NCQ setting = N/A
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s1 Policies/Settings :
+==================================
+Drive position = DriveGroup:0, Span:0, Row:1
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 512B
+Certified = Yes
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 3.0Gb/s   0x500056b37789abec 
+-----------------------------------------
+
+
+Inquiry Data = 
+5a 0c ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 20 20 20 20 20 20 20 20 20 20 20 20 
+31 5a 35 5a 45 57 30 50 00 00 00 00 00 00 20 20 
+20 20 41 47 30 31 54 53 30 34 30 30 4d 4e 30 30 
+33 33 39 2d 4d 5a 37 31 20 30 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 
+00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 10 00 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e32/s2 :
+================
+
+-------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model               Sp Type 
+-------------------------------------------------------------------------------
+32:2      2 Onln   0 3.637 TB SATA HDD N   N  512B ST4000NM0033-9ZM170 U  -    
+-------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s2 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s2 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  29C (84.20 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s2 Device attributes :
+==================================
+SN =             Z1DXCZZ5
+Manufacturer Id = ATA     
+Model Number = ST4000NM0033-9ZM170
+NAND Vendor = NA
+WWN = 5000C500797ED6CB
+Firmware Revision =     GA10
+Raw size = 3.638 TB [0x1d1c0beb0 Sectors]
+Coerced size = 3.637 TB [0x1d1b00000 Sectors]
+Non Coerced size = 3.637 TB [0x1d1b0beb0 Sectors]
+Device Speed = 3.0Gb/s
+Link Speed = 3.0Gb/s
+NCQ setting = N/A
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s2 Policies/Settings :
+==================================
+Drive position = DriveGroup:0, Span:1, Row:0
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 512B
+Certified = Yes
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 3.0Gb/s   0x500056b37789abe8 
+-----------------------------------------
+
+
+Inquiry Data = 
+5a 0c ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 20 20 20 20 20 20 20 20 20 20 20 20 
+31 5a 35 5a 43 58 44 5a 00 00 00 00 00 00 20 20 
+20 20 41 47 30 31 54 53 30 34 30 30 4d 4e 30 30 
+33 33 39 2d 4d 5a 37 31 20 30 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 
+00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 10 00 ff ff ff 0f 00 00 07 00 
+
+
+
+Drive /c0/e32/s5 :
+================
+
+-------------------------------------------------------------------------------
+EID:Slt DID State DG     Size Intf Med SED PI SeSz Model               Sp Type 
+-------------------------------------------------------------------------------
+32:5      5 Onln   0 3.637 TB SATA HDD N   N  512B ST4000NM0033-9ZM170 U  -    
+-------------------------------------------------------------------------------
+
+EID=Enclosure Device ID|Slt=Slot No|DID=Device ID|DG=DriveGroup
+DHS=Dedicated Hot Spare|UGood=Unconfigured Good|GHS=Global Hotspare
+UBad=Unconfigured Bad|Sntze=Sanitize|Onln=Online|Offln=Offline|Intf=Interface
+Med=Media Type|SED=Self Encryptive Drive|PI=PI Eligible
+SeSz=Sector Size|Sp=Spun|U=Up|D=Down|T=Transition|F=Foreign
+UGUnsp=UGood Unsupported|UGShld=UGood shielded|HSPShld=Hotspare shielded
+CFShld=Configured shielded|Cpybck=CopyBack|CBShld=Copyback Shielded
+UBUnsp=UBad Unsupported|Rbld=Rebuild
+
+
+Drive /c0/e32/s5 - Detailed Information :
+=======================================
+
+Drive /c0/e32/s5 State :
+======================
+Shield Counter = 0
+Media Error Count = 0
+Other Error Count = 0
+Drive Temperature =  29C (84.20 F)
+Predictive Failure Count = 0
+S.M.A.R.T alert flagged by drive = No
+
+
+Drive /c0/e32/s5 Device attributes :
+==================================
+SN =             Z16WDHZ5
+Manufacturer Id = ATA     
+Model Number = ST4000NM0033-9ZM170
+NAND Vendor = NA
+WWN = 5000C500797DC4CB
+Firmware Revision =     GA10
+Raw size = 3.638 TB [0x1d1c0beb0 Sectors]
+Coerced size = 3.637 TB [0x1d1b00000 Sectors]
+Non Coerced size = 3.637 TB [0x1d1b0beb0 Sectors]
+Device Speed = 3.0Gb/s
+Link Speed = 3.0Gb/s
+NCQ setting = N/A
+Write Cache = N/A
+Logical Sector Size = 512B
+Physical Sector Size = 512B
+Connector Name = 00 
+
+
+Drive /c0/e32/s5 Policies/Settings :
+==================================
+Drive position = DriveGroup:0, Span:1, Row:1
+Enclosure position = 1
+Connected Port Number = 0(path0) 
+Sequence Number = 2
+Commissioned Spare = No
+Emergency Spare = No
+Last Predictive Failure Event Sequence Number = 0
+Successful diagnostics completion on = N/A
+FDE Type = None
+SED Capable = No
+SED Enabled = No
+Secured = No
+Cryptographic Erase Capable = No
+Sanitize Support = Not supported
+Locked = No
+Needs EKM Attention = No
+PI Eligible = No
+Drive is formatted for PI = No
+PI type = No PI
+Number of bytes of user data in LBA = 512B
+Certified = Yes
+Wide Port Capable = No
+Multipath = No
+
+Port Information :
+================
+
+-----------------------------------------
+Port Status Linkspeed SAS address        
+-----------------------------------------
+   0 Active 3.0Gb/s   0x500056b37789abe9 
+-----------------------------------------
+
+
+Inquiry Data = 
+5a 0c ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 
+00 00 00 00 20 20 20 20 20 20 20 20 20 20 20 20 
+31 5a 35 5a 44 57 36 48 00 00 00 00 00 00 20 20 
+20 20 41 47 30 31 54 53 30 34 30 30 4d 4e 30 30 
+33 33 39 2d 4d 5a 37 31 20 30 20 20 20 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 
+00 40 00 2f 00 40 00 02 00 02 07 00 ff 3f 10 00 
+3f 00 10 fc fb 00 10 00 ff ff ff 0f 00 00 07 00 
+
+
+
+

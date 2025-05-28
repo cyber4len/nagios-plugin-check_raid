@@ -1,0 +1,95 @@
+$VAR1 = {
+          'battery' => [
+                         {
+                           'batterywarning' => 'ON',
+                           'charging_status' => 'None',
+                           'learn_cycle_active' => 'No',
+                           'learn_cycle_requested' => 'No',
+                           'missing' => 'No',
+                           'name' => '0',
+                           'pack_will_fail' => 'No',
+                           'replacement_required' => 'No',
+                           'state' => 'Optimal',
+                           'temperature' => '25',
+                           'temperature_state' => 'OK',
+                           'voltage' => '229',
+                           'voltage_state' => 'OK'
+                         }
+                       ],
+          'logical' => [
+                         {
+                           'controller' => '0',
+                           'current_cache' => 'RWBD',
+                           'default_cache' => 'WriteBack',
+                           'name' => 'RAID10',
+                           'state' => 'Optl',
+                           'type' => 'RAID10'
+                         }
+                       ],
+          'physical' => [
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e8/s0',
+                            'name' => 'AL13SEB900',
+                            'predictive' => undef,
+                            'serial' => 'Y4H0A06FTR4Z',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e8/s1',
+                            'name' => 'AL13SEB900',
+                            'predictive' => undef,
+                            'serial' => 'Y4H0A06FTR57',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e8/s2',
+                            'name' => 'AL13SEB900',
+                            'predictive' => undef,
+                            'serial' => 'Y480A06FTR0K',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e8/s3',
+                            'name' => 'AL13SEB900',
+                            'predictive' => undef,
+                            'serial' => 'Y480A06FTR0J',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e8/s5',
+                            'name' => 'AL13SEB900',
+                            'predictive' => undef,
+                            'serial' => 'Y4H0A06FTR53',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e8/s6',
+                            'name' => 'AL13SEB900',
+                            'predictive' => undef,
+                            'serial' => 'Y480A06FTR1K',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e8/s7',
+                            'name' => 'AL13SEB900',
+                            'predictive' => undef,
+                            'serial' => 'Y4H0A06FTR34',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e8/s8',
+                            'name' => 'AL13SEB900',
+                            'predictive' => undef,
+                            'serial' => 'Y4H0A06FTR5C',
+                            'state' => 'Onln'
+                          }
+                        ]
+        };

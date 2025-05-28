@@ -1,0 +1,63 @@
+$VAR1 = {
+          'battery' => [
+                         {
+                           'batterywarning' => 'ON',
+                           'charging_status' => 'None',
+                           'learn_cycle_active' => 'No',
+                           'learn_cycle_requested' => 'No',
+                           'missing' => 'No',
+                           'name' => '0',
+                           'pack_will_fail' => 'No',
+                           'replacement_required' => 'No',
+                           'state' => 'Optimal',
+                           'temperature' => '33',
+                           'temperature_state' => 'OK',
+                           'voltage' => '3942',
+                           'voltage_state' => 'OK'
+                         }
+                       ],
+          'logical' => [
+                         {
+                           'controller' => '0',
+                           'current_cache' => 'RWBC',
+                           'default_cache' => 'WriteBack',
+                           'name' => '/c0/v0',
+                           'state' => 'Optl',
+                           'type' => 'RAID10'
+                         }
+                       ],
+          'physical' => [
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s0',
+                            'name' => 'Hitachi HUA723020ALA640',
+                            'predictive' => undef,
+                            'serial' => 'MK0151YFAG2AHP',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s1',
+                            'name' => 'Hitachi HUA723020ALA640',
+                            'predictive' => undef,
+                            'serial' => 'MK0273YGCNPAHN',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s2',
+                            'name' => 'Hitachi HUA723020ALA640',
+                            'predictive' => undef,
+                            'serial' => 'MK0273YGCP6SHN',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s3',
+                            'name' => 'Hitachi HUA723020ALA640',
+                            'predictive' => undef,
+                            'serial' => 'MK0151YFAELUHP',
+                            'state' => 'Onln'
+                          }
+                        ]
+        };

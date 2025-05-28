@@ -1,0 +1,63 @@
+$VAR1 = {
+          'battery' => [
+                         {
+                           'batterywarning' => 'ON',
+                           'charging_status' => 'None',
+                           'learn_cycle_active' => 'No',
+                           'learn_cycle_requested' => 'No',
+                           'missing' => 'No',
+                           'name' => '0',
+                           'pack_will_fail' => 'No',
+                           'replacement_required' => 'No',
+                           'state' => 'Optimal',
+                           'temperature' => '27',
+                           'temperature_state' => 'OK',
+                           'voltage' => '239',
+                           'voltage_state' => 'OK'
+                         }
+                       ],
+          'logical' => [
+                         {
+                           'controller' => '0',
+                           'current_cache' => 'RWBD',
+                           'default_cache' => 'WriteBack',
+                           'name' => 'raid10',
+                           'state' => 'Optl',
+                           'type' => 'RAID10'
+                         }
+                       ],
+          'physical' => [
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s0',
+                            'name' => 'SAMSUNG MZ7KH3T8HALS-00005',
+                            'predictive' => undef,
+                            'serial' => 'S47RNA0M5171C0',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s1',
+                            'name' => 'SAMSUNG MZ7KH3T8HALS-00005',
+                            'predictive' => undef,
+                            'serial' => 'S47RNA0M7171C0',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s2',
+                            'name' => 'SAMSUNG MZ7KH3T8HALS-00005',
+                            'predictive' => undef,
+                            'serial' => 'S47RNA0M8171C0',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s3',
+                            'name' => 'SAMSUNG MZ7KH3T8HALS-00005',
+                            'predictive' => undef,
+                            'serial' => 'S47RNA0M4171C0',
+                            'state' => 'Onln'
+                          }
+                        ]
+        };

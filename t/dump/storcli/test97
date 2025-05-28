@@ -1,0 +1,103 @@
+$VAR1 = {
+          'battery' => [
+                         {
+                           'batterywarning' => 'ON',
+                           'charging_status' => 'None',
+                           'learn_cycle_active' => 'No',
+                           'learn_cycle_requested' => 'No',
+                           'missing' => 'No',
+                           'name' => '0',
+                           'pack_will_fail' => 'No',
+                           'replacement_required' => 'No',
+                           'state' => 'Optimal',
+                           'temperature' => '48',
+                           'temperature_state' => 'OK',
+                           'voltage' => '3905',
+                           'voltage_state' => 'OK'
+                         }
+                       ],
+          'logical' => [
+                         {
+                           'controller' => '0',
+                           'current_cache' => 'NRWBC',
+                           'default_cache' => 'WriteBack',
+                           'name' => '/c0/v0',
+                           'state' => 'Optl',
+                           'type' => 'RAID10'
+                         },
+                         {
+                           'controller' => '0',
+                           'current_cache' => 'NRWBC',
+                           'default_cache' => 'WriteBack',
+                           'name' => '/c0/v1',
+                           'state' => 'Optl',
+                           'type' => 'RAID10'
+                         }
+                       ],
+          'physical' => [
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s0',
+                            'name' => 'ST4000NM0025',
+                            'predictive' => undef,
+                            'serial' => 'ZC14RHPL0000C8SG7119',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s1',
+                            'name' => 'ST4000NM0025',
+                            'predictive' => undef,
+                            'serial' => 'ZC14RHKR0000C8UG6P19',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s2',
+                            'name' => 'ST4000NM0025',
+                            'predictive' => undef,
+                            'serial' => 'ZC14RHJ40000C87G6Q19',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s3',
+                            'name' => 'ST4000NM0025',
+                            'predictive' => undef,
+                            'serial' => 'ZC14Q7YH0000C87G9619',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s4',
+                            'name' => 'HGST HUS728T8TALE6L4',
+                            'predictive' => undef,
+                            'serial' => 'VRKR20GV',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s5',
+                            'name' => 'HGST HUS728T8TALE6L4',
+                            'predictive' => undef,
+                            'serial' => 'VRKPHWGV',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s6',
+                            'name' => 'HGST HUS728T8TALE6L4',
+                            'predictive' => undef,
+                            'serial' => 'VRKNL6H0',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e252/s7',
+                            'name' => 'HGST HUS728T8TALE6L4',
+                            'predictive' => undef,
+                            'serial' => 'VRKUHHGM',
+                            'state' => 'Onln'
+                          }
+                        ]
+        };

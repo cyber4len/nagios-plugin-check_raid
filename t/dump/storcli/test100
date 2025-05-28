@@ -1,0 +1,103 @@
+$VAR1 = {
+          'battery' => [
+                         {
+                           'batterywarning' => 'ON',
+                           'charging_status' => 'None',
+                           'learn_cycle_active' => 'No',
+                           'learn_cycle_requested' => 'No',
+                           'missing' => 'No',
+                           'name' => '0',
+                           'pack_will_fail' => 'No',
+                           'replacement_required' => 'No',
+                           'state' => 'Optimal',
+                           'temperature' => '46',
+                           'temperature_state' => 'OK',
+                           'voltage' => '3900',
+                           'voltage_state' => 'OK'
+                         }
+                       ],
+          'logical' => [
+                         {
+                           'controller' => '0',
+                           'current_cache' => 'RWBD',
+                           'default_cache' => 'WriteBack',
+                           'name' => '/c0/v0',
+                           'state' => 'Optl',
+                           'type' => 'RAID10'
+                         },
+                         {
+                           'controller' => '0',
+                           'current_cache' => 'RWBD',
+                           'default_cache' => 'WriteBack',
+                           'name' => '/c0/v1',
+                           'state' => 'Optl',
+                           'type' => 'RAID10'
+                         }
+                       ],
+          'physical' => [
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s0',
+                            'name' => 'Samsung SSD 870 EVO 2TB',
+                            'predictive' => undef,
+                            'serial' => 'S621NF0R4J66308',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s1',
+                            'name' => 'Samsung SSD 870 EVO 2TB',
+                            'predictive' => undef,
+                            'serial' => 'S621NF0R8V31400',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s2',
+                            'name' => 'Samsung SSD 870 EVO 2TB',
+                            'predictive' => undef,
+                            'serial' => 'S621NF0R4F67108',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s3',
+                            'name' => 'Samsung SSD 870 EVO 2TB',
+                            'predictive' => undef,
+                            'serial' => 'S621NF0R8D31200',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s4',
+                            'name' => 'HGST HUS728T8TALE6L4',
+                            'predictive' => undef,
+                            'serial' => 'VRKU1SGY',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s5',
+                            'name' => 'HGST HUS728T8TALE6L4',
+                            'predictive' => undef,
+                            'serial' => 'VRKWXGH3',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s6',
+                            'name' => 'HGST HUS728T8TALE6L4',
+                            'predictive' => undef,
+                            'serial' => 'VRKY6YH3',
+                            'state' => 'Onln'
+                          },
+                          {
+                            'controller' => '0',
+                            'dev' => '/c0/e32/s7',
+                            'name' => 'HGST HUS728T8TALE6L4',
+                            'predictive' => undef,
+                            'serial' => 'VRKYH22E',
+                            'state' => 'Onln'
+                          }
+                        ]
+        };

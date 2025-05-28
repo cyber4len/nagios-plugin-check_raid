@@ -1,0 +1,73 @@
+Controller = 0
+Status = Success
+Description = None
+
+
+BBU_Info :
+========
+
+----------------------
+Property      Value   
+----------------------
+Type          iBBU    
+Voltage       3942 mV 
+Current       0 mA    
+Temperature   33 C    
+Battery State Optimal 
+Design Mode           
+                      
+----------------------
+
+
+BBU_Firmware_Status :
+===================
+
+-------------------------------------------------
+Property                                   Value 
+-------------------------------------------------
+Charging Status                            None  
+Voltage                                    OK    
+Temperature                                OK    
+Learn Cycle Requested                      No    
+Learn Cycle Active                         No    
+Learn Cycle Status                         OK    
+Learn Cycle Timeout                        No    
+I2C Errors Detected                        No    
+Battery Pack Missing                       No    
+Replacement required                       No    
+Remaining Capacity Low                     No    
+Periodic Learn Required                    No    
+Transparent Learn                          No    
+No space to cache offload                  No    
+Pack is about to fail & should be replaced No    
+Cache Offload premium feature required     No    
+Module microcode update required           No    
+-------------------------------------------------
+
+
+GasGaugeStatus :
+==============
+
+--------------------------------------
+Property                   Value      
+--------------------------------------
+Fully Discharged           No         
+Fully Charged              Yes        
+Discharging                Yes        
+Initialized                Yes        
+Remaining Time Alarm       No         
+Terminate Discharge Alarm  No         
+Over Temperature           No         
+Charging Terminated        No         
+Over Charged               No         
+Relative State of Charge   96%        
+Charger System State       49168      
+Charger System Ctrl        0          
+Charging current           0 mA       
+Absolute state of charge   57%        
+Max Error                  2%         
+Battery backup charge time 48 hours + 
+--------------------------------------
+
+
+

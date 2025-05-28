@@ -1,0 +1,15 @@
+Controller = 0
+Status = Success
+Description = Show Drive Rebuild Status Succeeded.
+
+
+---------------------------------------------------------
+Drive-ID   Progress% Status          Estimated Time Left 
+---------------------------------------------------------
+/c0/e62/s0 -         Not in progress -                   
+/c0/e62/s1 -         Not in progress -                   
+/c0/e62/s2 -         Not in progress -                   
+/c0/e62/s3 -         Not in progress -                   
+---------------------------------------------------------
+
+
