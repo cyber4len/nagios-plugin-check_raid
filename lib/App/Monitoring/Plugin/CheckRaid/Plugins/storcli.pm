@@ -335,7 +335,7 @@ sub parse_bbu {
 			next;
 		}
 	}
-	$this->critical unless close $fh2;
+#	$this->critical unless close $fh2; # workaround for unclosed handle
 
 	#push(@bbu, { %bbu }) if %bbu;
         foreach my $key (sort {$a <=> $b} keys %bbu) {
