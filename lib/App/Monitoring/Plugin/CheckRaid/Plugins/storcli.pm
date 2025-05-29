@@ -170,7 +170,7 @@ sub parse_ld {
 sub parse_bbu {
 	my $this = shift;
 
-	return undef unless $this->bbu_monitoring;
+	return [] unless $this->bbu_monitoring;
 
 	my %default_bbu = (
 		name => undef, state => '???', charging_status => '???', missing => undef,
