@@ -396,11 +396,11 @@ sub check {
 
 		} elsif ($dev->{state} eq 'Predictive') {
 			$this->warning;
-			push(@{$dstatus{$dev->{state}}}, sprintf "%02d (%s s/n: %s)", $dev->{dev}, $dev->{name}, $dev->{serial});
+			push(@{$dstatus{$dev->{state}}}, sprintf "%s (%s s/n: %s)", $dev->{dev}, $dev->{name}, $dev->{serial});
 		} else {
 			$this->critical;
 			# TODO: process other statuses
-			push(@{$dstatus{$dev->{state}}}, sprintf "%02d (%s s/n: %s)", $dev->{dev}, $dev->{name}, $dev->{serial});
+			push(@{$dstatus{$dev->{state}}}, sprintf "%s (%s s/n: %s)", $dev->{dev}, $dev->{name}, $dev->{serial});
 		}
 	}
 
